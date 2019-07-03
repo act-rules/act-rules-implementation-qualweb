@@ -1,0 +1,338 @@
+{
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@graph": [
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/e3391915b6e4ca2f63959f602230762da13c756b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "lang and xml:lang attributes have the same value",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/c38e4da6949ef7c73fa7060e6c0f3a528fb807a2.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "lang and xml:lang attributes have the same value",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/ac2af59a26032d003e22bb8e49e73e39baa8e508.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "lang and xml:lang attributes have the same value",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/56a878567758376953caa80759ab3274b297ca3f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "lang and xml:lang attributes have the same value",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/d8e598008c70250101d5983d0e94403332486129.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "lang and xml:lang attributes have the same value",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/b8d450119f62c913c36a618d0419426b85a01253.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "lang and xml:lang attributes do not have the same value",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/6e1f1ef3c93ce5f2911a61c93def490509ab32a3.svg",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:notApplicable",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:notApplicable"
+                }
+              }
+            ],
+            "description": "lang or xml:lang attribute doesn't exist in html element",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/06a45142f4e6e5d2feccc108ffc223b6fa0a1851.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:notApplicable",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:notApplicable"
+                }
+              }
+            ],
+            "description": "lang or xml:lang attribute is empty in html element",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "http://act-rules.github.io/testcases/5b7ae0/ff391832901abd30b4bce209063fdc693321dbe1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "HTML lang and xml:lang match",
+            "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:notApplicable",
+            "source": [
+              {
+                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-xml-lang-match.html",
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:notApplicable"
+                }
+              }
+            ],
+            "description": "lang or xml:lang attribute is empty in html element",
+            "date": "7/2/2019"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "act-rules-implementation-qualweb",
+  "version": "1.0.0",
+  "description": "Implementation report for ACT Rules test cases validated by QualWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/act-rules/act-rules-implementation-qualweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/act-rules/act-rules-implementation-qualweb/issues"
+  },
+  "homepage": "https://github.com/act-rules/act-rules-implementation-qualweb#readme"
+}
