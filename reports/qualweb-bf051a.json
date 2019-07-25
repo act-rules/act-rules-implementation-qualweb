@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/c31b1fb00860505c2df2713bea279907b263972b.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/c31b1fb00860505c2df2713bea279907b263972b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,6 +16,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -25,7 +27,6 @@
             "outcome": "earl:passed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:passed"
@@ -33,14 +34,14 @@
               }
             ],
             "description": "The lang attribute has a valid value ",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/b20f422ae3e21f58a68320cea7b56888c9a1c327.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/b20f422ae3e21f58a68320cea7b56888c9a1c327.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -53,6 +54,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -62,7 +65,6 @@
             "outcome": "earl:passed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:passed"
@@ -70,14 +72,14 @@
               }
             ],
             "description": "The xml:lang attribute has a valid value ",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/97f9355be3966ed3055700266b421fb6e1015604.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/97f9355be3966ed3055700266b421fb6e1015604.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -90,6 +92,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -99,7 +103,6 @@
             "outcome": "earl:passed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:passed"
@@ -107,14 +110,14 @@
               }
             ],
             "description": "The lang and xml:lang attributes have a valid value ",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/544be6643ddbb98a930227ca32e7c4a03fdf6ac9.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/544be6643ddbb98a930227ca32e7c4a03fdf6ac9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -127,6 +130,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -136,7 +141,6 @@
             "outcome": "earl:passed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:passed"
@@ -144,14 +148,14 @@
               }
             ],
             "description": "The lang attribute has a valid value ",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/c840906cc9ce1ec3c4b5662b59bbeab3eeac12d4.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/c840906cc9ce1ec3c4b5662b59bbeab3eeac12d4.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -164,6 +168,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -173,7 +179,6 @@
             "outcome": "earl:passed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:passed"
@@ -181,14 +186,14 @@
               }
             ],
             "description": "The xml:lang attribute has a valid value ",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/fb1123f5baba9492c2fdc7ecd9a3d66678ebc95a.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/fb1123f5baba9492c2fdc7ecd9a3d66678ebc95a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -201,6 +206,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -210,7 +217,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -218,14 +224,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/9599221436e0d1c16085d69b6e9b3ce2f0b7e5de.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/9599221436e0d1c16085d69b6e9b3ce2f0b7e5de.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -238,6 +244,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -247,7 +255,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -255,14 +262,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/776b84ec8a3c1c18c9282437f8c666dd0bf6bae5.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/776b84ec8a3c1c18c9282437f8c666dd0bf6bae5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -275,6 +282,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -284,7 +293,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -292,14 +300,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/90ac9c3118483559f1979bf7b4e57a46e3a63eaf.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/90ac9c3118483559f1979bf7b4e57a46e3a63eaf.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -312,6 +320,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -321,7 +331,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -329,14 +338,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/3d835d61d5eb774fbfba245013b0ad9446027bb8.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/3d835d61d5eb774fbfba245013b0ad9446027bb8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -349,6 +358,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -358,7 +369,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -366,14 +376,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/25342c1edeebb82f905891a420b539667a1d8653.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/25342c1edeebb82f905891a420b539667a1d8653.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -386,6 +396,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -395,7 +407,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -403,14 +414,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/abbfd272b819bc6ab49b86e9300f1ccd8beb325b.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/abbfd272b819bc6ab49b86e9300f1ccd8beb325b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -423,6 +434,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
@@ -432,7 +445,6 @@
             "outcome": "earl:failed",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
                   "outcome": "earl:failed"
@@ -440,14 +452,14 @@
               }
             ],
             "description": "lang or xml:lang not valid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/f6f9ba66749037008e9b8e483bf8797c1a76f9fa.svg",
+      "source": "https://act-rules.github.io/testcases/bf051a/455ed0f037647f3831ff9a4ebde4a1e6fcd7dad3.svg",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -460,31 +472,69 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
+                "result": {
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "html element doesn't exist",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bf051a/60c3d3121a00675b4724d5b9cb635c2f79f1519b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
+            "title": "Validity of HTML Lang attribute",
+            "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
                 "result": {
                   "pointer": "html",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "lang and xml:lang element are empty or don't exist",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/ad1c28aca2b6ec5b979abad65f19e8c09239ea44.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/7f0fea4ee64c3b5e2a56dc323881317802bf2fc3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -497,31 +547,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "lang and xml:lang element are empty or don't exist",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/7f0fea4ee64c3b5e2a56dc323881317802bf2fc3.html",
+      "source": "https://act-rules.github.io/testcases/bf051a/5f5094197bb84c8f5524f97b9fc5624f18e9dff0.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -534,61 +585,25 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
             "title": "Validity of HTML Lang attribute",
             "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
                 "result": {
                   "pointer": "html",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "lang and xml:lang element are empty or don't exist",
-            "date": "7/2/2019"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bf051a/5f5094197bb84c8f5524f97b9fc5624f18e9dff0.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "title": "Validity of HTML Lang attribute",
-            "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:notApplicable",
-            "source": [
-              {
-                "test": "https://auto-wcag.github.io/auto-wcag/rules/SC3-1-1-html-lang-valid.html",
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:notApplicable"
-                }
-              }
-            ],
-            "description": "lang and xml:lang element are empty or don't exist",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]

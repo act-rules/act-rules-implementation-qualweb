@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/15b0afb2496c5e7bf5ff0409cb5b39a8d5ae234b.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/15b0afb2496c5e7bf5ff0409cb5b39a8d5ae234b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,6 +16,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -32,14 +34,14 @@
               }
             ],
             "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/a41f13266a8e5ed73446344769c53d272c272fb6.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/a41f13266a8e5ed73446344769c53d272c272fb6.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -52,6 +54,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -68,14 +72,14 @@
               }
             ],
             "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/bf1b811b607247364c2322dd45c047f2e3211229.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/bf1b811b607247364c2322dd45c047f2e3211229.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -88,6 +92,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -104,14 +110,14 @@
               }
             ],
             "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/2938f229ef636ed99cd23a3d1e8315131a1215cd.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/2938f229ef636ed99cd23a3d1e8315131a1215cd.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -124,6 +130,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -140,14 +148,14 @@
               }
             ],
             "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/7c4ace0d67554bfb9917bce8965917de6c8a29f3.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/7c4ace0d67554bfb9917bce8965917de6c8a29f3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -160,6 +168,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -176,14 +186,14 @@
               }
             ],
             "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/a49a08353a9370e068946b4089b5cdb51ff09a11.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/a49a08353a9370e068946b4089b5cdb51ff09a11.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -196,6 +206,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -212,14 +224,14 @@
               }
             ],
             "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/676e3ccf785aa2315dda455217694b55f9a279aa.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/676e3ccf785aa2315dda455217694b55f9a279aa.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -232,6 +244,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -247,14 +261,14 @@
               }
             ],
             "description": "Title element doesn't exist",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/c425dc0257c8b895f1821219e880823561ffef3d.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/c425dc0257c8b895f1821219e880823561ffef3d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -267,6 +281,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -283,14 +299,14 @@
               }
             ],
             "description": "Title element is empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/a0fb39dac79555bc721c3cf0a5c586887ceebf54.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/a0fb39dac79555bc721c3cf0a5c586887ceebf54.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -303,6 +319,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -318,14 +336,14 @@
               }
             ],
             "description": "Title element doesn't exist",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/d7c4202aa42aefe7f687247d289acd1b0ad44790.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/d7c4202aa42aefe7f687247d289acd1b0ad44790.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -338,6 +356,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
@@ -354,14 +374,14 @@
               }
             ],
             "description": "Title element is empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/9619e9f28b767e8f5bd2fbf3e918df1f3859c9f4.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/9619e9f28b767e8f5bd2fbf3e918df1f3859c9f4.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -374,30 +394,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > title:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "7/2/2019"
+            "description": "Title element is empty",
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/2779a5/af48a346ab1ee73d2b043e6346cadfad60d36aa4.svg",
+      "source": "https://act-rules.github.io/testcases/2779a5/af48a346ab1ee73d2b043e6346cadfad60d36aa4.svg",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -410,22 +432,24 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
             "title": "HTML Page has a title",
             "description": "This rule checks that the HTML page has a title."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "The root element is not a html element",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]

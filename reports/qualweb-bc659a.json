@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/a53b440be238663a432475e253e037e4d039b78c.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/a53b440be238663a432475e253e037e4d039b78c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,6 +16,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -32,14 +34,14 @@
               }
             ],
             "description": "Redirects immediately",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/76e3d03342288c1e74ab08b48045c7d82bb3569e.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/76e3d03342288c1e74ab08b48045c7d82bb3569e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -52,6 +54,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -62,20 +66,26 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
                   "pointer": "html > head > meta:nth-of-type(2)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Redirects immediately",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/e98093351918b01ca944ddc1e6c708a9e7a3970b.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/e98093351918b01ca944ddc1e6c708a9e7a3970b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -88,6 +98,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -104,14 +116,14 @@
               }
             ],
             "description": "Redirects after more than 20 hours",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/95abea39831d72f642d5edecf787b35b4e807268.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/95abea39831d72f642d5edecf787b35b4e807268.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -124,6 +136,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -140,14 +154,14 @@
               }
             ],
             "description": "Refreshes after 30 seconds",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/5c0ae11c622474ee4196f801aaabae461c2707df.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/5c0ae11c622474ee4196f801aaabae461c2707df.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -160,6 +174,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -176,14 +192,14 @@
               }
             ],
             "description": "Redirects after 30 seconds",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/f620fc1551e88a3860d7575c3c3b20cb2cf915ab.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/f620fc1551e88a3860d7575c3c3b20cb2cf915ab.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -196,6 +212,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -206,20 +224,26 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
                   "pointer": "html > head > meta:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Redirects after 5 seconds",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/84543a9052b4fb153a5c8107adde67ad778d3c52.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/84543a9052b4fb153a5c8107adde67ad778d3c52.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -232,6 +256,8 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
@@ -248,14 +274,14 @@
               }
             ],
             "description": "Redirects after 72000 seconds",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/be3131f08c4ce24005f3ac10826ebeeea91cd450.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/be3131f08c4ce24005f3ac10826ebeeea91cd450.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -268,30 +294,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Inexistent attribute \"content\"",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/ff7bace2739570941b554c58c349f56b01df0a3d.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/ff7bace2739570941b554c58c349f56b01df0a3d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -304,30 +332,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Inexistent attribute \"http-equiv\"",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/3a0b814dc8fccd2c9d3fed07a8028f4df510b900.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/3a0b814dc8fccd2c9d3fed07a8028f4df510b900.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -340,30 +370,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/8452a32af26befb93aaf7ad179008d1e8c040bce.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/8452a32af26befb93aaf7ad179008d1e8c040bce.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -376,30 +408,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/0e27c5910d67c2980e5b7f2ab6ada75f465e53ed.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/0e27c5910d67c2980e5b7f2ab6ada75f465e53ed.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -412,30 +446,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/b2c55429a219e4dcca5814e6631067e606b601ad.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/b2c55429a219e4dcca5814e6631067e606b601ad.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -448,30 +484,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Attribute \"content\" is empty",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/1b95279f1b570095ca31c857c66d0c67781a7236.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/1b95279f1b570095ca31c857c66d0c67781a7236.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -484,30 +522,32 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid\"",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "http://act-rules.github.io/testcases/bc659a/31c53af4612af27af29a4b578974a9d823a7ace2.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/31c53af4612af27af29a4b578974a9d823a7ace2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -520,23 +560,25 @@
         {
           "@type": "Assertion",
           "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
             "title": "Meta-refresh no delay",
             "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:notApplicable",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:notApplicable"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid\"",
-            "date": "7/2/2019"
+            "date": "7/24/2019"
           }
         }
       ]
