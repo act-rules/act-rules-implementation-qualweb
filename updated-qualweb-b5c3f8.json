@@ -1,0 +1,574 @@
+{
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@graph": [
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/e8c6920a352d46ff2cf6257e8e4cbcc4e574797f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The lang attribute has a value ",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/1a34a7d427f335d39867e8e706057357ba4a7fb0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/b9e26c1db931217d8455574f1b226610c8e7ffa6.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/4f0fdf35fcceb1bf73eb53a004cd4260af63c2b1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The lang attribute has a value ",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/19ab5124623c09399dd5d6aeb0b082e11b1fc9a1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/5654d066bd34f1e545de170902278a2eed9587c6.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The lang attribute has a value ",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/481f5bacb412fa5d941f592b722d0e64db6237f2.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/95d4de2553c921e135274433a6dba408ac19d8fa.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/45b857371c1239393d10e9ebe3d60adcad96f192.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/cb40f44ed89775e7774102ac9c431e1b5e818dc9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The xml:lang attribute has a value",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/c728f6e0d5175040383c5410a68fa7512d7a0586.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The lang and xml:lang attributes are empty or undefined",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/9004a706c2100c6649e7c64a1ffa673d5c185dc7.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The lang and xml:lang attributes are empty or undefined",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/6c23d52df135e149a1849886ab9ec190ebc6fe3f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The lang and xml:lang attributes are empty or undefined",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/00d53f76d0fe833b15e9fd0cb178267b2c0dd96c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The lang and xml:lang attributes are empty or undefined",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/d7564695869ac55c02956ec17844d69ab6c28907.svg",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "There is no <html> element",
+            "date": "7/24/2019"
+          }
+        }
+      ]
+    }
+  ]
+}
