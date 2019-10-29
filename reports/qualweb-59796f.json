@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/a53b440be238663a432475e253e037e4d039b78c.html",
+      "source": "https://act-rules.github.io/testcases/59796f/2400cdac870a6244889b8fccea54425320e8749f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Redirects immediately",
-            "date": "2019-10-29 14:43:29"
+            "description": "This image button has an accessible name",
+            "date": "2019-10-29 14:44:16"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/76e3d03342288c1e74ab08b48045c7d82bb3569e.html",
+      "source": "https://act-rules.github.io/testcases/59796f/10f5d07893139a4850d92800c6fec26424253310.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,10 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -66,26 +66,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Redirects immediately",
-            "date": "2019-10-29 14:43:32"
+            "description": "This image button has an accessible name",
+            "date": "2019-10-29 14:44:18"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/e98093351918b01ca944ddc1e6c708a9e7a3970b.html",
+      "source": "https://act-rules.github.io/testcases/59796f/48e5a8f7cb212b2f7605487e139f262545caca89.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -98,10 +92,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -110,20 +104,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Redirects after more than 20 hours",
-            "date": "2019-10-29 14:43:34"
+            "description": "This image button has an accessible name",
+            "date": "2019-10-29 14:44:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/95abea39831d72f642d5edecf787b35b4e807268.html",
+      "source": "https://act-rules.github.io/testcases/59796f/006dd89a7eeebee98ec012a2666a03844e64b01a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -136,10 +130,124 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This image button has an accessible name",
+            "date": "2019-10-29 14:44:22"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/4d797a9fddf365ae209130e381de006becda625e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This image button has an accessible name",
+            "date": "2019-10-29 14:44:24"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/d3344a3aaf532b7ec1347568509f96cadd8d873d.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This image button has an accessible name",
+            "date": "2019-10-29 14:44:26"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/b4cf33cf32e6fbe05149de31fe2ab3480f7f2319.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -148,20 +256,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Refreshes after 30 seconds",
-            "date": "2019-10-29 14:43:36"
+            "description": "It's not possible to define the accessible name of this element",
+            "date": "2019-10-29 14:44:28"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/5c0ae11c622474ee4196f801aaabae461c2707df.html",
+      "source": "https://act-rules.github.io/testcases/59796f/366185c2831d044c6a9036b1cf76eb13c81d2816.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -174,10 +282,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -186,20 +294,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Redirects after 30 seconds",
-            "date": "2019-10-29 14:43:38"
+            "description": "It's not possible to define the accessible name of this element",
+            "date": "2019-10-29 14:44:30"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/f620fc1551e88a3860d7575c3c3b20cb2cf915ab.html",
+      "source": "https://act-rules.github.io/testcases/59796f/ba6e135ea5b6b57b49e024d3bbb5fcfa57a54fc5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -212,10 +320,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -224,26 +332,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(2)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Redirects after 5 seconds",
-            "date": "2019-10-29 14:43:41"
+            "description": "It's not possible to define the accessible name of this element",
+            "date": "2019-10-29 14:44:33"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/84543a9052b4fb153a5c8107adde67ad778d3c52.html",
+      "source": "https://act-rules.github.io/testcases/59796f/d40c0add6e960291598091cc969d69efc29038a1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -256,10 +358,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -268,20 +370,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Redirects after 72000 seconds",
-            "date": "2019-10-29 14:43:43"
+            "description": "It's not possible to define the accessible name of this element",
+            "date": "2019-10-29 14:44:35"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/be3131f08c4ce24005f3ac10826ebeeea91cd450.html",
+      "source": "https://act-rules.github.io/testcases/59796f/d5a13c0bbfbbec0bc88d8494136fc631f0ce2eb7.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -294,10 +396,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -306,20 +408,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Inexistent attribute \"content\"",
-            "date": "2019-10-29 14:43:45"
+            "description": "There isn't an image button to test",
+            "date": "2019-10-29 14:44:37"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/ff7bace2739570941b554c58c349f56b01df0a3d.html",
+      "source": "https://act-rules.github.io/testcases/59796f/7c635bd92a10272be1d00dedecec994ff5e55756.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -332,10 +433,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -344,20 +445,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Inexistent attribute \"http-equiv\"",
-            "date": "2019-10-29 14:43:47"
+            "description": "There isn't an image button to test",
+            "date": "2019-10-29 14:44:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/3a0b814dc8fccd2c9d3fed07a8028f4df510b900.html",
+      "source": "https://act-rules.github.io/testcases/59796f/d9637a5b12d6333e136309db4dbbdde3cbdb8071.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -370,10 +470,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -382,20 +482,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "\"Content\" attribute is invalid",
-            "date": "2019-10-29 14:43:49"
+            "description": "There isn't an image button to test",
+            "date": "2019-10-29 14:44:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/8452a32af26befb93aaf7ad179008d1e8c040bce.html",
+      "source": "https://act-rules.github.io/testcases/59796f/c0efc676b15593b863c81607ae43ad9175969736.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -408,10 +507,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -420,20 +519,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "\"Content\" attribute is invalid",
-            "date": "2019-10-29 14:43:52"
+            "description": "There isn't an image button to test",
+            "date": "2019-10-29 14:44:43"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/0e27c5910d67c2980e5b7f2ab6ada75f465e53ed.html",
+      "source": "https://act-rules.github.io/testcases/59796f/79adbfb491069d70cc39446655c1815c7b765d6a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -446,10 +544,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@id": "https://act-rules.github.io/rules/59796f",
             "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -458,127 +556,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "\"Content\" attribute is invalid",
-            "date": "2019-10-29 14:43:54"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/b2c55429a219e4dcca5814e6631067e606b601ad.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
-            "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "Attribute \"content\" is empty",
-            "date": "2019-10-29 14:43:56"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/1b95279f1b570095ca31c857c66d0c67781a7236.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
-            "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "\"Content\" attribute is invalid\"",
-            "date": "2019-10-29 14:43:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/31c53af4612af27af29a4b578974a9d823a7ace2.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bc659a",
-            "@type": "TestCase",
-            "title": "Meta-refresh no delay",
-            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "\"Content\" attribute is invalid\"",
-            "date": "2019-10-29 14:44:01"
+            "description": "This image button is not included in the accessibiliy tree",
+            "date": "2019-10-29 14:44:45"
           }
         }
       ]

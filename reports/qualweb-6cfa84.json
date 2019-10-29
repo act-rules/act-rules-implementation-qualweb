@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/15b0afb2496c5e7bf5ff0409cb5b39a8d5ae234b.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/031ce334e0405bc42f3028964a8f1d94b0c06afc.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:12"
+            "description": "This element's children are unfocusable.",
+            "date": "2019-10-29 14:48:38"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/7fbf32d69229cb570b3b0e58c62333d55a0ad567.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/da5e04b7672db2b6d31cada644bb1f64e925456d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,10 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -66,20 +66,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:14"
+            "description": "This element's children are unfocusable.",
+            "date": "2019-10-29 14:48:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/bf1b811b607247364c2322dd45c047f2e3211229.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/f2314113af607a4c18bc36185e7ae59e8c0f5b68.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,10 +92,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -104,20 +104,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:15"
+            "description": "This element's children are unfocusable.",
+            "date": "2019-10-29 14:48:43"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/2938f229ef636ed99cd23a3d1e8315131a1215cd.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/4c9a75a7f2fa6f4b5eaa55e93d9d5638b34f6575.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,10 +130,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -142,20 +142,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > title:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:17"
+            "description": "This element is unfocusable.",
+            "date": "2019-10-29 14:48:46"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/7c4ace0d67554bfb9917bce8965917de6c8a29f3.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/30d2fd76fac324265b6c5059972630ddf3131022.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,10 +168,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -180,20 +180,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:19"
+            "description": "This element's children are unfocusable.",
+            "date": "2019-10-29 14:48:48"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/a49a08353a9370e068946b4089b5cdb51ff09a11.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/78ab7e01e487828a19c59119308ab400ba598153.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -206,10 +206,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -218,20 +218,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:21"
+            "description": "This element's children are unfocusable.",
+            "date": "2019-10-29 14:48:51"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/676e3ccf785aa2315dda455217694b55f9a279aa.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/9fce299a6ff222196867bda8ce1479b42eac4607.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -244,10 +244,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -256,19 +256,20 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element doesn't exist",
-            "date": "2019-10-29 14:42:23"
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:48:53"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/c425dc0257c8b895f1821219e880823561ffef3d.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/ba7c8fac5b065a5f0662b886e51ddf62c7ffdcba.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -281,10 +282,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -293,20 +294,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element is empty",
-            "date": "2019-10-29 14:42:25"
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:48:56"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/37528789a63203943f689afa90a400a99c4f861d.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/43ad8b0f5df88f9c17bae00ddd52dbb56871b993.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -319,10 +320,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -331,19 +332,20 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element doesn't exist",
-            "date": "2019-10-29 14:42:27"
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:48:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/d7c4202aa42aefe7f687247d289acd1b0ad44790.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/67784ff95d4fd496d9e2139cf855b3bfab19fb49.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -356,10 +358,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -368,20 +370,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element is empty",
-            "date": "2019-10-29 14:42:29"
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:49:01"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/9619e9f28b767e8f5bd2fbf3e918df1f3859c9f4.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/cecb4c0a9872981475d4240e1e0e00fd72130432.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -394,10 +396,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -406,20 +408,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > body > details:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element is empty",
-            "date": "2019-10-29 14:42:31"
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:49:03"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/af48a346ab1ee73d2b043e6346cadfad60d36aa4.svg",
+      "source": "https://act-rules.github.io/testcases/6cfa84/69bdf98fd12aeb0a2608112a8f5d9c76dbe75aa9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -432,10 +434,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/6cfa84",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -444,12 +446,86 @@
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:"
                 }
               }
             ],
-            "description": "The root element is not a html element",
-            "date": "2019-10-29 14:42:32"
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:49:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/6cfa84/5fb4319a6f555f90dd42ae45be96ee85ca5523c3.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/6cfa84",
+            "@type": "TestCase",
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:49:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/6cfa84/83e4a31694a45ef604060a365dff22c38ef307c0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/6cfa84",
+            "@type": "TestCase",
+            "title": "Element with `aria-hidden` has no focusable content",
+            "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "This element has focusable children.",
+            "date": "2019-10-29 14:49:10"
           }
         }
       ]

@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/15b0afb2496c5e7bf5ff0409cb5b39a8d5ae234b.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/7586e3500c241da9a4d27d5495ef8d5c58d7dce5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:12"
+            "description": "The meta name=\"viewport\" element does not define the maximum-scale and user-scalable values.",
+            "date": "2019-10-29 14:49:13"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/7fbf32d69229cb570b3b0e58c62333d55a0ad567.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/04e2ffae5716c8c5cb215ccf924ae70e444409ef.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,10 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -66,20 +66,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:14"
+            "description": "The meta name=\"viewport\" element retains the user agent ability to zoom.",
+            "date": "2019-10-29 14:49:16"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/bf1b811b607247364c2322dd45c047f2e3211229.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/c1364984e3d76d59d940e989901a2bf7619ad491.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,10 +92,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -104,20 +104,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:15"
+            "description": "The meta name=\"viewport\" element retains the user agent ability to zoom.",
+            "date": "2019-10-29 14:49:18"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/2938f229ef636ed99cd23a3d1e8315131a1215cd.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/45284eee86781e6bdcecc8211674449d81631e8d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,10 +130,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -142,20 +142,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:17"
+            "description": "The meta name=\"viewport\" element does not define the maximum-scale and user-scalable values.",
+            "date": "2019-10-29 14:49:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/7c4ace0d67554bfb9917bce8965917de6c8a29f3.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/900e431123d594638cfffacd3930e63a17645a09.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,86 +168,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:19"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/a49a08353a9370e068946b4089b5cdb51ff09a11.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
-            "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "Title element exists and it's not empty",
-            "date": "2019-10-29 14:42:21"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/676e3ccf785aa2315dda455217694b55f9a279aa.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
-            "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -256,19 +180,20 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element doesn't exist",
-            "date": "2019-10-29 14:42:23"
+            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
+            "date": "2019-10-29 14:49:23"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/c425dc0257c8b895f1821219e880823561ffef3d.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/38aa06d7736bdb3f82aa9ae75d05e5b4b747f440.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -281,10 +206,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -293,20 +218,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element is empty",
-            "date": "2019-10-29 14:42:25"
+            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
+            "date": "2019-10-29 14:49:25"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/37528789a63203943f689afa90a400a99c4f861d.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/97368ebf283cb7c4b933a3989e983ef862bb0d65.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -319,10 +244,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -331,19 +256,20 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element doesn't exist",
-            "date": "2019-10-29 14:42:27"
+            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
+            "date": "2019-10-29 14:49:27"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/d7c4202aa42aefe7f687247d289acd1b0ad44790.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/d6d0c983905d0c8b59ed4ecb6cb07d801532d530.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -356,10 +282,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -368,20 +294,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element is empty",
-            "date": "2019-10-29 14:42:29"
+            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
+            "date": "2019-10-29 14:49:30"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/9619e9f28b767e8f5bd2fbf3e918df1f3859c9f4.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/92d0a60559f3e41f7072dcc88330a5cd8c693a0d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -394,10 +320,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -406,20 +332,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > title:nth-of-type(1)",
+                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Title element is empty",
-            "date": "2019-10-29 14:42:31"
+            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
+            "date": "2019-10-29 14:49:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/af48a346ab1ee73d2b043e6346cadfad60d36aa4.svg",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/b790de4e60b09fb9e7a3c03a00a82499e7474d0d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -432,10 +358,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
             "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
           },
           "mode": "earl:automatic",
           "result": {
@@ -448,8 +374,46 @@
                 }
               }
             ],
-            "description": "The root element is not a html element",
-            "date": "2019-10-29 14:42:32"
+            "description": "The meta name=\"viewport\" element is not present within the page.",
+            "date": "2019-10-29 14:49:35"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/ebca0ed6d2a77a86c34b646e4ee08834b1aa67cc.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b4f0c3",
+            "@type": "TestCase",
+            "title": "meta viewport does not prevent zoom",
+            "description": "This rule checks that the meta element retains the user agent ability to zoom."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "The meta name=\"viewport\" element does not have content attribute.",
+            "date": "2019-10-29 14:49:37"
           }
         }
       ]
