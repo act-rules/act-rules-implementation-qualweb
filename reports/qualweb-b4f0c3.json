@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/7586e3500c241da9a4d27d5495ef8d5c58d7dce5.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/dc6c5a33d7f24964195701ffb835f1978fedc446.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -34,14 +34,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element does not define the maximum-scale and user-scalable values.",
-            "date": "2019-10-29 14:49:13"
+            "date": "2020-01-07 11:13:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/04e2ffae5716c8c5cb215ccf924ae70e444409ef.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/83fc038ee6995b0318fc97bc2750d9604b544c82.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -72,14 +72,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element retains the user agent ability to zoom.",
-            "date": "2019-10-29 14:49:16"
+            "date": "2020-01-07 11:13:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/c1364984e3d76d59d940e989901a2bf7619ad491.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/5279bbeb99fcae99b30471a30680db5fd5f9d676.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -110,14 +110,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element retains the user agent ability to zoom.",
-            "date": "2019-10-29 14:49:18"
+            "date": "2020-01-07 11:13:43"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/45284eee86781e6bdcecc8211674449d81631e8d.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/e4de67808dbc7c2dd303d83ad99ed303141305fc.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -148,14 +148,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element does not define the maximum-scale and user-scalable values.",
-            "date": "2019-10-29 14:49:20"
+            "date": "2020-01-07 11:13:44"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/900e431123d594638cfffacd3930e63a17645a09.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/31f334557a025bf43ca166fc34a28fdcfcae5aab.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -186,14 +186,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2019-10-29 14:49:23"
+            "date": "2020-01-07 11:13:46"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/38aa06d7736bdb3f82aa9ae75d05e5b4b747f440.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/c5f798530233fd0eebd7cf6b5261b84dba732204.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -224,14 +224,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2019-10-29 14:49:25"
+            "date": "2020-01-07 11:13:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/97368ebf283cb7c4b933a3989e983ef862bb0d65.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/f13febf5cc9ab5395f0372313bc016fa19d30e5e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -262,14 +262,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2019-10-29 14:49:27"
+            "date": "2020-01-07 11:13:48"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/d6d0c983905d0c8b59ed4ecb6cb07d801532d530.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/d3a84d77379b2f6d4f1b5c4014dcfbecf7fb53d3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -300,14 +300,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2019-10-29 14:49:30"
+            "date": "2020-01-07 11:13:50"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/92d0a60559f3e41f7072dcc88330a5cd8c693a0d.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/c349f9f0d343612aeaeefe3331048efef2a39dd2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -338,14 +338,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2019-10-29 14:49:32"
+            "date": "2020-01-07 11:13:51"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/b790de4e60b09fb9e7a3c03a00a82499e7474d0d.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/46541a38e426f103ae93c357267f8247197fa4a9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -375,14 +375,14 @@
               }
             ],
             "description": "The meta name=\"viewport\" element is not present within the page.",
-            "date": "2019-10-29 14:49:35"
+            "date": "2020-01-07 11:13:53"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b4f0c3/ebca0ed6d2a77a86c34b646e4ee08834b1aa67cc.html",
+      "source": "https://act-rules.github.io/testcases/b4f0c3/a3e4172be1332a16e9856b83dc82a4db1c749394.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -413,7 +413,7 @@
               }
             ],
             "description": "The meta name=\"viewport\" element does not have content attribute.",
-            "date": "2019-10-29 14:49:37"
+            "date": "2020-01-07 11:13:54"
           }
         }
       ]

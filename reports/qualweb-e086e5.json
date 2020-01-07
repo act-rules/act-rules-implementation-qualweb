@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/95935dc40a7a9d307aa385102365364fc866845f.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/3b4e297ca20e30ab0d1bbf68edd6218a3263ca5d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
+                  "pointer": "html > body > label:nth-of-type(1) > input:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:13"
+            "description": "This form field element has an not-empty accessible name",
+            "date": "2020-01-07 11:13:56"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/770a924ca441324dd186a5a58d705af40393504a.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/922dad44827f6c5f274f1aa66ab4db93bd1cd5a5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,276 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:15"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/a332f002fb7a207cc9739fe4fb9538adfc0d6ede.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:16"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/0e280108dbf0bd9a9f7790c0b1ad55d67de653ff.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > span:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:18"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/e2c9974fad3a78071aef3c0accdc71905fd31f0b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > summary:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:19"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/55660f4bda3d09bcb71301ab8c592d5108a3a03e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:21"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/3b85f76d3bb6a9266944e3d90c8ffe0fda73df02.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:22"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/7be4201c82953f752f1fbdaacad05b69388ece74.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:24"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/e324dcb57f827bee2cba21d3569f7c26ce95c092.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
-            "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -337,15 +71,15 @@
                 }
               }
             ],
-            "description": "This element has a valid accessible name.",
-            "date": "2020-01-07 11:12:25"
+            "description": "This form field element has an not-empty accessible name",
+            "date": "2020-01-07 11:13:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/2cdab52387d512235f9436b643790d557af98994.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/a6c173e359eb2ff079eb5cbb3304d6dccc49112e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -358,10 +92,162 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > select:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This form field element has an not-empty accessible name",
+            "date": "2020-01-07 11:13:59"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/2c3a5a5c4e47396e58151dc6fe2f9f44f33d03a6.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > textarea:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This form field element has an not-empty accessible name",
+            "date": "2020-01-07 11:14:01"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/3f8800ebb135a62397b4c28a50e3c865d05a1cd4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This form field element has an not-empty accessible name",
+            "date": "2020-01-07 11:14:02"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/6733c05fcd7f40e4e37961d8787cc12be405e152.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > label:nth-of-type(1) > input:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This form field element has an not-empty accessible name",
+            "date": "2020-01-07 11:14:04"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/02850864df0a0129e789f6178884853a2d9510c1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -370,20 +256,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This element doesn't have an accessible name.",
-            "date": "2020-01-07 11:12:26"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/99ac6ead86e4807f2e84d715619295a7b4600187.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/1a7947896922a005124b087a644c69a7cb106801.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -396,10 +282,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -408,20 +294,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > span:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This element doesn't have an accessible name.",
-            "date": "2020-01-07 11:12:28"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:06"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/769ced9081ad29edae23727078f6fde475906222.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/14b18b1ef2e54db1569a2945cd6238d7cc776e92.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -434,10 +320,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -446,20 +332,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This element doesn't have an accessible name.",
-            "date": "2020-01-07 11:12:29"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:08"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/b88ccd4e62da6d3999cadbb5ee82cbc45d74aea9.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/257e40b91efb7b60874f02320fd0768f093fe1be.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -472,10 +358,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -484,20 +370,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This element doesn't have an accessible name.",
-            "date": "2020-01-07 11:12:31"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:09"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/3251186b0dde2577c5bd3c8760ff60416051d6a4.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/1547b7ef694cffb1d6c097c593fedcc5c4a9a18a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -510,31 +396,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > label:nth-of-type(1) > div:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "There are no elements with the semantic role of button.",
-            "date": "2020-01-07 11:12:33"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:11"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/aca1d102fdb3d63886f168d9de6ca0de3acd282b.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/5be867508d4da11703175f32d6f3541b42538256.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -547,32 +434,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This element is not included in the accessibility tree.",
-            "date": "2020-01-07 11:12:34"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:12"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/abfff53dac0f85dab8d6f30a1f4d89d25efa0219.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/adf030cbf092074e294d7a7c96d48bb3a9c6519a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -585,32 +472,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > label:nth-of-type(1) > input:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This button's role is overriden.",
-            "date": "2020-01-07 11:12:36"
+            "description": "This form field element has an empty or undefined accessible name",
+            "date": "2020-01-07 11:14:14"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/97a4e1/cf8f3026d4b867b954b47eae3f3ba83abdfaa2cf.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/b33d341ade65ba30970c4fa4fe30ce8d1dd70867.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -623,10 +510,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/97a4e1",
+            "@id": "https://act-rules.github.io/rules/e086e5",
             "@type": "TestCase",
-            "title": "Button has accessible name",
-            "description": "This rule checks that each button element has an accessible name."
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
           },
           "mode": "earl:automatic",
           "result": {
@@ -635,13 +522,127 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > button:nth-of-type(1)",
+                  "pointer": "html > body > input:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "This element is not included in the accessibility tree.",
-            "date": "2020-01-07 11:12:37"
+            "description": "This form field element has an not-empty accessible name but is hidden",
+            "date": "2020-01-07 11:14:15"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/5d0ef38766b390d0962591c58f5fec61ca623a18.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "This form field element has an not-empty accessible name but is hidden",
+            "date": "2020-01-07 11:14:17"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/ca2bc0b50848d8a2bfb7b0ba023029844838af70.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "Role has explicitly been set to something that isn't a form field",
+            "date": "2020-01-07 11:14:18"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/394cdc5cd3b255bb0ee4cb2e600fdb866d850509.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > select:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "Role has explicitly been set to something that isn't a form field",
+            "date": "2020-01-07 11:14:20"
           }
         }
       ]

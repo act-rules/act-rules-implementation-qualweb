@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/cfff293d583d51b90968a15ff490738f20b2f3e3.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/b99be577fcabc6767db4c8c9395eee06891d8bed.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -34,14 +34,14 @@
               }
             ],
             "description": "This element's accessible name uses the filename which accurately describes the image",
-            "date": "2019-10-29 14:45:08"
+            "date": "2020-01-07 11:12:01"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/b59a4f8e74efb991834ccca17073145e005dd4df.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/49d0a47a512f61e92e38c60a88b3abb4824a9dd9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -72,14 +72,14 @@
               }
             ],
             "description": "This element's accessible name includes the filename but, with the text content of the a element, the image is accurately described",
-            "date": "2019-10-29 14:45:10"
+            "date": "2020-01-07 11:12:03"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/a95117f337e44cf426c3c5c4660b44ac8a29e6be.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/8bcf98987468285c4232e6223460264e83e654bd.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -110,14 +110,14 @@
               }
             ],
             "description": "The presence of the file extension in the accessible name doesn't accurately describe the image",
-            "date": "2019-10-29 14:45:12"
+            "date": "2020-01-07 11:12:04"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/ca6974e4e54a97ad7229a0f71755676cf2181a91.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/8402efbab832adb971056c282489ae2c561d112a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -148,14 +148,14 @@
               }
             ],
             "description": "The presence of the file extension in the accessible name doesn't accurately describe the image",
-            "date": "2019-10-29 14:45:15"
+            "date": "2020-01-07 11:12:06"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/2c2d8b081bc8908ee21605c2aa420a9e90a39307.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/7a496ab7ca6e9ff5580308e268083d739976c2d8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -177,22 +177,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "There are no HTML elements with semantic role of image",
-            "date": "2019-10-29 14:45:17"
+            "source": [],
+            "description": "The presence of the file extension in the accessible name doesn't accurately describe the image",
+            "date": "2020-01-07 11:12:07"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/f9b9dad23c0ad60bef126ac4bba8a01b17a2d42f.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/0011abcf0091d17f0d5cb1842ea0bd6db2f3c10b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -214,60 +208,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "There are no HTML elements with semantic role of image",
-            "date": "2019-10-29 14:45:19"
+            "source": [],
+            "description": "The presence of the file extension in the accessible name doesn't accurately describe the image",
+            "date": "2020-01-07 11:12:08"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/6e2edec42ae47953bf4281cbd9dc86e63107d36e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/9eb3f6",
-            "@type": "TestCase",
-            "title": "Image filename is accessible name for image",
-            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > img:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "This element's accessible name is not equivalent to the file name specified in the src attribute.",
-            "date": "2019-10-29 14:45:21"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/9eb3f6/f1b3be194f69c6f222f53cfd46cad299d94c8445.html",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/158899febaaa203e4a0f0833b8e40ba6502370a3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -298,7 +248,45 @@
               }
             ],
             "description": "This element's accessible name is not equivalent to the file name specified in the src attribute.",
-            "date": "2019-10-29 14:45:23"
+            "date": "2020-01-07 11:12:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/a7ffda76a46369053c1992d0d7e0359515038f5a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "This element's accessible name is not equivalent to the file name specified in the src attribute.",
+            "date": "2020-01-07 11:12:11"
           }
         }
       ]

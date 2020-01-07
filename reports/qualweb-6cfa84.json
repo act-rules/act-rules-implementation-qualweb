@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/031ce334e0405bc42f3028964a8f1d94b0c06afc.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/6993d0144f7c3ba330666daf9f0b077fb61894f1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -33,15 +33,15 @@
                 }
               }
             ],
-            "description": "This element's children are unfocusable.",
-            "date": "2019-10-29 14:48:38"
+            "description": "This element is unfocusable.",
+            "date": "2020-01-07 11:13:19"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/da5e04b7672db2b6d31cada644bb1f64e925456d.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/46416c73f816af91f446e6056c96e89ac7882edb.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -72,14 +72,14 @@
               }
             ],
             "description": "This element's children are unfocusable.",
-            "date": "2019-10-29 14:48:41"
+            "date": "2020-01-07 11:13:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/f2314113af607a4c18bc36185e7ae59e8c0f5b68.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/0567a6c937cc508606af0ab2854d8a7d059ea2e2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -110,14 +110,14 @@
               }
             ],
             "description": "This element's children are unfocusable.",
-            "date": "2019-10-29 14:48:43"
+            "date": "2020-01-07 11:13:22"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/4c9a75a7f2fa6f4b5eaa55e93d9d5638b34f6575.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/a613606d901cbdb0a83d62107647bbd3a2beaad8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -148,14 +148,14 @@
               }
             ],
             "description": "This element is unfocusable.",
-            "date": "2019-10-29 14:48:46"
+            "date": "2020-01-07 11:13:23"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/30d2fd76fac324265b6c5059972630ddf3131022.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/c20e1e98d9b2d88c5445b38fec990f47c5618f7a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -186,14 +186,14 @@
               }
             ],
             "description": "This element's children are unfocusable.",
-            "date": "2019-10-29 14:48:48"
+            "date": "2020-01-07 11:13:25"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/78ab7e01e487828a19c59119308ab400ba598153.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/a8370a7c4e710e4dcece674a415c6dd4d4e69382.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -224,14 +224,14 @@
               }
             ],
             "description": "This element's children are unfocusable.",
-            "date": "2019-10-29 14:48:51"
+            "date": "2020-01-07 11:13:26"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/9fce299a6ff222196867bda8ce1479b42eac4607.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/8028b91449bd3f9f607dcc91be3b559035bf719c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -262,14 +262,14 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:48:53"
+            "date": "2020-01-07 11:13:28"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/ba7c8fac5b065a5f0662b886e51ddf62c7ffdcba.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/8e728d4484e9a796f142c6edb4545a3b8c15f88b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -300,14 +300,14 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:48:56"
+            "date": "2020-01-07 11:13:29"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/43ad8b0f5df88f9c17bae00ddd52dbb56871b993.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/2749b82af024c1f878272013d7bb8a961e662d7a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -338,14 +338,14 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:48:58"
+            "date": "2020-01-07 11:13:31"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/67784ff95d4fd496d9e2139cf855b3bfab19fb49.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/c7b59d766471afb67d9d5e5dc6492b1a0f3421c1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -375,15 +375,15 @@
                 }
               }
             ],
-            "description": "This element has focusable children.",
-            "date": "2019-10-29 14:49:01"
+            "description": "This element is still focusable.",
+            "date": "2020-01-07 11:13:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/cecb4c0a9872981475d4240e1e0e00fd72130432.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/1d19581eebfa0f92c17dd772ca67623cb3ad3bdb.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -414,14 +414,14 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:49:03"
+            "date": "2020-01-07 11:13:34"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/69bdf98fd12aeb0a2608112a8f5d9c76dbe75aa9.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/738e5ea04afe9baef6499ad3d3bb675dcc61dd82.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -451,14 +451,14 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:49:05"
+            "date": "2020-01-07 11:13:35"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/5fb4319a6f555f90dd42ae45be96ee85ca5523c3.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/4de29b45568a0fe40bff84c4556a4bc07dfab02d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -488,14 +488,14 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:49:08"
+            "date": "2020-01-07 11:13:37"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/6cfa84/83e4a31694a45ef604060a365dff22c38ef307c0.html",
+      "source": "https://act-rules.github.io/testcases/6cfa84/21498af9b02caf76133b59775aa7abab2942e7fd.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -525,7 +525,7 @@
               }
             ],
             "description": "This element has focusable children.",
-            "date": "2019-10-29 14:49:10"
+            "date": "2020-01-07 11:13:38"
           }
         }
       ]

@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/bd1c895bd29e87165b7e3bb21d7a3412975893c3.html",
+      "source": "https://act-rules.github.io/testcases/cae760/12ee339a1783d5f6db7114d773239f8e04b531bf.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "This image button has an accessible name",
-            "date": "2020-01-07 11:11:45"
+            "description": "The iframe element has accessible name",
+            "date": "2020-01-07 11:15:02"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/0b219e427b84db4c85edc337a456f482a0b0cf0d.html",
+      "source": "https://act-rules.github.io/testcases/cae760/e143d6c174e5afc8254ca6976c2d8638bc57c658.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,10 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -66,20 +66,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "This image button has an accessible name",
-            "date": "2020-01-07 11:11:46"
+            "description": "The iframe element has accessible name",
+            "date": "2020-01-07 11:15:04"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/7fcd19a5b5ab7cb081df0e33cd5fda2c0bee4915.html",
+      "source": "https://act-rules.github.io/testcases/cae760/82a527fd05059a55364d744bd9ea588f8e9c88ea.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,10 +92,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -104,20 +104,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "This image button has an accessible name",
-            "date": "2020-01-07 11:11:47"
+            "description": "The iframe element has accessible name",
+            "date": "2020-01-07 11:15:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/4a28f28d32d2a13a41b1d23eea24ee406f3952d8.html",
+      "source": "https://act-rules.github.io/testcases/cae760/43bafdd2cee24a29634383dcbda204221d1cd8b2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,10 +130,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -142,20 +142,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "This image button has an accessible name",
-            "date": "2020-01-07 11:11:49"
+            "description": "The iframe element has accessible name",
+            "date": "2020-01-07 11:15:07"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/0c1bc54a75b855978ab9dc36995aa7b4aa989093.html",
+      "source": "https://act-rules.github.io/testcases/cae760/64dc5d44a805b7ae06edf4fd08bd934398a77765.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,10 +168,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -180,20 +180,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "It's not possible to define the accessible name of this element",
-            "date": "2020-01-07 11:11:50"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:09"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/f77e42583860e422fd19a03fc3a3d49749c11074.html",
+      "source": "https://act-rules.github.io/testcases/cae760/a84d20cfef3a8a7f840d499427dcd764988af01d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -206,10 +206,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -218,20 +218,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "It's not possible to define the accessible name of this element",
-            "date": "2020-01-07 11:11:51"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/e5ca3711c3a3ce76e765dbc52b2d0ce370df2042.html",
+      "source": "https://act-rules.github.io/testcases/cae760/b5daca9f2e3baa8dd9426a4945a2f860cf892d91.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -244,10 +244,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -256,20 +256,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "It's not possible to define the accessible name of this element",
-            "date": "2020-01-07 11:11:52"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:11"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/f11d77fb406c27bc8889222f421cdd5e190de735.html",
+      "source": "https://act-rules.github.io/testcases/cae760/60e8a60b355f80b20afce247f23e887530c9ef9e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -282,31 +282,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "There isn't an image button to test",
-            "date": "2020-01-07 11:11:54"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:13"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/e270162cd127ee4276c4b66f272879aab3d9573c.html",
+      "source": "https://act-rules.github.io/testcases/cae760/10af67376ac341cec4d35717e91479ba16ce5af3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -319,31 +320,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "There isn't an image button to test",
-            "date": "2020-01-07 11:11:55"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:14"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/3b874b8bb79623367359108cfbfb5ed9484838ce.html",
+      "source": "https://act-rules.github.io/testcases/cae760/09e14194f92cc2ab83c134613d466226a83aeae8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -356,31 +358,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "There isn't an image button to test",
-            "date": "2020-01-07 11:11:57"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:16"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/70340723cc57ffa99ada29332025eecac5f56848.html",
+      "source": "https://act-rules.github.io/testcases/cae760/3d89449e6dbbf63843471ad4d196dded6ebf17a1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -393,31 +396,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "There isn't an image button to test",
-            "date": "2020-01-07 11:11:58"
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:17"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/8c8112b6818dea48235bc4ef7b23b47f58a77be1.html",
+      "source": "https://act-rules.github.io/testcases/cae760/b52cbe5f0131e309dcad4c4dd4116cbebd6a74b3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -430,10 +434,41 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/cae760",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "The iframe element hasn't accessible name",
+            "date": "2020-01-07 11:15:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/cae760/6dcd216f284bb3c980b6027851c8fd4da974c95e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/cae760",
+            "@type": "TestCase",
+            "title": "iframe element has accessible name",
+            "description": "This rule checks that each iframe element has an accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -442,13 +477,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
+                  "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "This image button is not included in the accessibiliy tree",
-            "date": "2020-01-07 11:11:59"
+            "description": "iframe is not included in the accessibility tree.",
+            "date": "2020-01-07 11:15:20"
           }
         }
       ]

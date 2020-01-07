@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/9e6fd0d4112ad490218f17263e36ec33f8adb8db.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/cf9de7d82f732973e3fddb430d85fa8789c48131.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/de46e4",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html",
+                  "pointer": "html > body > article:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The lang attribute has a value",
-            "date": "2020-01-07 11:10:40"
+            "description": "This element has a valid lang attribute",
+            "date": "2020-01-07 11:15:54"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/2f3f2c774ba3e0ac44c37bdb43a34c85bf73e484.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/b92841001ea5d712b9b62589e4e48dff7e393f51.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,10 +54,48 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/de46e4",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > blockquote:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "This element has a valid lang attribute",
+            "date": "2020-01-07 11:15:55"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/69ae4863a438c961dc871a3b8e2e90fef9548aa1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
           },
           "mode": "earl:automatic",
           "result": {
@@ -66,20 +104,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html",
+                  "pointer": "html > body > article:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-07 11:10:42"
+            "description": "This element has an invalid lang attribute",
+            "date": "2020-01-07 11:15:56"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/71b6d84f72e6a65150e8bf82a6b3f8ad090dea39.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/07b24ea5197c5ac348381651c9b71b43c5752b5b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,10 +130,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/de46e4",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
           },
           "mode": "earl:automatic",
           "result": {
@@ -104,20 +142,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html",
+                  "pointer": "html > body > p:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-07 11:10:43"
+            "description": "This element has an invalid lang attribute",
+            "date": "2020-01-07 11:15:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/1b7bd1aaf28209779a14e227ed6b04602f3988b4.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/829f78eec122ba83ecefd1426be1af5ae7b33e15.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,10 +168,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/de46e4",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
           },
           "mode": "earl:automatic",
           "result": {
@@ -142,20 +180,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html",
+                  "pointer": "html > body > article:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-07 11:10:45"
+            "description": "This element has an invalid lang attribute",
+            "date": "2020-01-07 11:15:59"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/474d1225bab283228455fbee4f7df67f1ec21ace.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/432c0b405c115c1bbf8819a8a9a7b58eeb62a289.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,48 +206,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/de46e4",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-07 11:10:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/190e6aec2df43e234c468b187d427c32d5d942c1.svg",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
           },
           "mode": "earl:automatic",
           "result": {
@@ -222,15 +222,15 @@
                 }
               }
             ],
-            "description": "The <html> element is not the root element of the page",
-            "date": "2020-01-07 11:10:48"
+            "description": "No elements with lang",
+            "date": "2020-01-07 11:16:01"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/580a61d57084cdbbe6b27c3dc35d4cc51d078c41.xml",
+      "source": "https://act-rules.github.io/testcases/de46e4/cd3a730e7cee34f8be352285d57c9f0a588c2b8d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -243,10 +243,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/de46e4",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
           },
           "mode": "earl:automatic",
           "result": {
@@ -255,13 +255,51 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html",
+                  "pointer": "html > body > article:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The <html> element is not the root element of the page",
-            "date": "2020-01-07 11:10:49"
+            "description": "Lang is empty",
+            "date": "2020-01-07 11:16:02"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/e0a8e368d7aba4e94771903d5e994766f6548348.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > article:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "Lang is empty",
+            "date": "2020-01-07 11:16:03"
           }
         }
       ]

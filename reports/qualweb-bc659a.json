@@ -3,7 +3,7 @@
   "graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/a53b440be238663a432475e253e037e4d039b78c.html",
+      "source": "https://github.com/",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -28,20 +28,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "Redirects immediately",
-            "date": "2019-10-29 14:43:29"
+            "date": "2020-01-07 11:38:09"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/76e3d03342288c1e74ab08b48045c7d82bb3569e.html",
+      "source": "http://example.com/",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -66,26 +65,24 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(2)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Redirects immediately",
-            "date": "2019-10-29 14:43:32"
+            "date": "2020-01-07 11:38:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/e98093351918b01ca944ddc1e6c708a9e7a3970b.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/4ad3e60c2ecfae0f52e50595cd85ccf7acf67718.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -110,20 +107,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "Redirects after more than 20 hours",
-            "date": "2019-10-29 14:43:34"
+            "date": "2020-01-07 11:38:12"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/95abea39831d72f642d5edecf787b35b4e807268.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/95f01f2edc22df2794ea7f606f7fb855f1e2dc67.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -148,20 +144,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Refreshes after 30 seconds",
-            "date": "2019-10-29 14:43:36"
+            "date": "2020-01-07 11:38:13"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/5c0ae11c622474ee4196f801aaabae461c2707df.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/cefc9954aea295c834eeb8065b7e054afac559e3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -186,20 +181,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Redirects after 30 seconds",
-            "date": "2019-10-29 14:43:38"
+            "date": "2020-01-07 11:38:15"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/f620fc1551e88a3860d7575c3c3b20cb2cf915ab.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/3346a1e6380ac1208bd977e40405efda431e593b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -224,26 +218,24 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Redirects after 5 seconds",
-            "date": "2019-10-29 14:43:41"
+            "date": "2020-01-07 11:38:16"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/84543a9052b4fb153a5c8107adde67ad778d3c52.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/a7bfb33106602cf9db3fba2dec2dd0547045bf1d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -268,20 +260,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Redirects after 72000 seconds",
-            "date": "2019-10-29 14:43:43"
+            "date": "2020-01-07 11:38:18"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/be3131f08c4ce24005f3ac10826ebeeea91cd450.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/ea38668c1bdc61887bfe64ec47ba83a4e2713da9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -306,20 +297,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Inexistent attribute \"content\"",
-            "date": "2019-10-29 14:43:45"
+            "date": "2020-01-07 11:38:19"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/ff7bace2739570941b554c58c349f56b01df0a3d.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/20c0295b10134c62b78994d3c952cbbfbf838030.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -344,20 +334,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "Inexistent attribute \"http-equiv\"",
-            "date": "2019-10-29 14:43:47"
+            "date": "2020-01-07 11:38:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/3a0b814dc8fccd2c9d3fed07a8028f4df510b900.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/628163884471a7f78162b88467bb760d2f9df625.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -382,20 +371,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid",
-            "date": "2019-10-29 14:43:49"
+            "date": "2020-01-07 11:38:22"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/8452a32af26befb93aaf7ad179008d1e8c040bce.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/0cf51395718454dabba4bbad975f41fd51f33f4a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -420,20 +408,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid",
-            "date": "2019-10-29 14:43:52"
+            "date": "2020-01-07 11:38:23"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/0e27c5910d67c2980e5b7f2ab6ada75f465e53ed.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/26966d81745c8ab45553c3c305eacba632f4b11f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -458,20 +445,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid",
-            "date": "2019-10-29 14:43:54"
+            "date": "2020-01-07 11:38:25"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/b2c55429a219e4dcca5814e6631067e606b601ad.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/efd32f45d51c3f3e97a7449a6f4f348c9f4106a8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -496,20 +482,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Attribute \"content\" is empty",
-            "date": "2019-10-29 14:43:56"
+            "description": "Inexistent attribute \"content\"",
+            "date": "2020-01-07 11:38:26"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/1b95279f1b570095ca31c857c66d0c67781a7236.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/497149cc71c91862653f8e379134f8c05b2bd8a1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -534,20 +519,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid\"",
-            "date": "2019-10-29 14:43:58"
+            "date": "2020-01-07 11:38:27"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bc659a/31c53af4612af27af29a4b578974a9d823a7ace2.html",
+      "source": "https://act-rules.github.io/testcases/bc659a/45e9561106965ddc43f915ede35e4f4b50db0743.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -572,13 +556,12 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "\"Content\" attribute is invalid\"",
-            "date": "2019-10-29 14:44:01"
+            "date": "2020-01-07 11:38:29"
           }
         }
       ]
