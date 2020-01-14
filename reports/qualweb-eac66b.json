@@ -1,0 +1,233 @@
+{
+  "context": "https://act-rules.github.io/earl-context.json",
+  "graph": [
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/eac66b/50ac94157de207ae56f4a3d636d5fcf05d12f132.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@type": "TestCase",
+            "title": "video element auditory content has accessible alternative",
+            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the video element auditive content has accessible alternative",
+            "date": "2020-01-14 14:31:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/eac66b/0cd4dfb43fb28a3d71946db15fb21c0f903a2947.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@type": "TestCase",
+            "title": "video element auditory content has accessible alternative",
+            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the video element auditive content has accessible alternative",
+            "date": "2020-01-14 14:31:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/eac66b/bd880a49b37a520ae5b515429591d1cbe9ef9acc.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@type": "TestCase",
+            "title": "video element auditory content has accessible alternative",
+            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "The video element isn't a non-streaming video element that is visible, where the video contains audio.",
+            "date": "2020-01-14 14:31:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/eac66b/08be124eac11157fafef24799557221927533833.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@type": "TestCase",
+            "title": "video element auditory content has accessible alternative",
+            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "The video element isn't a non-streaming video element that is visible, where the video contains audio.",
+            "date": "2020-01-14 14:31:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/eac66b/cde6cb8abfeb76176b48d03702857728b2f90adb.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@type": "TestCase",
+            "title": "video element auditory content has accessible alternative",
+            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the track element correctly describes the auditive content of the video",
+            "date": "2020-01-14 14:31:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/eac66b/ed923530efde6b2f67b9165dc76742fcd1bd7faa.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@type": "TestCase",
+            "title": "video element auditory content has accessible alternative",
+            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the video element auditive content has accessible alternative",
+            "date": "2020-01-14 14:31:20"
+          }
+        }
+      ]
+    }
+  ]
+}
