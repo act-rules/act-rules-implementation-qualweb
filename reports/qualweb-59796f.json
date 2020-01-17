@@ -1,6 +1,6 @@
 {
-  "context": "https://act-rules.github.io/earl-context.json",
-  "graph": [
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@graph": [
     {
       "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/59796f/bd1c895bd29e87165b7e3bb21d7a3412975893c3.html",
