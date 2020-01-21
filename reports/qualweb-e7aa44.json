@@ -36,7 +36,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/190e6aec2df43e234c468b187d427c32d5d942c1.svg",
+      "source": "https://act-rules.github.io/testcases/e7aa44/30cdffbe07a98355270e1ce1c1c97d95fbf54f08.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -49,10 +49,48 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/e7aa44",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if audio has text-alternative",
+            "date": "2020-01-21 15:26:57"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e7aa44/e6b3ef4fcff71982c51509166b10913c9be2b103.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e7aa44",
+            "@type": "TestCase",
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
           },
           "mode": "earl:automatic",
           "result": {
@@ -61,19 +99,20 @@
             "source": [
               {
                 "result": {
+                  "pointer": "html > body > audio:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The <html> element is not the root element of the page",
-            "date": "2020-01-21 15:25:44"
+            "description": "Element is not a non-streaming audio element with autoplay or a play button that is visisble and in the Acessiblility Tree",
+            "date": "2020-01-21 15:26:57"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/1b7bd1aaf28209779a14e227ed6b04602f3988b4.html",
+      "source": "https://act-rules.github.io/testcases/e7aa44/26e9303d6ff201b002b1113034779d6420edd62f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -86,200 +125,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@id": "https://act-rules.github.io/rules/e7aa44",
             "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-21 15:25:44"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/474d1225bab283228455fbee4f7df67f1ec21ace.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-21 15:25:44"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/2f3f2c774ba3e0ac44c37bdb43a34c85bf73e484.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-21 15:25:44"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/71b6d84f72e6a65150e8bf82a6b3f8ad090dea39.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The lang and xml:lang attributes are empty or undefined",
-            "date": "2020-01-21 15:25:44"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/9e6fd0d4112ad490218f17263e36ec33f8adb8db.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The lang attribute has a value",
-            "date": "2020-01-21 15:25:44"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/580a61d57084cdbbe6b27c3dc35d4cc51d078c41.xml",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
           },
           "mode": "earl:automatic",
           "result": {
@@ -288,13 +137,127 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html",
+                  "pointer": "html > body > audio:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The <html> element is not the root element of the page",
-            "date": "2020-01-21 15:25:44"
+            "description": "Element is not a non-streaming audio element with autoplay or a play button that is visisble and in the Acessiblility Tree",
+            "date": "2020-01-21 15:26:57"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e7aa44/d811085f0af154ce722c16c79f34bbe7139919db.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e7aa44",
+            "@type": "TestCase",
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if audio has text-alternative",
+            "date": "2020-01-21 15:26:58"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e7aa44/e5a8ac645e397df20fb984b5b31b7419e202167b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e7aa44",
+            "@type": "TestCase",
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if audio has text-alternative",
+            "date": "2020-01-21 15:26:58"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e7aa44/24d9c05fa52b47151fc95d6baa3b41f1b36a3ef9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e7aa44",
+            "@type": "TestCase",
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if audio has text-alternative",
+            "date": "2020-01-21 15:26:58"
           }
         }
       ]

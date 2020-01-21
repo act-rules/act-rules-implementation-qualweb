@@ -1,6 +1,215 @@
 {
-  "@context": "https://act-rules.github.io/earl-context.json",
+  "@context": {
+    "@context": {
+      "@vocab": "http://www.w3.org/ns/earl#",
+      "earl": "http://www.w3.org/ns/earl#",
+      "WCAG20": "http://www.w3.org/TR/WCAG20/#",
+      "WCAG21": "http://www.w3.org/TR/WCAG21/#",
+      "dct": "http://purl.org/dc/terms/",
+      "sch": "https://schema.org/",
+      "doap": "http://usefulinc.com/ns/doap#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "WebPage": "sch:WebPage",
+      "url": "dct:source",
+      "source": "dct:source",
+      "redirectedTo": "dct:source",
+      "assertions": {
+        "@reverse": "subject"
+      },
+      "assertedBy": {
+        "@type": "@id"
+      },
+      "outcome": {
+        "@type": "@id"
+      },
+      "mode": {
+        "@type": "@id"
+      },
+      "pointer": {
+        "@type": "ptr:CSSSelectorPointer"
+      },
+      "title": {
+        "@type": "dct:title"
+      }
+    }
+  },
   "@graph": [
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/7d6734/b2c79cfb69b5eafdacc4da4d8843ccfe12544110.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/7d6734",
+            "@type": "TestCase",
+            "title": "svg element with explicit role has accessible name",
+            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No svg elements with this specifique roles in the accessibility tree",
+            "date": "2020-01-21 15:26:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/7d6734/02eaadc12c2f6d5cc373a3c14617ce76ad641573.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/7d6734",
+            "@type": "TestCase",
+            "title": "svg element with explicit role has accessible name",
+            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "This element doesnt have an accessible name",
+            "date": "2020-01-21 15:26:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/7d6734/e3ae8018f2f77f2e9e6c64605bf4848071acf55e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/7d6734",
+            "@type": "TestCase",
+            "title": "svg element with explicit role has accessible name",
+            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No svg elements with this specifique roles in the accessibility tree",
+            "date": "2020-01-21 15:26:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/7d6734/bf3fc26ba9d6b85063ab348d056fcdf62bc4dc66.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/7d6734",
+            "@type": "TestCase",
+            "title": "svg element with explicit role has accessible name",
+            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No svg elements with this specifique roles in the accessibility tree",
+            "date": "2020-01-21 15:26:19"
+          }
+        }
+      ]
+    },
     {
       "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/7d6734/0fd9df3029d10e81ef1e453902e8f61670939b52.html",
@@ -46,51 +255,7 @@
               }
             ],
             "description": "This element has an accessible name",
-            "date": "2020-01-07 11:15:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/7d6734/114be98c8b9af5e15b6694283669cd1ef1c8677b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/7d6734",
-            "@type": "TestCase",
-            "title": "svg element with explicit role has accessible name",
-            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "This element has an accessible name",
-            "date": "2020-01-07 11:15:40"
+            "date": "2020-01-21 15:26:19"
           }
         }
       ]
@@ -140,51 +305,7 @@
               }
             ],
             "description": "This element has an accessible name",
-            "date": "2020-01-07 11:15:41"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/7d6734/02eaadc12c2f6d5cc373a3c14617ce76ad641573.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/7d6734",
-            "@type": "TestCase",
-            "title": "svg element with explicit role has accessible name",
-            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "This element doesnt have an accessible name",
-            "date": "2020-01-07 11:15:43"
+            "date": "2020-01-21 15:26:19"
           }
         }
       ]
@@ -234,14 +355,14 @@
               }
             ],
             "description": "This element doesnt have an accessible name",
-            "date": "2020-01-07 11:15:44"
+            "date": "2020-01-21 15:26:19"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/7d6734/e3d76e9cf123a0634873ec6958b314eea9b34ce7.html",
+      "source": "https://act-rules.github.io/testcases/7d6734/114be98c8b9af5e15b6694283669cd1ef1c8677b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -262,29 +383,23 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
                   "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
                   "pointer": "html > body > svg:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "This element doesnt have an accessible name",
-            "date": "2020-01-07 11:15:46"
+            "description": "This element has an accessible name",
+            "date": "2020-01-21 15:26:20"
           }
         }
       ]
@@ -328,139 +443,7 @@
               }
             ],
             "description": "This element doesnt have an accessible name",
-            "date": "2020-01-07 11:15:47"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/7d6734/bf3fc26ba9d6b85063ab348d056fcdf62bc4dc66.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/7d6734",
-            "@type": "TestCase",
-            "title": "svg element with explicit role has accessible name",
-            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No svg elements with this specifique roles in the accessibility tree",
-            "date": "2020-01-07 11:15:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/7d6734/b2c79cfb69b5eafdacc4da4d8843ccfe12544110.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/7d6734",
-            "@type": "TestCase",
-            "title": "svg element with explicit role has accessible name",
-            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No svg elements with this specifique roles in the accessibility tree",
-            "date": "2020-01-07 11:15:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/7d6734/e3ae8018f2f77f2e9e6c64605bf4848071acf55e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/7d6734",
-            "@type": "TestCase",
-            "title": "svg element with explicit role has accessible name",
-            "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No svg elements with this specifique roles in the accessibility tree",
-            "date": "2020-01-07 11:15:52"
+            "date": "2020-01-21 15:26:20"
           }
         }
       ]

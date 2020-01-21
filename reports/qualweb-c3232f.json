@@ -1,44 +1,39 @@
 {
-  "@context": "https://act-rules.github.io/earl-context.json",
-  "@graph": [
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/d95b147d90f92de93186aa5512d741c8ddab2fc9.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+  "@context": {
+    "@context": {
+      "@vocab": "http://www.w3.org/ns/earl#",
+      "earl": "http://www.w3.org/ns/earl#",
+      "WCAG20": "http://www.w3.org/TR/WCAG20/#",
+      "WCAG21": "http://www.w3.org/TR/WCAG21/#",
+      "dct": "http://purl.org/dc/terms/",
+      "sch": "https://schema.org/",
+      "doap": "http://usefulinc.com/ns/doap#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "WebPage": "sch:WebPage",
+      "url": "dct:source",
+      "source": "dct:source",
+      "redirectedTo": "dct:source",
+      "assertions": {
+        "@reverse": "subject"
       },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
-            "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > video:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the video element",
-            "date": "2020-01-14 14:31:38"
-          }
-        }
-      ]
-    },
+      "assertedBy": {
+        "@type": "@id"
+      },
+      "outcome": {
+        "@type": "@id"
+      },
+      "mode": {
+        "@type": "@id"
+      },
+      "pointer": {
+        "@type": "ptr:CSSSelectorPointer"
+      },
+      "title": {
+        "@type": "dct:title"
+      }
+    }
+  },
+  "@graph": [
     {
       "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/c3232f/08cde91dd0f8de22cd8a0fcffe56ae9b8d4fd375.html",
@@ -72,7 +67,83 @@
               }
             ],
             "description": "The pause button is not visible",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c3232f/d95b147d90f92de93186aa5512d741c8ddab2fc9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@type": "TestCase",
+            "title": "Video element visual-only content has accessible alternative",
+            "description": "This rule checks that video elements without audio have an alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the video element",
+            "date": "2020-01-21 15:27:02"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c3232f/b6197794ef58aa59b50c02c52424241e6e931e04.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@type": "TestCase",
+            "title": "Video element visual-only content has accessible alternative",
+            "description": "This rule checks that video elements without audio have an alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the video element",
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
@@ -110,7 +181,7 @@
               }
             ],
             "description": "Cant colect data from the video element",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
@@ -147,46 +218,8 @@
                 }
               }
             ],
-            "description": "Check if the track element correctly describes the visual content of the video",
-            "date": "2020-01-14 14:31:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/69c4e81f7f9e4dd723a695b69c84a0e8e3bdd00c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
-            "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > video:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the video element visual content has accessible alternative",
-            "date": "2020-01-14 14:31:38"
+            "description": "Cant colect data from the video element",
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
@@ -224,14 +257,14 @@
               }
             ],
             "description": "Check if the video element visual content has accessible alternative",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/b6197794ef58aa59b50c02c52424241e6e931e04.html",
+      "source": "https://act-rules.github.io/testcases/c3232f/69c4e81f7f9e4dd723a695b69c84a0e8e3bdd00c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -262,7 +295,7 @@
               }
             ],
             "description": "Check if the video element visual content has accessible alternative",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
@@ -300,7 +333,7 @@
               }
             ],
             "description": "The video element isn't a non-streaming video element that is visible, where the video contains audio.",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
@@ -338,7 +371,7 @@
               }
             ],
             "description": "Check if the video element visual content has accessible alternative",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
@@ -376,7 +409,7 @@
               }
             ],
             "description": "Check if the video element visual content has accessible alternative",
-            "date": "2020-01-14 14:31:38"
+            "date": "2020-01-21 15:27:02"
           }
         }
       ]
