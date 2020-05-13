@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/0d9ecd85172bbc610f6b3f6044ecc7abcf0dd4a9.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/4ebd9d852ba994b56adf0733fc5d9e51e6709389.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -31,17 +31,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have equal content",
-            "date": "2019-10-29 17:32:38"
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:35"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/42ecf2e3877c617b7cca23e66128667097b10615.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/2f88d4c183d3302d77f9943792b0e76bdc1540a0.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -69,17 +75,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have equal content",
-            "date": "2019-10-29 17:32:43"
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:36"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/50e2f7fe6d14508b23d12fc459a17e1727a5ee35.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/fd08806c48992079eb5d61f6202bd60126d6620d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -107,17 +119,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have equal content",
-            "date": "2019-10-29 17:32:47"
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:37"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/e05deb9fec0f9d9248cdd82f48a93444b5b01a6b.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/18073411173ee4b1e1614bbe3bc33005a142414d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -145,17 +163,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have different content",
-            "date": "2019-10-29 17:32:51"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:38"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/9b72ae9993b01aff166269587ddab682eda83968.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/996d6b233d22b61339cf40b3bfe738fc4e608a26.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -183,17 +207,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have equal content",
-            "date": "2019-10-29 17:32:58"
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/4087ebdab0b5a49bb6ab4dcdc797f9883fab45cf.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c5d4378d9c7aa56a766881e51c0114fe77c67ea8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -221,17 +251,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have equal content",
-            "date": "2019-10-29 17:33:04"
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/8d8853da7cc4c5edba3c7c01ca2902b6d63bb0e5.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/b45cbf0c0488c5e10d6c62d9cdcf465dca96aa39.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -259,17 +295,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have different content",
-            "date": "2019-10-29 17:33:11"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/903659b4e50a42b17c6e31e10956fb500ab226a5.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/2de95e027a0ea8eabe6d6768fcf1aba23d0b2614.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -297,17 +339,111 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have different content",
-            "date": "2019-10-29 17:33:18"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:43"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/f219492e558617a2f90e9175241d0db999b409d6.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/4aba2ac4b984819ae29adc7be3d38a04b5391a42.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1) > iframe:nth-of-type(1)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:44"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/a00721ec4ac80c5c932ee7ca4873f493ce943e98.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:11:45"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/bd0ab42eb840cf581146e1c2666bcbf06c353983.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -335,17 +471,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have different content",
-            "date": "2019-10-29 17:33:24"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:46"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/85f3a632257d9636048a9cdc7b743b3f197b045f.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/3f7c676d1539a5222f0190b228d1d9a19f4a40aa.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -373,17 +515,23 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have different content",
-            "date": "2019-10-29 17:33:30"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/43cbfc7d60b68f61f97603db6e9235a8ffa1a57a.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/5ae26503ad7287336e89667cb0036ff614361cff.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -411,17 +559,67 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Iframes with the same accessible name have different content",
-            "date": "2019-10-29 17:33:36"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:49"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/9e367d5040f04daf2a290dacd08ae064b0660a09.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c326fc94a3ff1cc20192cf4499ef925989247151.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-05-13 14:11:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/7e09da0f778301673cde0d84fe8c9d7aceed6966.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -451,15 +649,15 @@
                 }
               }
             ],
-            "description": "There is no iframe with same the same accessible name",
-            "date": "2019-10-29 17:33:42"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:51"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/0555a0ff603c5fd088bf86faf1fa8f1168ae4959.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c55fb995151cd2adf8ad3f1dc526af30ff00eb8c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -495,15 +693,15 @@
                 }
               }
             ],
-            "description": "There is no iframe with same the same accessible name",
-            "date": "2019-10-29 17:33:45"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:52"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/2567d269e621304c3387272a1570e3c3cba63e50.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/4b9ba85f7cb9d736bb57046a5a478df1fd874920.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -539,15 +737,15 @@
                 }
               }
             ],
-            "description": "There is no iframe with same the same accessible name",
-            "date": "2019-10-29 17:33:47"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:53"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/a66d585c8509f682c134c01ab5a289d441dee083.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/894f49715c010aeec0724752b3412219a3601f1e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -583,15 +781,15 @@
                 }
               }
             ],
-            "description": "There is no iframe with same the same accessible name",
-            "date": "2019-10-29 17:33:50"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:54"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/4a84cbdab2950ef543b179b7e9242cfef2342877.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/ccd06a7b8f5bc077f27d836d12ba29837c0c84af.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -619,23 +817,17 @@
                   "pointer": "html > body > iframe:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
               }
             ],
-            "description": "iframe doesnt have accessible name",
-            "date": "2019-10-29 17:33:52"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:56"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/a3d6f56f0c388cad7192425a824e5dd9a87edb00.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/ea7a2067edbe3bbfdad22a8bd0fe746f39492f9c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -657,29 +849,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "There is no iframe with same the same accessible name",
-            "date": "2019-10-29 17:33:55"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:57"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/b20b4c1fbf9161bf474d6425bf9296940db4310e.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c24ff2ab92e810c1339603c454603ee202f03927.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -701,29 +880,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "iframe doesnt have accessible name",
-            "date": "2019-10-29 17:33:58"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/26f7c515afc63a486eaeebb6fe109f545892cd32.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/71ddf0145b934bef76f8ab350839bd22627dc136.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -745,22 +911,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "iframe doesnt have accessible name",
-            "date": "2019-10-29 17:34:00"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:59"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/8d845213abc0081ac5685e72adb78663539b4009.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/7a9794a6dfa5f44fa2dd8f496c7f01d4397c09a4.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -782,66 +942,9 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "iframe doesnt have accessible name",
-            "date": "2019-10-29 17:34:03"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/b9a511b23e547d7a6e276b95ff42992dc31f23bb.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "iframe doesnt have accessible name",
-            "date": "2019-10-29 17:34:05"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:12:00"
           }
         }
       ]

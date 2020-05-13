@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/6bcc6fc287d6294d5a2562c236c7a065f3bf6d70.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/663238f37f8866234f911ccadb22dd18dbf00c24.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -31,17 +31,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have equal content",
-            "date": "2019-10-29 17:30:54"
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:04"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/80d8153e1068dd38c842bb46d53102f964412b18.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/75fdbf448cf08e3306d992c2c42029e145d1f07b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -69,17 +75,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have equal content",
-            "date": "2019-10-29 17:30:59"
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/31cfe45f40320a5a52d61c3d7fddead260b9fe90.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/5113ecf0151563f327b73fda4c082c56c70c46c9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -107,17 +119,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have equal content",
-            "date": "2019-10-29 17:31:05"
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:11"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/d8d71f30beabfb3b15d0105ccd3276dadd2e34d7.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/b1629c6f04c11a608cfe8be2a162182e13b0abc0.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -145,17 +163,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:31:12"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:10:16"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/23c2bafa0f958b3ddbeffc7637c2d0a77930e243.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/0a0d8b7d5283f423d3195f935e10367f8ebfb59c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -183,17 +207,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have equal content",
-            "date": "2019-10-29 17:31:18"
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:21"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/7cc351939c1442a3d3a0dd1f8fe3724fa7d47861.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/29694d813953dcbb9df895c597732126e707b52b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -221,17 +251,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:31:24"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:10:27"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/8f3d63dd0bdf7587e80ac323023cf7770123d60b.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/ffd847275f8d2d4537d7f7346be39a226e33fbea.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -259,17 +295,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:31:30"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:10:33"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/40789454d907bec70811db0c4d172c3eca79a324.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/eb6d250999b0349a300b8a63afe9864924e4b3db.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -297,17 +339,23 @@
                   "pointer": "html > body > span:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > span:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have equal content",
-            "date": "2019-10-29 17:31:37"
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:38"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/3957955737bb33a637f77ca7a689d1b2165a357e.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/cd9434a0686a8bb4657bbc01c40336f7e23c2342.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -328,17 +376,162 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "Links with the same accessible name have equal content",
-            "date": "2019-10-29 17:31:42"
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1) > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1) > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:43"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/d674c36ef36b5fe2c5d017b9282f0bd9d59696b4.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/c983d84d427d521586e5cb1876646beabc41800e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1) > a:nth-of-type(1)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:45"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/b07430cf93197d7758985a59f8051756cf635f24.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1) > a:nth-of-type(1)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:46"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/fda0d12ccb0e057cac61f4dd02b6d496feb9ccb2.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(1)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2020-05-13 14:10:47"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/35008dc8b396a0a2ab4972d3fbddcb587867fca9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -366,17 +559,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:31:44"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:10:49"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/1e8797e346ff328dcbfda6387ad0e2c94925ed78.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/183c884ced146b6759cbc0a1af05df49b6ac7e63.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -404,17 +603,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:31:53"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:10:57"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/4afa0dd83102025acd1e416a6dc5383f1cfc9323.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/7e49b921e94770de269b1b266802e99155759dac.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -442,17 +647,23 @@
                   "pointer": "html > body > span:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > span:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:31:59"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:11:02"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/d2fb3a2fd2ba4a499da1dd21b687b1152b10688d.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/ccf66556ff9f13eb9139378c2e1a0c4b2ad0ed4b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -480,17 +691,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:32:06"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:11:07"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/8aebb19e25c95d391764b1354583fcef8c8fb12e.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/81106ff31f9cba28f5c530b3afe3afbd62aa918e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -511,17 +728,30 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:32:16"
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1) > a:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > svg:nth-of-type(1) > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:11:15"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/bee12d37063d8a221ec5f060d3defb0fb1d5acde.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/07d81f103bffe780e5b7bb20b6d24a09a08e5a87.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -549,17 +779,23 @@
                   "pointer": "html > body > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(2)",
+                  "outcome": "earl:"
+                }
               }
             ],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:32:19"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2020-05-13 14:11:22"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/9f262eab98d359c36dfa87e3940fc641bca0acd1.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/c69b83e4f7fee81d4629a08909068b7843034fb9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -582,15 +818,15 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "Links with the same accessible name have different content.Verify is the content is equivalent",
-            "date": "2019-10-29 17:32:25"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:28"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/f54fd9cd3c7a49cc201d9590649f725cfc4ac07c.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/5655ac84e2cb08eb9509a298d5d01db3e43c3114.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -626,59 +862,15 @@
                 }
               }
             ],
-            "description": "There is no link with same the same accessible name",
-            "date": "2019-10-29 17:32:28"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:29"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/406c58de59fc7884d3c6399a8b851f8abe0c57c5.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > a:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > a:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "link doesnt have accessible name",
-            "date": "2019-10-29 17:32:29"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/7f72b0d0296a28a282502899f325830ca8487833.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/e7d5a781c70386d5efaf1e4d9d547bd8e3300ac2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -701,15 +893,15 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "link doesnt have accessible name",
-            "date": "2019-10-29 17:32:31"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:30"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/bcf462011b40e3472e9c5c1804a407c5895331dd.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/5fa09c8edfd3ca72576148461a7fd1568090926d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -731,29 +923,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > a:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > a:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "link doesnt have accessible name",
-            "date": "2019-10-29 17:32:34"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/dd2c660e8b2c4d5af852805708703691e1887b30.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/7b5b11a3e48cb4e9bfcd0ecf093e0c5204abd375.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -775,22 +954,9 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > a:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > a:nth-of-type(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "link doesnt have accessible name",
-            "date": "2019-10-29 17:32:36"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:11:33"
           }
         }
       ]
