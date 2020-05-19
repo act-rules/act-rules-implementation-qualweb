@@ -3,74 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/d9f524c9369fd6c6ed1bb899083dea2a1c42b497.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b33eff",
-            "@type": "TestCase",
-            "title": "Orientation of the page is not restricted using CSS transform property",
-            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation.",
-            "date": "2020-01-08 14:43:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/6c7e305140195228a939d3fac4c8904df7b01e80.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b33eff",
-            "@type": "TestCase",
-            "title": "Orientation of the page is not restricted using CSS transform property",
-            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "",
-            "date": "2020-01-08 14:43:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/b33eff/48e4105a06d6369dff468742ed14fb53478688d8.html",
       "assertor": {
         "@id": "QualWeb",
@@ -101,75 +33,7 @@
               }
             ],
             "description": "A page where CSS transform property has rotateZ transform function conditionally applied on the orientation media feature which does not restrict the element to either portrait or landscape orientation.",
-            "date": "2020-01-08 14:43:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/627dbd259a9fbd656dbf58523b7bddf3cbb6e224.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b33eff",
-            "@type": "TestCase",
-            "title": "Orientation of the page is not restricted using CSS transform property",
-            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which matches the default CSS transform applied on the target element.",
-            "date": "2020-01-08 14:43:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/c3ff853372ad20009acd217e0fa4f8709d3636bf.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b33eff",
-            "@type": "TestCase",
-            "title": "Orientation of the page is not restricted using CSS transform property",
-            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "",
-            "date": "2020-01-08 14:43:51"
+            "date": "2020-05-13 14:09:46"
           }
         }
       ]
@@ -206,14 +70,14 @@
               }
             ],
             "description": "A page where CSS transform property has rotateZ transform function conditionally applied on the orientation media feature which does not restrict the element to either portrait or landscape orientation.",
-            "date": "2020-01-08 14:43:51"
+            "date": "2020-05-13 14:09:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/44a2a695eb6b2ff6414feb4fd427bb2c644caff4.html",
+      "source": "https://act-rules.github.io/testcases/b33eff/d9f524c9369fd6c6ed1bb899083dea2a1c42b497.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -234,84 +98,16 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "",
-            "date": "2020-01-08 14:43:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/0b666d5ff3fdd05eaa94a197ca5f52bbabaf4b23.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b33eff",
-            "@type": "TestCase",
-            "title": "Orientation of the page is not restricted using CSS transform property",
-            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "A page where there are no CSS styles.",
-            "date": "2020-01-08 14:43:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b33eff/854339b7645d255ae92a05ac4fbc6b06824e718c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b33eff",
-            "@type": "TestCase",
-            "title": "Orientation of the page is not restricted using CSS transform property",
-            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "A page that has no CSS transform property specified.",
-            "date": "2020-01-08 14:43:51"
+            "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation.",
+            "date": "2020-05-13 14:09:48"
           }
         }
       ]
@@ -348,7 +144,174 @@
               }
             ],
             "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation.",
-            "date": "2020-01-08 14:43:51"
+            "date": "2020-05-13 14:09:49"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b33eff/0b666d5ff3fdd05eaa94a197ca5f52bbabaf4b23.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b33eff",
+            "@type": "TestCase",
+            "title": "Orientation of the page is not restricted using CSS transform property",
+            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:09:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b33eff/854339b7645d255ae92a05ac4fbc6b06824e718c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b33eff",
+            "@type": "TestCase",
+            "title": "Orientation of the page is not restricted using CSS transform property",
+            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:09:51"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b33eff/44a2a695eb6b2ff6414feb4fd427bb2c644caff4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b33eff",
+            "@type": "TestCase",
+            "title": "Orientation of the page is not restricted using CSS transform property",
+            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:09:52"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b33eff/6c7e305140195228a939d3fac4c8904df7b01e80.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b33eff",
+            "@type": "TestCase",
+            "title": "Orientation of the page is not restricted using CSS transform property",
+            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:09:53"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b33eff/c3ff853372ad20009acd217e0fa4f8709d3636bf.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b33eff",
+            "@type": "TestCase",
+            "title": "Orientation of the page is not restricted using CSS transform property",
+            "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:09:54"
           }
         }
       ]

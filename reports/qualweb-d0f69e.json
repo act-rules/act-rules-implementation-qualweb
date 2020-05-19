@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/0aa8e4b62297eac2cae21a73c9ca52ce60169ffd.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/935750fd6d058a02a13b7972f659c438b665479e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -28,26 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1)",
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2020-05-13 14:18:08"
+            "description": "The column header element has at least one assigned cell",
+            "date": "2020-05-13 14:20:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/08384cfb44e1ced9ef5b14bd47b9c948a2688b1c.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/166d899fcda47760741b83dbfe93d2ecc2806e7f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -60,10 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -72,20 +66,26 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > ul:nth-of-type(1) > div:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2020-05-13 14:18:10"
+            "description": "The column header element has at least one assigned cell",
+            "date": "2020-05-13 14:20:21"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/fa9df3eb8efa4027e7c85697fb6e02f1cfd483b6.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/e482fe32bf882a421a50ac41dd151a2f49cccb14.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -98,10 +98,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -110,32 +110,26 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2020-05-13 14:18:11"
+            "description": "The column header element has at least one assigned cell",
+            "date": "2020-05-13 14:20:22"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/ebf6dfbebcfcd91a1ce52d5ac281fcfd83e9dc39.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/15d27cf0b188b398cb3a6fae685ca6ae5bbed81d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -148,10 +142,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -160,26 +154,38 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(2)",
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2020-05-13 14:18:12"
+            "description": "The column header element has at least one assigned cell",
+            "date": "2020-05-13 14:20:24"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/0a2837a63aa0fc85f5434b40d1f1ddad09ce2ed9.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/94576677c3eb1fe943f3aaed577c8859ee86e473.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -192,10 +198,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -204,32 +210,26 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2020-05-13 14:18:13"
+            "description": "The column header element has at least one assigned cell",
+            "date": "2020-05-13 14:20:25"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/782e8b881c5e19cc50eb03527f0e7b95d898b84e.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/1170de31c3c7c11c2863bfc3cc9ce544ebf7725f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -242,54 +242,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2020-05-13 14:18:14"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/e779938b19b12e48036a180ebe60e392867d13ea.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -298,20 +254,26 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The test target parent doesn't have the required context `role`",
-            "date": "2020-05-13 14:18:15"
+            "description": "The column header element does not have at least one assigned cell",
+            "date": "2020-05-13 14:20:26"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/6732a36759ba9852ba384d7bd7816d66f7ced63d.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/d0e1bfcf72546f391224bd8c3289149d0c3b63b8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -324,10 +286,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -336,76 +298,70 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)",
+                  "outcome": "earl:failed"
                 }
-              },
+              }
+            ],
+            "description": "The column header element does not have at least one assigned cell",
+            "date": "2020-05-13 14:20:27"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/875afbae421429b342a8057de08a511668b91a40.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
               {
                 "result": {
                   "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target parent doesn't have the required context `role`",
-            "date": "2020-05-13 14:18:16"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/66fec780969037c7abadb167f9da936a669f052f.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The test target parent doesn't have the required context `role`",
-            "date": "2020-05-13 14:18:18"
+            "description": "The column header element does not have at least one assigned cell",
+            "date": "2020-05-13 14:20:29"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/f4035ae5c598ec28d2321348b31e7e363c96c668.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/f554157f018e55bf9d9a94b0c522a0e7fa4a9502.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -418,38 +374,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(2) > div:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html > body > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target parent doesn't have the required context `role`",
-            "date": "2020-05-13 14:18:19"
+            "description": "The column header element has at least one assigned cell",
+            "date": "2020-05-13 14:20:30"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/f8285d3b759c9dd04f2615b01cf0139fd6cd2f28.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/2cdd6e0b265589e1ff563898c31876eda7e95d87.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -462,10 +412,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -473,14 +423,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:18:20"
+            "date": "2020-05-13 14:20:31"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/918f49afca4d9b0f1e4faad2d844c70f60db815a.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/0ef275b3a74497b34d5e91eb48e26d21640292a5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -493,32 +443,25 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
+            "source": [],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:18:21"
+            "date": "2020-05-13 14:20:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/02a985578845e27c987f8d5663e93cd438230b82.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/7d7180595fa9587977e1d566cbb245ec9bbeaedb.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -531,32 +474,25 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
+            "source": [],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:18:22"
+            "date": "2020-05-13 14:20:34"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/f500e970e8432c0ac28fa7c4480b43a5b87eac67.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/6b48dc569811760951f6ef47dcd196fd17526150.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -569,10 +505,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -581,20 +517,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > ul:nth-of-type(1) > li:nth-of-type(1)",
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:18:24"
+            "date": "2020-05-13 14:20:35"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/cd29cef3dee3387ba01839d53801d84b3fdca542.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/e5e54061f15bde0d4a46b819d0490262313c0949.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -607,10 +543,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@id": "https://act-rules.github.io/rules/d0f69e",
             "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
           },
           "mode": "earl:automatic",
           "result": {
@@ -619,25 +555,82 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > section:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > section:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:18:25"
+            "date": "2020-05-13 14:20:36"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/336923a1e43907057e7770ff1403d384497f5584.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:20:37"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/ff32ca86520d84cabb4b7f2419b9ae0d77f8650a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:20:38"
           }
         }
       ]

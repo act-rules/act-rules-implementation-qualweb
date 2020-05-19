@@ -24,17 +24,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element does not define the maximum-scale and user-scalable values.",
-            "date": "2020-01-07 11:13:40"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:04"
           }
         }
       ]
@@ -62,17 +55,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element retains the user agent ability to zoom.",
-            "date": "2020-01-07 11:13:41"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:06"
           }
         }
       ]
@@ -100,17 +86,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element retains the user agent ability to zoom.",
-            "date": "2020-01-07 11:13:43"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:07"
           }
         }
       ]
@@ -138,17 +117,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element does not define the maximum-scale and user-scalable values.",
-            "date": "2020-01-07 11:13:44"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:08"
           }
         }
       ]
@@ -176,17 +148,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2020-01-07 11:13:46"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:09"
           }
         }
       ]
@@ -214,17 +179,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2020-01-07 11:13:47"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:11"
           }
         }
       ]
@@ -252,17 +210,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2020-01-07 11:13:48"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:12"
           }
         }
       ]
@@ -290,17 +241,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2020-01-07 11:13:50"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:13"
           }
         }
       ]
@@ -328,17 +272,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2020-01-07 11:13:51"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:14"
           }
         }
       ]
@@ -367,15 +304,9 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element is not present within the page.",
-            "date": "2020-01-07 11:13:53"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:15"
           }
         }
       ]
@@ -404,16 +335,9 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The meta name=\"viewport\" element does not have content attribute.",
-            "date": "2020-01-07 11:13:54"
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:13:16"
           }
         }
       ]

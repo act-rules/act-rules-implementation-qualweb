@@ -33,8 +33,8 @@
                 }
               }
             ],
-            "description": "The <img> element has accessible name",
-            "date": "2020-01-07 11:14:21"
+            "description": "The test target has an accessible name.",
+            "date": "2020-05-13 14:13:58"
           }
         }
       ]
@@ -71,8 +71,8 @@
                 }
               }
             ],
-            "description": "The <img> element has accessible name",
-            "date": "2020-01-07 11:14:23"
+            "description": "The test target has an accessible name.",
+            "date": "2020-05-13 14:13:59"
           }
         }
       ]
@@ -109,8 +109,8 @@
                 }
               }
             ],
-            "description": "The <img> element has accessible name",
-            "date": "2020-01-07 11:14:24"
+            "description": "The test target has an accessible name.",
+            "date": "2020-05-13 14:14:00"
           }
         }
       ]
@@ -147,8 +147,8 @@
                 }
               }
             ],
-            "description": "The <img> element has accessible name",
-            "date": "2020-01-07 11:14:26"
+            "description": "The test target has an accessible name.",
+            "date": "2020-05-13 14:14:01"
           }
         }
       ]
@@ -185,8 +185,8 @@
                 }
               }
             ],
-            "description": "The <img> element is decorative",
-            "date": "2020-01-07 11:14:27"
+            "description": "The test target is decorative.",
+            "date": "2020-05-13 14:14:02"
           }
         }
       ]
@@ -223,8 +223,8 @@
                 }
               }
             ],
-            "description": "The <img> element is decorative",
-            "date": "2020-01-07 11:14:29"
+            "description": "The test target is decorative.",
+            "date": "2020-05-13 14:14:03"
           }
         }
       ]
@@ -261,8 +261,8 @@
                 }
               }
             ],
-            "description": "The <img> element is decorative",
-            "date": "2020-01-07 11:14:30"
+            "description": "The test target is decorative.",
+            "date": "2020-05-13 14:14:04"
           }
         }
       ]
@@ -299,8 +299,8 @@
                 }
               }
             ],
-            "description": "The <img> element has accessible name",
-            "date": "2020-01-07 11:14:32"
+            "description": "The test target has an accessible name.",
+            "date": "2020-05-13 14:14:05"
           }
         }
       ]
@@ -337,8 +337,8 @@
                 }
               }
             ],
-            "description": "The img element has no accessible name",
-            "date": "2020-01-07 11:14:33"
+            "description": "The test target doesn't have an accessible name.",
+            "date": "2020-05-13 14:14:06"
           }
         }
       ]
@@ -375,8 +375,8 @@
                 }
               }
             ],
-            "description": "The img element has no accessible name",
-            "date": "2020-01-07 11:14:34"
+            "description": "The test target doesn't have an accessible name.",
+            "date": "2020-05-13 14:14:07"
           }
         }
       ]
@@ -413,8 +413,8 @@
                 }
               }
             ],
-            "description": "The img element has no accessible name",
-            "date": "2020-01-07 11:14:36"
+            "description": "The test target doesn't have an accessible name.",
+            "date": "2020-05-13 14:14:08"
           }
         }
       ]
@@ -451,8 +451,46 @@
                 }
               }
             ],
-            "description": "The img element has an empty accessible name",
-            "date": "2020-01-07 11:14:39"
+            "description": "The test target accessible name is empty (\"\").",
+            "date": "2020-05-13 14:14:09"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/23a2a8/89a64d4fc2e8eb15097ad5e7f88acf87f2823628.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/23a2a8",
+            "@type": "TestCase",
+            "title": "Image has accessible name",
+            "description": "This rule checks that each image that is not marked as decorative, has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target is decorative.",
+            "date": "2020-05-13 14:14:11"
           }
         }
       ]
@@ -489,8 +527,8 @@
                 }
               }
             ],
-            "description": "The element does not have the semantic role of img.",
-            "date": "2020-01-07 11:14:41"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:14:12"
           }
         }
       ]
@@ -527,8 +565,8 @@
                 }
               }
             ],
-            "description": "HTML img element is not included in the accessibility tree.",
-            "date": "2020-01-07 11:14:42"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:14:13"
           }
         }
       ]
@@ -565,8 +603,8 @@
                 }
               }
             ],
-            "description": "The element has a semantic role of img, but is not included in the accessibility tree.",
-            "date": "2020-01-07 11:14:45"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:14:14"
           }
         }
       ]
@@ -596,8 +634,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "The element has a semantic role of img, but is not included in the accessibility tree.",
-            "date": "2020-01-07 11:14:47"
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:14:15"
           }
         }
       ]

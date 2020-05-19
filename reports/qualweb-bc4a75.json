@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/3b4e297ca20e30ab0d1bbf68edd6218a3263ca5d.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/2ee41d28e834ecedcd8ad33a7298707e5439df7a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,162 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > label:nth-of-type(1) > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has an accessible name.",
-            "date": "2020-05-13 14:13:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/922dad44827f6c5f274f1aa66ab4db93bd1cd5a5.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has an accessible name.",
-            "date": "2020-05-13 14:13:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/a6c173e359eb2ff079eb5cbb3304d6dccc49112e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > select:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has an accessible name.",
-            "date": "2020-05-13 14:13:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/2c3a5a5c4e47396e58151dc6fe2f9f44f33d03a6.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > textarea:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has an accessible name.",
-            "date": "2020-05-13 14:13:40"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/3f8800ebb135a62397b4c28a50e3c865d05a1cd4.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -185,15 +33,15 @@
                 }
               }
             ],
-            "description": "The test target has an accessible name.",
-            "date": "2020-05-13 14:13:41"
+            "description": "The test target only owns elements with correct role",
+            "date": "2020-05-13 14:19:57"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/6733c05fcd7f40e4e37961d8787cc12be405e152.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/f856c5c937245a233973c5d5aea15995355226d9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -206,10 +54,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -218,20 +66,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > label:nth-of-type(1) > input:nth-of-type(1)",
+                  "pointer": "html > body > ul:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target has an accessible name.",
-            "date": "2020-05-13 14:13:43"
+            "description": "The test target only owns elements with correct role",
+            "date": "2020-05-13 14:19:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/02850864df0a0129e789f6178884853a2d9510c1.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/c26f9f87576ea7fbeb2db67a559e78501d1d232a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -244,32 +92,38 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html > body > table:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:44"
+            "description": "The test target only owns elements with correct role",
+            "date": "2020-05-13 14:19:59"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/1a7947896922a005124b087a644c69a7cb106801.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/80742d95918966bec09da9c44a2650c7cb35f7ba.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -282,32 +136,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > input:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:45"
+            "description": "The test target only owns elements with correct role",
+            "date": "2020-05-13 14:20:01"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/14b18b1ef2e54db1569a2945cd6238d7cc776e92.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/b84f050f7e6ab246348eb5ccbc1a714921c4a4e8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -320,10 +174,86 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target only owns elements with correct role",
+            "date": "2020-05-13 14:20:02"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc4a75/d226543d65b0d49a03e7ea45f2de82bf0cbc1726.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
+            "@type": "TestCase",
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target only owns elements with correct role",
+            "date": "2020-05-13 14:20:04"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc4a75/668eca5516086c86c0c2b7118c545642d826e0de.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
+            "@type": "TestCase",
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -337,15 +267,15 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:46"
+            "description": "The test target owns elements that doesn't have the correct role",
+            "date": "2020-05-13 14:20:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/1ee82af93bb5a923492eb7bdb75ae8311f8ce65a.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/d58cf0d46a8c7cd4d7e63966cb4aa6d909ea47a1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -358,10 +288,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -370,20 +300,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(2)",
+                  "pointer": "html > body > ol:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:47"
+            "description": "The test target owns elements that doesn't have the correct role",
+            "date": "2020-05-13 14:20:06"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/1547b7ef694cffb1d6c097c593fedcc5c4a9a18a.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/18b5ebff3cc85d3497d22088d1179390759f3aaa.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -396,48 +326,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > label:nth-of-type(1) > div:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/5be867508d4da11703175f32d6f3541b42538256.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -451,15 +343,15 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:50"
+            "description": "The test target owns elements that doesn't have the correct role",
+            "date": "2020-05-13 14:20:08"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/adf030cbf092074e294d7a7c96d48bb3a9c6519a.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/81837188c0aa959e1a6de0f883c2ede340f3f5f5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -472,10 +364,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -484,20 +376,26 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > label:nth-of-type(1) > input:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1) > div:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-05-13 14:13:51"
+            "description": "The test target owns elements that doesn't have the correct role",
+            "date": "2020-05-13 14:20:09"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/d66cecf816502bf473ed12757d0fccde4d2bc2be.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/ef27395e1e55b507c690d3c15584f3e24b0758b3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -510,25 +408,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-05-13 14:13:52"
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target owns elements that doesn't have the correct role",
+            "date": "2020-05-13 14:20:11"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/b33d341ade65ba30970c4fa4fe30ce8d1dd70867.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/8ddfd4feb48c2f7630e6ff2758de03bd661797b5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -541,25 +446,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-05-13 14:13:53"
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target owns elements that doesn't have the correct role",
+            "date": "2020-05-13 14:20:12"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/8380e12e7ec9301447fc5ff381c069e7affc6c1d.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/08cc7a024982a7fc21ad20c1fe9c945a1e7c30d9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -572,25 +484,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > div:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:13:55"
+            "date": "2020-05-13 14:20:13"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/ca2bc0b50848d8a2bfb7b0ba023029844838af70.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/e21d0d46c0b0ff778e6600b9417a9f061c40a34d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -603,10 +522,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -614,14 +533,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:13:56"
+            "date": "2020-05-13 14:20:14"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/394cdc5cd3b255bb0ee4cb2e600fdb866d850509.html",
+      "source": "https://act-rules.github.io/testcases/bc4a75/3a89f00d60ba9fd365fe10e119cb602f6137db16.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -634,10 +553,48 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
             "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > ul:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:20:15"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc4a75/14a9c0527cac9b6abdd9172f01158f57925c9b39.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
+            "@type": "TestCase",
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -645,7 +602,76 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-05-13 14:13:57"
+            "date": "2020-05-13 14:20:17"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc4a75/b53db66e471e734e9f494c6028fa6c8312b4e9e9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
+            "@type": "TestCase",
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > ul:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:20:18"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc4a75/53e6031392d279eddb2b8f7e2db60a76f82bfa30.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/_rules/aria-required-owned-element-bc4a75.md",
+            "@type": "TestCase",
+            "title": "ARIA required owned elements",
+            "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-05-13 14:20:19"
           }
         }
       ]
