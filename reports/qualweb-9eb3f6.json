@@ -1,549 +1,547 @@
 {
-  "9eb3f6": {
-    "@context": "https://act-rules.github.io/earl-context.json",
-    "@graph": [
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/cfd1636ab41c1418d1ad510eb9802c31fb2c5c5e.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@graph": [
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/cfd1636ab41c1418d1ad510eb9802c31fb2c5c5e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:16"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:13"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/499be2117059dba5f38526df06b711d0125eccd7.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/499be2117059dba5f38526df06b711d0125eccd7.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > a:nth-of-type(1) > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > a:nth-of-type(1) > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:20"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:18"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/39d3fd00e8e9060969e064eaf1c8fe52aac7c326.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/39d3fd00e8e9060969e064eaf1c8fe52aac7c326.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > input:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:25"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:22"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/607ad4964aa69e78a663cf993a28cedd6a1dc39e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/607ad4964aa69e78a663cf993a28cedd6a1dc39e.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:29"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:27"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/b7f692d05b8446aa7254f62834cdcbbc62488da0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/b7f692d05b8446aa7254f62834cdcbbc62488da0.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:33"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:31"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/1445920070a4f88ba5df578879b3b6402c5efd58.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/1445920070a4f88ba5df578879b3b6402c5efd58.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > picture:nth-of-type(1) > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > picture:nth-of-type(1) > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:38"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:36"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/f7406b89f8e6769c01da5c305e3e6c921fd7c1e4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/f7406b89f8e6769c01da5c305e3e6c921fd7c1e4.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:42"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:41"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/a2333ec76e676624212dcd616ed11ae576ab775e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/a2333ec76e676624212dcd616ed11ae576ab775e.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:47"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:46"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/556be1533c3f4388dc6c8dd1c8bce9c0e9c4f06c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/556be1533c3f4388dc6c8dd1c8bce9c0e9c4f06c.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:51"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:50"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/9ffb088dc361047bc8b7998e41fec07665ce596e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/9ffb088dc361047bc8b7998e41fec07665ce596e.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > input:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > input:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:33:56"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:55"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/36da2b1c9dbb64505ab0fecadb788663f0973f00.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/36da2b1c9dbb64505ab0fecadb788663f0973f00.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:cantTell",
-              "source": [
-                {
-                  "result": {
-                    "pointer": "html > body > picture:nth-of-type(1) > img:nth-of-type(1)",
-                    "outcome": "earl:cantTell"
-                  }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body > picture:nth-of-type(1) > img:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
-              ],
-              "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
-              "date": "2020-07-23 20:34:01"
-            }
+              }
+            ],
+            "description": "This element's accessible name uses the filename.Check if it accurately describes the image.",
+            "date": "2020-07-27 13:30:59"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/3e3d7cf41d149cde4d9ef0e1962aecdae662abfc.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/3e3d7cf41d149cde4d9ef0e1962aecdae662abfc.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:inapplicable",
-              "source": [],
-              "description": "No test targets found.",
-              "date": "2020-07-23 20:34:06"
-            }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-07-27 13:31:04"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/0ebe39fb92e5ed6bd21e5aa79610169033afdaa9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/0ebe39fb92e5ed6bd21e5aa79610169033afdaa9.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:inapplicable",
-              "source": [],
-              "description": "No test targets found.",
-              "date": "2020-07-23 20:34:11"
-            }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-07-27 13:31:08"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/57d68f3bdb9e16e08d8059a3e57c6f5adb52bce8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/57d68f3bdb9e16e08d8059a3e57c6f5adb52bce8.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:inapplicable",
-              "source": [],
-              "description": "No test targets found.",
-              "date": "2020-07-23 20:34:16"
-            }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-07-27 13:31:13"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/9eb3f6/c9d1b69ad4f38c469516c19842b478fc16bc3d12.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
       },
-      {
-        "@type": "TestSubject",
-        "source": "https://act-rules.github.io/testcases/9eb3f6/c9d1b69ad4f38c469516c19842b478fc16bc3d12.html",
-        "assertor": {
-          "@id": "QualWeb",
-          "@type": "Software",
-          "title": "QualWeb",
-          "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-          "hasVersion": "3.0.0",
-          "homepage": "http://www.qualweb.di.fc.ul.pt/"
-        },
-        "assertions": [
-          {
-            "@type": "Assertion",
-            "test": {
-              "@id": "https://act-rules.github.io/rules/9eb3f6",
-              "@type": "TestCase",
-              "title": "Image filename is accessible name for image",
-              "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
-            },
-            "mode": "earl:automatic",
-            "result": {
-              "@type": "TestResult",
-              "outcome": "earl:inapplicable",
-              "source": [],
-              "description": "No test targets found.",
-              "date": "2020-07-23 20:34:20"
-            }
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/9eb3f6",
+            "@type": "TestCase",
+            "title": "Image filename is accessible name for image",
+            "description": "This rule checks that image elements that use their source filename as their accessible name do so without loss of information to the user."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-07-27 13:31:18"
           }
-        ]
-      }
-    ]
-  }
+        }
+      ]
+    }
+  ]
 }
