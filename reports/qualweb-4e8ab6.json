@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2020-07-27 13:48:44"
+            "date": "2020-08-03 09:24:07"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2020-07-27 13:48:50"
+            "date": "2020-08-03 09:24:11"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2020-07-27 13:48:56"
+            "date": "2020-08-03 09:24:15"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The test target doesn't list required aria-controls.",
-            "date": "2020-07-27 13:49:01"
+            "date": "2020-08-03 09:24:19"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The test target doesn't list required aria-controls.",
-            "date": "2020-07-27 13:49:10"
+            "date": "2020-08-03 09:24:24"
           }
         }
       ]
@@ -217,7 +217,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:49:19"
+            "date": "2020-08-03 09:24:28"
           }
         }
       ]
@@ -255,7 +255,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:49:27"
+            "date": "2020-08-03 09:24:32"
           }
         }
       ]
@@ -293,7 +293,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:49:34"
+            "date": "2020-08-03 09:24:36"
           }
         }
       ]

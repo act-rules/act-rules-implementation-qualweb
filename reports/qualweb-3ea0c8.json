@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-07-27 13:24:24"
+            "date": "2020-08-03 09:04:13"
           }
         }
       ]
@@ -84,7 +84,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-07-27 13:24:29"
+            "date": "2020-08-03 09:04:18"
           }
         }
       ]
@@ -134,7 +134,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-07-27 13:24:33"
+            "date": "2020-08-03 09:04:24"
           }
         }
       ]
@@ -172,7 +172,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-07-27 13:24:38"
+            "date": "2020-08-03 09:04:29"
           }
         }
       ]
@@ -204,19 +204,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1), html > body > div:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(2)",
+                  "pointer": "html > body > div:nth-of-type(1), html > body > div:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Several elements have the same `id` attribute (label).",
-            "date": "2020-07-27 13:24:42"
+            "date": "2020-08-03 09:04:34"
           }
         }
       ]
@@ -248,19 +248,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > div:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1), html > body > svg:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > svg:nth-of-type(1)",
+                  "pointer": "html > body > div:nth-of-type(1), html > body > svg:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Several elements have the same `id` attribute (label).",
-            "date": "2020-07-27 13:24:47"
+            "date": "2020-08-03 09:04:39"
           }
         }
       ]
@@ -292,19 +292,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > span:nth-of-type(1)",
+                  "pointer": "html > body > span:nth-of-type(1), html > body > span:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > span:nth-of-type(2)",
+                  "pointer": "html > body > span:nth-of-type(1), html > body > span:nth-of-type(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "Several elements have the same `id` attribute (label).",
-            "date": "2020-07-27 13:24:52"
+            "date": "2020-08-03 09:04:44"
           }
         }
       ]
@@ -335,7 +335,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:24:56"
+            "date": "2020-08-03 09:04:49"
           }
         }
       ]
@@ -366,7 +366,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:25:01"
+            "date": "2020-08-03 09:04:54"
           }
         }
       ]
@@ -395,22 +395,9 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > span:nth-of-type(1)",
-                  "outcome": "earl:"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > span:nth-of-type(2)",
-                  "outcome": "earl:"
-                }
-              }
-            ],
+            "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:25:06"
+            "date": "2020-08-03 09:04:59"
           }
         }
       ]

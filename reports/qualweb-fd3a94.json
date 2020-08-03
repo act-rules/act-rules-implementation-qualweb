@@ -28,19 +28,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have equal content.",
-            "date": "2020-07-27 13:40:33"
+            "date": "2020-08-03 09:19:07"
           }
         }
       ]
@@ -72,19 +66,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:40:42"
+            "date": "2020-08-03 09:19:12"
           }
         }
       ]
@@ -116,19 +104,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:40:49"
+            "date": "2020-08-03 09:19:16"
           }
         }
       ]
@@ -160,19 +142,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:40:55"
+            "date": "2020-08-03 09:19:20"
           }
         }
       ]
@@ -204,19 +180,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:01"
+            "date": "2020-08-03 09:19:24"
           }
         }
       ]
@@ -248,19 +218,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:09"
+            "date": "2020-08-03 09:19:29"
           }
         }
       ]
@@ -292,19 +256,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > span:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > span:nth-of-type(2), html > body > p:nth-of-type(1) > span:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > span:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:15"
+            "date": "2020-08-03 09:19:33"
           }
         }
       ]
@@ -336,19 +294,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > svg:nth-of-type(1) > a:nth-of-type(1), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > svg:nth-of-type(1) > a:nth-of-type(1)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have equal content.",
-            "date": "2020-07-27 13:41:21"
+            "date": "2020-08-03 09:19:38"
           }
         }
       ]
@@ -380,19 +332,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:32"
+            "date": "2020-08-03 09:19:43"
           }
         }
       ]
@@ -424,19 +370,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:44"
+            "date": "2020-08-03 09:19:48"
           }
         }
       ]
@@ -468,19 +408,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > span:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > span:nth-of-type(2), html > body > p:nth-of-type(1) > span:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > span:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:51"
+            "date": "2020-08-03 09:19:52"
           }
         }
       ]
@@ -512,19 +446,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > svg:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > svg:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > svg:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > svg:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:41:57"
+            "date": "2020-08-03 09:19:56"
           }
         }
       ]
@@ -556,19 +484,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2), html > body > p:nth-of-type(1) > a:nth-of-type(1)",
                   "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
-                  "outcome": "earl:"
                 }
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2020-07-27 13:42:04"
+            "date": "2020-08-03 09:20:01"
           }
         }
       ]
@@ -599,7 +521,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:42:12"
+            "date": "2020-08-03 09:20:05"
           }
         }
       ]
@@ -631,19 +553,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "",
                   "outcome": "earl:inapplicable"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > p:nth-of-type(1) > a:nth-of-type(2)",
+                  "pointer": "",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:42:20"
+            "date": "2020-08-03 09:20:10"
           }
         }
       ]
@@ -675,19 +597,19 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+                  "pointer": "",
                   "outcome": "earl:inapplicable"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+                  "pointer": "",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:42:26"
+            "date": "2020-08-03 09:20:15"
           }
         }
       ]
@@ -718,7 +640,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:42:34"
+            "date": "2020-08-03 09:20:19"
           }
         }
       ]
@@ -750,13 +672,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > a:nth-of-type(1)",
+                  "pointer": "",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:42:43"
+            "date": "2020-08-03 09:20:24"
           }
         }
       ]

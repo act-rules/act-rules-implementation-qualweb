@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2020-07-27 12:57:03"
+            "date": "2020-08-03 08:35:41"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2020-07-27 12:57:09"
+            "date": "2020-08-03 08:35:46"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `aria-busy` property is supported or inherited by the `role` undefined.",
-            "date": "2020-07-27 12:57:13"
+            "date": "2020-08-03 08:35:50"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` button.",
-            "date": "2020-07-27 12:57:18"
+            "date": "2020-08-03 08:35:54"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `aria-checked` property is supported or inherited by the `role` checkbox.",
-            "date": "2020-07-27 12:57:23"
+            "date": "2020-08-03 08:35:58"
           }
         }
       ]
@@ -230,7 +230,7 @@
               }
             ],
             "description": "The `aria-controls` property is supported or inherited by the `role` combobox.",
-            "date": "2020-07-27 12:57:28"
+            "date": "2020-08-03 08:36:03"
           }
         }
       ]
@@ -274,7 +274,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2020-07-27 12:57:32"
+            "date": "2020-08-03 08:36:07"
           }
         }
       ]
@@ -318,7 +318,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2020-07-27 12:57:38"
+            "date": "2020-08-03 08:36:12"
           }
         }
       ]
@@ -356,7 +356,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` graphics-object.",
-            "date": "2020-07-27 12:57:42"
+            "date": "2020-08-03 08:36:17"
           }
         }
       ]
@@ -400,7 +400,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` complementary.",
-            "date": "2020-07-27 12:57:47"
+            "date": "2020-08-03 08:36:21"
           }
         }
       ]
@@ -438,7 +438,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` complementary.",
-            "date": "2020-07-27 12:57:51"
+            "date": "2020-08-03 08:36:26"
           }
         }
       ]
@@ -476,7 +476,7 @@
               }
             ],
             "description": "The `aria-sort` property is neither inherited nor supported by the `role` button.",
-            "date": "2020-07-27 12:57:56"
+            "date": "2020-08-03 08:36:30"
           }
         }
       ]
@@ -507,7 +507,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 12:58:01"
+            "date": "2020-08-03 08:36:34"
           }
         }
       ]
@@ -545,7 +545,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 12:58:05"
+            "date": "2020-08-03 08:36:39"
           }
         }
       ]

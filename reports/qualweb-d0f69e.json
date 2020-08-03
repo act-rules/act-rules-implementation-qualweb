@@ -34,7 +34,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2020-07-27 13:51:05"
+            "date": "2020-08-03 09:25:25"
           }
         }
       ]
@@ -78,7 +78,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2020-07-27 13:51:13"
+            "date": "2020-08-03 09:25:29"
           }
         }
       ]
@@ -122,7 +122,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2020-07-27 13:51:20"
+            "date": "2020-08-03 09:25:34"
           }
         }
       ]
@@ -178,7 +178,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2020-07-27 13:51:28"
+            "date": "2020-08-03 09:25:38"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2020-07-27 13:51:33"
+            "date": "2020-08-03 09:25:43"
           }
         }
       ]
@@ -266,7 +266,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2020-07-27 13:51:42"
+            "date": "2020-08-03 09:25:47"
           }
         }
       ]
@@ -310,7 +310,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2020-07-27 13:51:48"
+            "date": "2020-08-03 09:25:52"
           }
         }
       ]
@@ -354,7 +354,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2020-07-27 13:51:57"
+            "date": "2020-08-03 09:25:56"
           }
         }
       ]
@@ -385,7 +385,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:04"
+            "date": "2020-08-03 09:26:01"
           }
         }
       ]
@@ -416,7 +416,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:11"
+            "date": "2020-08-03 09:26:05"
           }
         }
       ]
@@ -447,7 +447,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:21"
+            "date": "2020-08-03 09:26:09"
           }
         }
       ]
@@ -485,7 +485,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:30"
+            "date": "2020-08-03 09:26:14"
           }
         }
       ]
@@ -523,7 +523,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:40"
+            "date": "2020-08-03 09:26:18"
           }
         }
       ]
@@ -554,7 +554,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:46"
+            "date": "2020-08-03 09:26:22"
           }
         }
       ]
@@ -592,7 +592,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:52:52"
+            "date": "2020-08-03 09:26:27"
           }
         }
       ]

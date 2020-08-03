@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2020-07-27 13:22:02"
+            "date": "2020-08-03 09:01:41"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2020-07-27 13:22:07"
+            "date": "2020-08-03 09:01:46"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2020-07-27 13:22:12"
+            "date": "2020-08-03 09:01:53"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes don't have the same value.",
-            "date": "2020-07-27 13:22:17"
+            "date": "2020-08-03 09:01:58"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes don't have the same value.",
-            "date": "2020-07-27 13:22:22"
+            "date": "2020-08-03 09:02:03"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2020-07-27 13:22:36"
+            "date": "2020-08-03 09:02:18"
           }
         }
       ]
@@ -255,7 +255,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:22:42"
+            "date": "2020-08-03 09:02:23"
           }
         }
       ]
@@ -286,7 +286,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:22:46"
+            "date": "2020-08-03 09:02:28"
           }
         }
       ]
@@ -317,7 +317,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:22:57"
+            "date": "2020-08-03 09:02:35"
           }
         }
       ]
@@ -348,7 +348,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-07-27 13:23:02"
+            "date": "2020-08-03 09:02:40"
           }
         }
       ]
