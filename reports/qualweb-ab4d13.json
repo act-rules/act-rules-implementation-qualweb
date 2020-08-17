@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/eac66b/e948ed956b90e7269d1b35b48735c67000bf2d8d.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/4fa755c5cb4e7f0f8269971424d59dd03fb4ec93.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,32 +16,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@id": "https://act-rules.github.io/rules/ab4d13",
             "@type": "TestCase",
-            "title": "video element auditory content has accessible alternative",
-            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:49"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-08-17 09:55:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/eac66b/5b1d323a1d169c63e0b85ef92ebe9be6ad66da05.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/11313b9966aa91467dfbd98ad856d002c1838d46.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,32 +54,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@id": "https://act-rules.github.io/rules/ab4d13",
             "@type": "TestCase",
-            "title": "video element auditory content has accessible alternative",
-            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:49"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-08-17 09:55:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/eac66b/a3210286ea712af8bc4b66793ccfd8662a036fc8.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/95e37ca9d46a38e488a5b47554b2115db09e8e34.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,32 +92,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@id": "https://act-rules.github.io/rules/ab4d13",
             "@type": "TestCase",
-            "title": "video element auditory content has accessible alternative",
-            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:50"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-08-17 09:55:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/eac66b/d014914e602895a0e192f169c45764e012ba315b.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/a74f5d1485dc93a903f71bd7fed2b76e8ca92ff8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,32 +130,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@id": "https://act-rules.github.io/rules/ab4d13",
             "@type": "TestCase",
-            "title": "video element auditory content has accessible alternative",
-            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:50"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-08-17 09:55:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/eac66b/cf7a98ea3f944752d202f8df24906137035e48f8.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/1c126cf1f9bd5989380e1ffcb33e8e8bf246c2ff.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,10 +168,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@id": "https://act-rules.github.io/rules/ab4d13",
             "@type": "TestCase",
-            "title": "video element auditory content has accessible alternative",
-            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
           },
           "mode": "earl:automatic",
           "result": {
@@ -186,14 +186,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:55:50"
+            "date": "2020-08-17 09:55:58"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/eac66b/65f90eb26bee4323089eecbc3dda58bd9340a461.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/3ecd15df4e7910adc453b3874dc9f3047b549939.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -206,25 +206,63 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/eac66b",
+            "@id": "https://act-rules.github.io/rules/ab4d13",
             "@type": "TestCase",
-            "title": "video element auditory content has accessible alternative",
-            "description": "This rule checks that video elements have an alternative for information conveyed through audio."
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:50"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-08-17 09:55:58"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ab4d13/4cca47adf2b5d5f85637e0406a3497afbe5ff072.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-08-17 09:55:58"
           }
         }
       ]

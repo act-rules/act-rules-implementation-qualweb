@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/2a4472d9d5765846750d18be872821b1e6eaed08.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/f3f51606693d3068a0eb6cda61dfb061106f51a7.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,10 +16,10 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
@@ -34,14 +34,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:56:13"
+            "date": "2020-08-17 09:52:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/26130992612441b49f6975a5fa48f5051e627e1e.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/4399639718e80eb9f5457a31d1bf08675c1670ef.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,32 +54,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:13"
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-08-17 09:52:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/f600a7ad3e0d61dd5ef28703702918ae54226aea.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/eb487295d702179812c026c102f025945ea448b9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,32 +92,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:13"
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-08-17 09:52:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/6a99cc94a6811aeb0e6d41f01ef93cefd2a8be96.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/54dcd31125317acfaa27785ccac67ea3b07189a7.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,32 +130,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:13"
+            "description": "The test target has a visible control mechanism.",
+            "date": "2020-08-17 09:52:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/59c0ee3628444964ca1313430417bfbbce9322b7.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/b13d65523ad27d9c763caca8bcc0fcce4b5ca5fb.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,32 +168,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:14"
+            "description": "Can't collect data from the test target element.",
+            "date": "2020-08-17 09:52:47"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/f0a60f2924c927d3dc97676d02c83ab38025955f.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/7ec8d56096c205bb26f35b08f08c9b36d033e8be.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -206,32 +206,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:14"
+            "description": "Can't collect data from the test target element.",
+            "date": "2020-08-17 09:52:48"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/28ec159184ae06f3854db2cce0dbb80f29d73f66.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/443451c0305efbcda7e8696d75e1f40aecb43ddf.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -244,32 +244,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:14"
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-08-17 09:52:48"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/17189684688eb0b0fb6cbb3109527bf1558756b3.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/55bb99a2a77e7c1c924e73c4cac24cd193e9a2a1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -282,32 +282,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:14"
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-08-17 09:52:48"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/85b0303b527a3d2836b4256a73cb438081bbc224.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/3f332520b2388c44833dbfba59ff0badcc982cd9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -320,32 +320,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:14"
+            "description": "Can't collect data from the test target element.",
+            "date": "2020-08-17 09:52:48"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c3232f/7d7a94d0ae749de98095b3af35f0adf65cb01bd1.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/89568d0b210c9cab1cd40dd82a98df3430278424.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -358,10 +358,48 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/c3232f",
+            "@id": "https://act-rules.github.io/rules/4c31df",
             "@type": "TestCase",
-            "title": "Video element visual-only content has accessible alternative",
-            "description": "This rule checks that video elements without audio have an alternative available."
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-08-17 09:52:48"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4c31df/bd4315c24d14613e43f5a01f4ea3daea83617754.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4c31df",
+            "@type": "TestCase",
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
           },
           "mode": "earl:automatic",
           "result": {
@@ -370,13 +408,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:56:14"
+            "date": "2020-08-17 09:52:48"
           }
         }
       ]

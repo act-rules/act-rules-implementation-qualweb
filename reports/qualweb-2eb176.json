@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/4a28f28d32d2a13a41b1d23eea24ee406f3952d8.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/715fa0860433575c16363237376182030bd2eb50.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,32 +16,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `image button` has an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/0b219e427b84db4c85edc337a456f482a0b0cf0d.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/5a619cb9816f69a23324b80553497712097504ee.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,32 +54,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `image button` has an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/7fcd19a5b5ab7cb081df0e33cd5fda2c0bee4915.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/b3fc76d9e3bac4cff68fc65e0661c7c606109f5f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,32 +92,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `image button` has an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/bd1c895bd29e87165b7e3bb21d7a3412975893c3.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/6957932d603a81b680f78aa15116ddcce0150242.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,32 +130,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `image button` has an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/0c1bc54a75b855978ab9dc36995aa7b4aa989093.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/a52f206a4a2392743af67acb04d0ae06011ae32b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -168,32 +168,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `image button` doesn't have an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/e5ca3711c3a3ce76e765dbc52b2d0ce370df2042.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/5265ee862ec0a9b343ff6546bb7cab68b48e147d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -206,32 +206,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `image button` doesn't have an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/3b874b8bb79623367359108cfbfb5ed9484838ce.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/c791c107034d6c92a7e5bfcc4c548f88688ce5db.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -244,63 +244,70 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:41"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2eb176/fb66537a8b4f876e10fbd155d06b24581098de05.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2eb176",
+            "@type": "TestCase",
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:54:32"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/f77e42583860e422fd19a03fc3a3d49749c11074.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > input:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The `image button` doesn't have an accessible name.",
-            "date": "2020-08-17 09:54:32"
+            "description": "No test targets found.",
+            "date": "2020-08-17 09:52:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/70340723cc57ffa99ada29332025eecac5f56848.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/1e324500a9e3a26281ff371fc64b59f35a25e6b4.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -313,25 +320,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:54:33"
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/f11d77fb406c27bc8889222f421cdd5e190de735.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/80b586e5ee092e41159fba875572f945b88426ca.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -344,25 +358,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:54:33"
+            "date": "2020-08-17 09:52:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/8c8112b6818dea48235bc4ef7b23b47f58a77be1.html",
+      "source": "https://act-rules.github.io/testcases/2eb176/cc663d637ca81033f0b59e6613c8bd376324ee2c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -375,49 +396,25 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
+            "@id": "https://act-rules.github.io/rules/2eb176",
             "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:54:33"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/e270162cd127ee4276c4b66f272879aab3d9573c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:54:34"
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2020-08-17 09:52:42"
           }
         }
       ]

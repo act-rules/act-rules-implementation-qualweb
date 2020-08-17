@@ -3,44 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/d9669b826d3d100faad3df0c0087bd963df2b04b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a non-empty accessible name.",
-            "date": "2020-08-03 09:22:30"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/8fc3b6/1b6900ad86f3e701291cdb3cca5d6d4cb3b193e8.html",
       "assertor": {
         "@id": "QualWeb",
@@ -66,203 +28,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2020-08-03 09:22:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/7bbbc0710ad2cb4ded7c5e8181a23140f70c5517.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a non-empty accessible name.",
-            "date": "2020-08-03 09:22:37"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/2539c3c0e8804de69a413c8c1c299e07c97895b8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a non-empty accessible name.",
-            "date": "2020-08-03 09:22:42"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/d89f2505eb5d5dbe2b1838558ab5a7e83e47c665.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-08-03 09:22:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/a7014f65948443038d153621a411edab33a290bb.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-08-03 09:22:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/358271acbe8d353ca18ee72d4a79dc97f2aaa28a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-08-03 09:22:54"
+            "date": "2020-08-17 09:55:19"
           }
         }
       ]
@@ -294,13 +66,82 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2020-08-03 09:22:58"
+            "date": "2020-08-17 09:55:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/697b943fde788ab0ee9d2303ac78afd61fe1b864.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-08-17 09:55:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/d9669b826d3d100faad3df0c0087bd963df2b04b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a non-empty accessible name.",
+            "date": "2020-08-17 09:55:20"
           }
         }
       ]
@@ -332,51 +173,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:23:03"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/460cd7eb48ac9286b4ef3aee32bbd3e803abd63e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
-            "@type": "TestCase",
-            "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-03 09:23:08"
+            "date": "2020-08-17 09:55:20"
           }
         }
       ]
@@ -408,13 +211,165 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:23:12"
+            "date": "2020-08-17 09:55:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/358271acbe8d353ca18ee72d4a79dc97f2aaa28a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2020-08-17 09:55:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/d89f2505eb5d5dbe2b1838558ab5a7e83e47c665.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2020-08-17 09:55:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/a7014f65948443038d153621a411edab33a290bb.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2020-08-17 09:55:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/460cd7eb48ac9286b4ef3aee32bbd3e803abd63e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-08-17 09:55:20"
           }
         }
       ]
@@ -446,20 +401,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > object:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:23:16"
+            "date": "2020-08-17 09:55:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/8fc3b6/697b943fde788ab0ee9d2303ac78afd61fe1b864.html",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/2539c3c0e8804de69a413c8c1c299e07c97895b8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -480,10 +435,55 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-03 09:23:20"
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a non-empty accessible name.",
+            "date": "2020-08-17 09:55:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/8fc3b6/7bbbc0710ad2cb4ded7c5e8181a23140f70c5517.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
+            "@type": "TestCase",
+            "title": "Object element has non-empty accessible name",
+            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > object:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a non-empty accessible name.",
+            "date": "2020-08-17 09:55:21"
           }
         }
       ]
