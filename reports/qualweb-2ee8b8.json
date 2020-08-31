@@ -3,196 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/9c0c4688f3ac4a4a52cd4c90879af13a4b95c8af.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2ee8b8",
-            "@type": "TestCase",
-            "title": "Visible label is part of accessible name",
-            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The complete visible text content of the test target neither matches or is contained within its accessible name.",
-            "date": "2020-08-17 09:56:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/acef6cb2db9b70d2960efa94ab31692f5f772d9b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2ee8b8",
-            "@type": "TestCase",
-            "title": "Visible label is part of accessible name",
-            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The complete visible text content of the test target neither matches or is contained within its accessible name.",
-            "date": "2020-08-17 09:56:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/beea5f0d1adf278a4633f210a7307e15d9f6aab9.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2ee8b8",
-            "@type": "TestCase",
-            "title": "Visible label is part of accessible name",
-            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
-            "date": "2020-08-17 09:56:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/75cb0fc10579d314b43348e6fd7f4ade8504cc90.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2ee8b8",
-            "@type": "TestCase",
-            "title": "Visible label is part of accessible name",
-            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
-            "date": "2020-08-17 09:56:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/d99c16137d8c09932a14875a1b68cd8d0313623a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2ee8b8",
-            "@type": "TestCase",
-            "title": "Visible label is part of accessible name",
-            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/2ee8b8/3eb1c8196fecb3bf85ef375b77022a9f7ee0f5d4.html",
       "assertor": {
         "@id": "QualWeb",
@@ -224,45 +34,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:56:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/a01e2129885e0f10406e23a719301da436ba2653.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2ee8b8",
-            "@type": "TestCase",
-            "title": "Visible label is part of accessible name",
-            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:56:36"
+            "date": "2020-08-31 08:34:26"
           }
         }
       ]
@@ -300,14 +72,90 @@
               }
             ],
             "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
-            "date": "2020-08-17 09:56:37"
+            "date": "2020-08-31 08:34:26"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/fb83197bc8229e4eefb54fabf6b8bdc20dbdb064.html",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/beea5f0d1adf278a4633f210a7307e15d9f6aab9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2ee8b8",
+            "@type": "TestCase",
+            "title": "Visible label is part of accessible name",
+            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "date": "2020-08-31 08:34:26"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/75cb0fc10579d314b43348e6fd7f4ade8504cc90.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2ee8b8",
+            "@type": "TestCase",
+            "title": "Visible label is part of accessible name",
+            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The complete visible text content of the test target either matches or is contained within its accessible name.",
+            "date": "2020-08-31 08:34:26"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/d99c16137d8c09932a14875a1b68cd8d0313623a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -332,20 +180,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:56:37"
+            "date": "2020-08-31 08:34:26"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2ee8b8/060681f077880448a5d8e1ebcb7532d99fdb411d.html",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/acef6cb2db9b70d2960efa94ab31692f5f772d9b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -370,13 +218,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "The complete visible text content of the test target neither matches or is contained within its accessible name.",
-            "date": "2020-08-17 09:56:37"
+            "date": "2020-08-31 08:34:26"
           }
         }
       ]
@@ -414,7 +262,159 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:56:37"
+            "date": "2020-08-31 08:34:27"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/a01e2129885e0f10406e23a719301da436ba2653.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2ee8b8",
+            "@type": "TestCase",
+            "title": "Visible label is part of accessible name",
+            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:34:27"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/fb83197bc8229e4eefb54fabf6b8bdc20dbdb064.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2ee8b8",
+            "@type": "TestCase",
+            "title": "Visible label is part of accessible name",
+            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:34:28"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/9c0c4688f3ac4a4a52cd4c90879af13a4b95c8af.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2ee8b8",
+            "@type": "TestCase",
+            "title": "Visible label is part of accessible name",
+            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The complete visible text content of the test target neither matches or is contained within its accessible name.",
+            "date": "2020-08-31 08:34:28"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2ee8b8/060681f077880448a5d8e1ebcb7532d99fdb411d.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2ee8b8",
+            "@type": "TestCase",
+            "title": "Visible label is part of accessible name",
+            "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The complete visible text content of the test target neither matches or is contained within its accessible name.",
+            "date": "2020-08-31 08:34:28"
           }
         }
       ]

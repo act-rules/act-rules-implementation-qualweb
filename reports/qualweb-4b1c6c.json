@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/4ebd9d852ba994b56adf0733fc5d9e51e6709389.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/894f49715c010aeec0724752b3412219a3601f1e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -24,23 +24,23 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "",
+                  "outcome": "earl:inapplicable"
                 }
               },
               {
                 "result": {
                   "pointer": "",
-                  "outcome": "earl:"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:04"
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:31:28"
           }
         }
       ]
@@ -68,12 +68,12 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
                 }
               },
               {
@@ -83,8 +83,8 @@
                 }
               }
             ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:09"
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:30"
           }
         }
       ]
@@ -112,55 +112,11 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:14"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/18073411173ee4b1e1614bbe3bc33005a142414d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
             "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
                   "outcome": "earl:cantTell"
                 }
               },
@@ -172,447 +128,7 @@
               }
             ],
             "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:05:19"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/996d6b233d22b61339cf40b3bfe738fc4e608a26.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/c5d4378d9c7aa56a766881e51c0114fe77c67ea8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:31"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/b45cbf0c0488c5e10d6c62d9cdcf465dca96aa39.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:05:37"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/2de95e027a0ea8eabe6d6768fcf1aba23d0b2614.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:05:43"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/4aba2ac4b984819ae29adc7be3d38a04b5391a42.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > div:nth-of-type(1) > iframe:nth-of-type(1), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/a00721ec4ac80c5c932ee7ca4873f493ce943e98.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(1), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have equal content.",
-            "date": "2020-08-03 09:05:56"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/bd0ab42eb840cf581146e1c2666bcbf06c353983.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:06:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/3f7c676d1539a5222f0190b228d1d9a19f4a40aa.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:06:07"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/5ae26503ad7287336e89667cb0036ff614361cff.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(2), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:06:12"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/c326fc94a3ff1cc20192cf4499ef925989247151.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body > iframe:nth-of-type(1), html > body > iframe:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "",
-                  "outcome": "earl:"
-                }
-              }
-            ],
-            "description": "The `iframes` with the same accessible name have different content.",
-            "date": "2020-08-03 09:06:17"
+            "date": "2020-08-31 08:31:30"
           }
         }
       ]
@@ -650,14 +166,76 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:23"
+            "date": "2020-08-31 08:31:30"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/c55fb995151cd2adf8ad3f1dc526af30ff00eb8c.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c24ff2ab92e810c1339603c454603ee202f03927.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/ea7a2067edbe3bbfdad22a8bd0fe746f39492f9c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c326fc94a3ff1cc20192cf4499ef925989247151.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -694,7 +272,302 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:28"
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/4ebd9d852ba994b56adf0733fc5d9e51e6709389.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/7a9794a6dfa5f44fa2dd8f496c7f01d4397c09a4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/bd0ab42eb840cf581146e1c2666bcbf06c353983.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/996d6b233d22b61339cf40b3bfe738fc4e608a26.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/3f7c676d1539a5222f0190b228d1d9a19f4a40aa.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c5d4378d9c7aa56a766881e51c0114fe77c67ea8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:32"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/5ae26503ad7287336e89667cb0036ff614361cff.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]
@@ -738,14 +611,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:33"
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/894f49715c010aeec0724752b3412219a3601f1e.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/c55fb995151cd2adf8ad3f1dc526af30ff00eb8c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -782,7 +655,82 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:39"
+            "date": "2020-08-31 08:31:32"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/b45cbf0c0488c5e10d6c62d9cdcf465dca96aa39.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:32"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/71ddf0145b934bef76f8ab350839bd22627dc136.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]
@@ -820,14 +768,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:44"
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/ea7a2067edbe3bbfdad22a8bd0fe746f39492f9c.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/4aba2ac4b984819ae29adc7be3d38a04b5391a42.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -849,16 +797,67 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:49"
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/c24ff2ab92e810c1339603c454603ee202f03927.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/2de95e027a0ea8eabe6d6768fcf1aba23d0b2614.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4b1c6c",
+            "@type": "TestCase",
+            "title": "`iframe` elements with identical accessible names have equivalent purpose",
+            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:32"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/a00721ec4ac80c5c932ee7ca4873f493ce943e98.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -880,16 +879,29 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2020-08-03 09:06:55"
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/71ddf0145b934bef76f8ab350839bd22627dc136.html",
+      "source": "https://act-rules.github.io/testcases/4b1c6c/18073411173ee4b1e1614bbe3bc33005a142414d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -910,41 +922,23 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-03 09:07:00"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4b1c6c/7a9794a6dfa5f44fa2dd8f496c7f01d4397c09a4.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4b1c6c",
-            "@type": "TestCase",
-            "title": "`iframe` elements with identical accessible names have equivalent purpose",
-            "description": "This rule checks that iframe elements with identical accessible names embed the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-03 09:07:06"
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > iframe:nth-of-type(2), html:nth-of-type(1) > body > iframe:nth-of-type(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "",
+                  "outcome": "earl:"
+                }
+              }
+            ],
+            "description": "The `iframes` with the same accessible name have different content.",
+            "date": "2020-08-31 08:31:32"
           }
         }
       ]

@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/a376cd9a2dab75096ea41cf3178cfce91e803cea.html",
+      "source": "https://act-rules.github.io/testcases/a25f45/9950efbcae11c6a74d285355e65f3010de06b0f1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -24,17 +24,23 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > th:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > th:nth-of-type(2)",
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The headers attribute 'headerBday' refers to an element inside the same table which does not have a role of rowheader or columnheader",
-            "date": "2020-08-17 09:55:37"
+            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
+            "date": "2020-08-31 08:33:09"
           }
         }
       ]
@@ -108,14 +114,14 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:37"
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/15630361d51726629bdf84d3ec140a6cc154d06a.html",
+      "source": "https://act-rules.github.io/testcases/a25f45/a1a08dad5ad75bcd651d4a3b7b996fe72f115a1d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -136,17 +142,93 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/9cdd965f187709288c389a2f3063f64689ea25a8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/00c2be516f12a2d3f5d17fc5e00ecdd96d5dffbc.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
-                  "outcome": "earl:failed"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "The headers attribute 'headerProject' refers to an element inside the same table which does not have a role of rowheader or columnheader",
-            "date": "2020-08-17 09:55:38"
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
@@ -190,165 +272,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/00c2be516f12a2d3f5d17fc5e00ecdd96d5dffbc.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/9950efbcae11c6a74d285355e65f3010de06b0f1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > th:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > th:nth-of-type(2)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/3aba7777d893a814310a22dfc1399fd8d932e405.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/7b0aec741508524b48e73fd0ec10435409994e9c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:39"
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
@@ -386,14 +310,52 @@
               }
             ],
             "description": "The headers attribute 'headOfColumn' refers to an ID that does not exist within the same table",
-            "date": "2020-08-17 09:55:39"
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/a1a08dad5ad75bcd651d4a3b7b996fe72f115a1d.html",
+      "source": "https://act-rules.github.io/testcases/a25f45/7b0aec741508524b48e73fd0ec10435409994e9c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/b50314a077856c381dc97b7ab137c47feeec3317.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -424,14 +386,14 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:39"
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/dec322a713059aa4e1ad4f8c03bf2e3f43f9b474.html",
+      "source": "https://act-rules.github.io/testcases/a25f45/a376cd9a2dab75096ea41cf3178cfce91e803cea.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -452,17 +414,162 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:39"
+            "description": "The headers attribute 'headerBday' refers to an element inside the same table which does not have a role of rowheader or columnheader",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/a94873974601333ff15523c51145f056d8e3af87.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/15630361d51726629bdf84d3ec140a6cc154d06a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The headers attribute 'headerProject' refers to an element inside the same table which does not have a role of rowheader or columnheader",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/98f8a6a4387e780e8fbcd8201244750091df857a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:33:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/a25f45/3aba7777d893a814310a22dfc1399fd8d932e405.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/a25f45",
+            "@type": "TestCase",
+            "title": "Headers attribute specified on a cell refers to cells in the same table element",
+            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
@@ -506,45 +613,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-08-17 09:55:39"
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/98f8a6a4387e780e8fbcd8201244750091df857a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/b50314a077856c381dc97b7ab137c47feeec3317.html",
+      "source": "https://act-rules.github.io/testcases/a25f45/dec322a713059aa4e1ad4f8c03bf2e3f43f9b474.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -575,83 +651,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/a94873974601333ff15523c51145f056d8e3af87.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-17 09:55:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/a25f45/9cdd965f187709288c389a2f3063f64689ea25a8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/a25f45",
-            "@type": "TestCase",
-            "title": "Headers attribute specified on a cell refers to cells in the same table element",
-            "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table",
-            "date": "2020-08-17 09:55:39"
+            "date": "2020-08-31 08:33:10"
           }
         }
       ]
