@@ -3,159 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/97ef7e7f7816732e5f564b71d93ffa4ae27473d1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `aria-pressed` property is neither inherited nor supported by the `role` button.",
-            "date": "2020-08-31 08:29:33"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/797e195f77480efbf1817c09b9cea1dc42f79a4c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `aria-pressed` property is neither inherited nor supported by the `role` button.",
-            "date": "2020-08-31 08:29:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/8892c9716f91e889225826f36e7cf1b47788a06e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `aria-busy` property is supported or inherited by the `role` undefined.",
-            "date": "2020-08-31 08:29:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/418c85f3819d61b73d185b81f7c032d2b60a3b3c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `aria-checked` property is supported or inherited by the `role` checkbox.",
-            "date": "2020-08-31 08:29:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/9a5b54d5955477bf826a395997cb3300806ab59f.html",
+      "source": "https://act-rules.github.io/testcases/5c01ea/60980ff603a84125c82e4bb9eeabe947104ae907.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -191,122 +39,8 @@
                 }
               }
             ],
-            "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2020-08-31 08:29:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/1351feb7b90c6ac6b92150a79b203414abd540bf.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-08-31 08:29:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/9fe60b403371e0e5d057f4f6c871dfed42f7ac4c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `aria-sort` property is neither inherited nor supported by the `role` button.",
-            "date": "2020-08-31 08:29:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/cd5bc068d31630964e98a6c4092abcd95224227d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5c01ea",
-            "@type": "TestCase",
-            "title": "ARIA state or property is permitted",
-            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `aria-label` property is supported or inherited by the `role` button.",
-            "date": "2020-08-31 08:29:34"
+            "description": "The `aria-controls` property is supported or inherited by the `role` combobox.",
+            "date": "2020-09-21 10:14:22"
           }
         }
       ]
@@ -350,14 +84,52 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2020-08-31 08:29:34"
+            "date": "2020-09-21 10:14:23"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/da191373f044d7c309cafdf03485c61d2f91e1ee.html",
+      "source": "https://act-rules.github.io/testcases/5c01ea/1351feb7b90c6ac6b92150a79b203414abd540bf.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/797e195f77480efbf1817c09b9cea1dc42f79a4c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -388,14 +160,14 @@
               }
             ],
             "description": "The `aria-pressed` property is neither inherited nor supported by the `role` button.",
-            "date": "2020-08-31 08:29:34"
+            "date": "2020-09-21 10:14:23"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/c1e9b96c74eaa12977ef6b92b3813fbc1da959b8.html",
+      "source": "https://act-rules.github.io/testcases/5c01ea/8892c9716f91e889225826f36e7cf1b47788a06e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -416,17 +188,24 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-31 08:29:35"
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `aria-busy` property is supported or inherited by the `role` undefined.",
+            "date": "2020-09-21 10:14:23"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5c01ea/60980ff603a84125c82e4bb9eeabe947104ae907.html",
+      "source": "https://act-rules.github.io/testcases/5c01ea/9a5b54d5955477bf826a395997cb3300806ab59f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -462,8 +241,46 @@
                 }
               }
             ],
-            "description": "The `aria-controls` property is supported or inherited by the `role` combobox.",
-            "date": "2020-08-31 08:29:35"
+            "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/cd5bc068d31630964e98a6c4092abcd95224227d.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `aria-label` property is supported or inherited by the `role` button.",
+            "date": "2020-09-21 10:14:23"
           }
         }
       ]
@@ -501,7 +318,190 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` graphics-object.",
-            "date": "2020-08-31 08:29:35"
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/da191373f044d7c309cafdf03485c61d2f91e1ee.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `aria-pressed` property is neither inherited nor supported by the `role` button.",
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/97ef7e7f7816732e5f564b71d93ffa4ae27473d1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `aria-pressed` property is neither inherited nor supported by the `role` button.",
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/418c85f3819d61b73d185b81f7c032d2b60a3b3c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `aria-checked` property is supported or inherited by the `role` checkbox.",
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/c1e9b96c74eaa12977ef6b92b3813fbc1da959b8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-09-21 10:14:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/9fe60b403371e0e5d057f4f6c871dfed42f7ac4c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > button:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `aria-sort` property is neither inherited nor supported by the `role` button.",
+            "date": "2020-09-21 10:14:23"
           }
         }
       ]

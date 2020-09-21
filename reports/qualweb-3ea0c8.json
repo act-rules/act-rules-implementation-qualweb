@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/3ea0c8/0f5326024cf93cc21bc950e7c9c9639be89a66a7.html",
+      "source": "https://act-rules.github.io/testcases/3ea0c8/205b890bb3484334349effd8a88b1681f2b0ecdc.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -24,29 +24,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(2)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > svg:nth-of-type(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1), html:nth-of-type(1) > body > div:nth-of-type(2)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The test target has a unique `id` attribute.",
-            "date": "2020-08-31 08:31:24"
+            "description": "Several elements have the same `id` attribute (label).",
+            "date": "2020-09-21 10:16:09"
           }
         }
       ]
@@ -84,7 +72,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-08-31 08:31:24"
+            "date": "2020-09-21 10:16:10"
           }
         }
       ]
@@ -128,14 +116,14 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-08-31 08:31:24"
+            "date": "2020-09-21 10:16:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/3ea0c8/205b890bb3484334349effd8a88b1681f2b0ecdc.html",
+      "source": "https://act-rules.github.io/testcases/3ea0c8/0f5326024cf93cc21bc950e7c9c9639be89a66a7.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -156,17 +144,29 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1), html:nth-of-type(1) > body > div:nth-of-type(2)",
-                  "outcome": "earl:failed"
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(2)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > svg:nth-of-type(1)",
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Several elements have the same `id` attribute (label).",
-            "date": "2020-08-31 08:31:25"
+            "description": "The test target has a unique `id` attribute.",
+            "date": "2020-09-21 10:16:10"
           }
         }
       ]
@@ -204,7 +204,100 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2020-08-31 08:31:25"
+            "date": "2020-09-21 10:16:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3ea0c8/4184b8d1e232b1ce8c0c262dde2b4d2e9fd3d0c5.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3ea0c8",
+            "@type": "TestCase",
+            "title": "`id` attribute value is unique",
+            "description": "This rule checks that all id attribute values on a single page are unique."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-09-21 10:16:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3ea0c8/415be88a584bd2672659faf8dce7276c57584048.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3ea0c8",
+            "@type": "TestCase",
+            "title": "`id` attribute value is unique",
+            "description": "This rule checks that all id attribute values on a single page are unique."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-09-21 10:16:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3ea0c8/e276b0ca08851f6ce0ea0ab1280d9fbe26119868.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3ea0c8",
+            "@type": "TestCase",
+            "title": "`id` attribute value is unique",
+            "description": "This rule checks that all id attribute values on a single page are unique."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-09-21 10:16:10"
           }
         }
       ]
@@ -242,100 +335,7 @@
               }
             ],
             "description": "Several elements have the same `id` attribute (label).",
-            "date": "2020-08-31 08:31:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/3ea0c8/e276b0ca08851f6ce0ea0ab1280d9fbe26119868.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/3ea0c8",
-            "@type": "TestCase",
-            "title": "`id` attribute value is unique",
-            "description": "This rule checks that all id attribute values on a single page are unique."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-31 08:31:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/3ea0c8/415be88a584bd2672659faf8dce7276c57584048.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/3ea0c8",
-            "@type": "TestCase",
-            "title": "`id` attribute value is unique",
-            "description": "This rule checks that all id attribute values on a single page are unique."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-31 08:31:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/3ea0c8/4184b8d1e232b1ce8c0c262dde2b4d2e9fd3d0c5.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/3ea0c8",
-            "@type": "TestCase",
-            "title": "`id` attribute value is unique",
-            "description": "This rule checks that all id attribute values on a single page are unique."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-08-31 08:31:25"
+            "date": "2020-09-21 10:16:10"
           }
         }
       ]
@@ -373,7 +373,7 @@
               }
             ],
             "description": "Several elements have the same `id` attribute (label).",
-            "date": "2020-08-31 08:31:25"
+            "date": "2020-09-21 10:16:10"
           }
         }
       ]
