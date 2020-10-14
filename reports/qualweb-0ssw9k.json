@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/439ce3681ff8e08d304d7123293b16cb9a044fe2.html",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/9646f97144271b3e95b6648f5814085ddaa8ee08.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -27,14 +27,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-09-21 10:17:38"
+            "date": "2020-10-14 18:03:34"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/ffd30f07c111f5d42dbe3a37c9d0488d181fec85.html",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/d2b3882cadab2dbceab406958ee1e78d24757640.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -55,17 +55,72 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > section:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "",
-            "date": "2020-09-21 10:17:38"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:03:35"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/c74b4a1ff01a2937a19be98e95f14dd43814fea7.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/0ssw9k",
+            "@type": "TestCase",
+            "title": "Scrollable element is keyboard accessible",
+            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:03:35"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/f212c413aa44af24e4f91145ef693c9af8afa43e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/0ssw9k",
+            "@type": "TestCase",
+            "title": "Scrollable element is keyboard accessible",
+            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:03:35"
           }
         }
       ]
@@ -103,14 +158,14 @@
               }
             ],
             "description": "",
-            "date": "2020-09-21 10:17:38"
+            "date": "2020-10-14 18:03:35"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/c74b4a1ff01a2937a19be98e95f14dd43814fea7.html",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/adc5d08798ae9c0ca0417db3b00fa1b72439e07f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -131,103 +186,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:17:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/9646f97144271b3e95b6648f5814085ddaa8ee08.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/0ssw9k",
-            "@type": "TestCase",
-            "title": "Scrollable element is keyboard accessible",
-            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:17:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/bd253ba132dfe834a6bf7df580f9b657f40923f2.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/0ssw9k",
-            "@type": "TestCase",
-            "title": "Scrollable element is keyboard accessible",
-            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:17:38"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/83114ef31b3511e3d086f4bba95c2344c2a8225a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/0ssw9k",
-            "@type": "TestCase",
-            "title": "Scrollable element is keyboard accessible",
-            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:17:38"
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > section:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "",
+            "date": "2020-10-14 18:03:35"
           }
         }
       ]
@@ -265,14 +234,45 @@
               }
             ],
             "description": "",
-            "date": "2020-09-21 10:17:38"
+            "date": "2020-10-14 18:03:35"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/665a4c72dfcd3773039ed46b29997c32ff313a3d.html",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/83114ef31b3511e3d086f4bba95c2344c2a8225a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/0ssw9k",
+            "@type": "TestCase",
+            "title": "Scrollable element is keyboard accessible",
+            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:03:35"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/388f1c845cae7dddc06fa706d2bf850cc0f8ca77.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -303,14 +303,14 @@
               }
             ],
             "description": "",
-            "date": "2020-09-21 10:17:38"
+            "date": "2020-10-14 18:03:36"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/cca6e8a151a80015ba524d257473f369add5b11d.html",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/f8e4885e0caa16841e4bf206ccd8dd21d1454067.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -334,7 +334,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-09-21 10:17:40"
+            "date": "2020-10-14 18:03:37"
           }
         }
       ]

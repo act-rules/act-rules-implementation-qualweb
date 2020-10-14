@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/fd229811ef4e0ef35500648ebe8094d1b69e296a.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/34c82462f976ebaaa5f68fc0f3f519832614e182.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -34,14 +34,14 @@
               }
             ],
             "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:54"
+            "date": "2020-10-14 18:02:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/5116f124fc0436a5aed081a2a58362b9eb408575.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/55c9081c7a24fe6a4f2119a2478edfa367d4d50d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -65,14 +65,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-09-21 10:16:56"
+            "date": "2020-10-14 18:02:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/9f3650df1afdb402cf721dc12619ae32b4c39c33.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/2c58ea9a68f5bf34cabb07059af1a533be96c720.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -103,114 +103,7 @@
               }
             ],
             "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:56"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/113298e42bd5a240371affac3747a470c617610b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:56"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/ea39aebd180dea8f516b21f6f1978c9266f94bba.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:16:56"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/fea0a4b56d9205a5154ea246e65efa42545da31d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:56"
+            "date": "2020-10-14 18:02:40"
           }
         }
       ]
@@ -248,7 +141,397 @@
               }
             ],
             "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:56"
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/29ffa0e6146d74fec095b5217c7cd3c77fca7cd3.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/ea39aebd180dea8f516b21f6f1978c9266f94bba.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/a14f9d3d1d69e75cb990c1cb8951f2d70730e450.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a valid accessible name.",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/113298e42bd5a240371affac3747a470c617610b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/8130b961773da8671837e6a633ca879d1edd28d0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/03653844ceb8f6cd95af81672123ea98323ce5c8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a valid accessible name.",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/0d7a7862c5b414c272f1713c341d821f5249a15d.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a valid accessible name.",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/3f2f50564e6ef948e2268d37673d907fa26bbfd1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:02:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/ba1314efa0c467d0c23fa9234cbb65222121500a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/a139aa4402ef782bf321751276333b10aafd8e26.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/43516ed6280651bc0bb5c4fe83ba5312bca2b58b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
@@ -286,14 +569,90 @@
               }
             ],
             "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:56"
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/3a99d4cfbeb9fab0f625e2a4e03f0497677c8fc0.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/2917b821f0e317de992cad191ed67aeedb9f34c9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a valid accessible name.",
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/014295a8bd7213fdbd69bc1c8ee44c48268370ec.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a valid accessible name.",
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/5116f124fc0436a5aed081a2a58362b9eb408575.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -317,14 +676,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-09-21 10:16:56"
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/b12cb4d5f8a63c577fac96089483c7eb79efe378.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/2bdb0351ae2e82f05cfa15198ca0a353974f6278.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -355,266 +714,14 @@
               }
             ],
             "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:56"
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/8e34059f9ff0dfc83070f1d6deb3ed7a944d312d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:16:56"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/a12da9a1b308909db28b10a88f4fc47d76139bf8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/d8c8f2b2e50dad5a464a3cc029650facb36872f8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/7c36a41a034c15ceeb7277ffe08f562043e4ba7d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:16:57"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/7453d6a6491ddfe546eabb9f9cf1f01a96b9a805.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > map:nth-of-type(1) > area:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/9f2d49ed53e5389b7a772cd2b1f587dbf19f5c12.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/4254d7b0028c35a9b51784011794760ede0d274a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/f9597eed86766f9eb8a45e47fc90c0e85b3e8a3e.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/51db96f8a86e965c58617540df61b15b8ba2aee3.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -645,190 +752,7 @@
               }
             ],
             "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/1752fb0c94ce17c6557a7e498c6e9a87c6a943ea.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > map:nth-of-type(1) > area:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/4eb63d88ac255967c0def8a65363c2e0222e4f6a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/ab39bd10dd57974c92308627cfa3574b7b26e331.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid accessible name.",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/b91527922e9f374fc7ee87c2fda7cab489ece76f.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:58"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/12155d8acbd7bf8399f54124e16142a4e3e5878c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/c487ae",
-            "@type": "TestCase",
-            "title": "Link has accessible name",
-            "description": "This rule checks that each link has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:58"
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
@@ -866,14 +790,14 @@
               }
             ],
             "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:58"
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/c487ae/58f4527f6510d58a3cefc8978c6e61e651225cb7.html",
+      "source": "https://act-rules.github.io/testcases/c487ae/679a7f5c037a7080108928ea74e3792cc9818490.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -904,7 +828,121 @@
               }
             ],
             "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
-            "date": "2020-09-21 10:16:58"
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/7453d6a6491ddfe546eabb9f9cf1f01a96b9a805.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > map:nth-of-type(1) > area:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/e1c9b4f7702d04de31ba52d5af5c63dd6863804a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > a:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't have an accessible name, or it's empty (\"\").",
+            "date": "2020-10-14 18:02:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c487ae/1752fb0c94ce17c6557a7e498c6e9a87c6a943ea.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c487ae",
+            "@type": "TestCase",
+            "title": "Link has accessible name",
+            "description": "This rule checks that each link has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > body > map:nth-of-type(1) > area:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a valid accessible name.",
+            "date": "2020-10-14 18:02:42"
           }
         }
       ]
