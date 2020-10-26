@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/89568d0b210c9cab1cd40dd82a98df3430278424.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/7ec8d56096c205bb26f35b08f08c9b36d033e8be.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -28,13 +28,51 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
                   "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "Check if test target has a visible control mechanism.",
-            "date": "2020-10-14 17:59:48"
+            "description": "Can't collect data from the test target element.",
+            "date": "2020-10-26 09:32:52"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4c31df/54dcd31125317acfaa27785ccac67ea3b07189a7.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4c31df",
+            "@type": "TestCase",
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has a visible control mechanism.",
+            "date": "2020-10-26 09:32:53"
           }
         }
       ]
@@ -66,165 +104,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
                   "outcome": "earl:cantTell"
                 }
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/54dcd31125317acfaa27785ccac67ea3b07189a7.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4c31df",
-            "@type": "TestCase",
-            "title": "audio or video that plays automatically has a control mechanism",
-            "description": "audio or video that plays automatically must have a control mechanism."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/7ec8d56096c205bb26f35b08f08c9b36d033e8be.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4c31df",
-            "@type": "TestCase",
-            "title": "audio or video that plays automatically has a control mechanism",
-            "description": "audio or video that plays automatically must have a control mechanism."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/bd4315c24d14613e43f5a01f4ea3daea83617754.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4c31df",
-            "@type": "TestCase",
-            "title": "audio or video that plays automatically has a control mechanism",
-            "description": "audio or video that plays automatically must have a control mechanism."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > audio:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-10-14 17:59:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/b13d65523ad27d9c763caca8bcc0fcce4b5ca5fb.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4c31df",
-            "@type": "TestCase",
-            "title": "audio or video that plays automatically has a control mechanism",
-            "description": "audio or video that plays automatically must have a control mechanism."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:51"
+            "date": "2020-10-26 09:32:53"
           }
         }
       ]
@@ -256,20 +142,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > video:nth-child(1)",
                   "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:51"
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-10-26 09:32:53"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/55bb99a2a77e7c1c924e73c4cac24cd193e9a2a1.html",
+      "source": "https://act-rules.github.io/testcases/4c31df/bd4315c24d14613e43f5a01f4ea3daea83617754.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -290,55 +176,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4c31df/443451c0305efbcda7e8696d75e1f40aecb43ddf.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4c31df",
-            "@type": "TestCase",
-            "title": "audio or video that plays automatically has a control mechanism",
-            "description": "audio or video that plays automatically must have a control mechanism."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > body > div:nth-of-type(1) > video:nth-of-type(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:51"
+            "description": "No test targets found.",
+            "date": "2020-10-26 09:32:53"
           }
         }
       ]
@@ -370,13 +218,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
                   "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "Can't collect data from the test target element.",
-            "date": "2020-10-14 17:59:51"
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-10-26 09:32:53"
           }
         }
       ]
@@ -408,13 +256,165 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html:nth-of-type(1) > body > video:nth-of-type(1)",
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-10-14 17:59:51"
+            "date": "2020-10-26 09:32:53"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4c31df/89568d0b210c9cab1cd40dd82a98df3430278424.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4c31df",
+            "@type": "TestCase",
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-10-26 09:32:53"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4c31df/443451c0305efbcda7e8696d75e1f40aecb43ddf.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4c31df",
+            "@type": "TestCase",
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-10-26 09:32:53"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4c31df/55bb99a2a77e7c1c924e73c4cac24cd193e9a2a1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4c31df",
+            "@type": "TestCase",
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if test target has a visible control mechanism.",
+            "date": "2020-10-26 09:32:53"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4c31df/b13d65523ad27d9c763caca8bcc0fcce4b5ca5fb.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4c31df",
+            "@type": "TestCase",
+            "title": "audio or video that plays automatically has a control mechanism",
+            "description": "audio or video that plays automatically must have a control mechanism."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Can't collect data from the test target element.",
+            "date": "2020-10-26 09:32:54"
           }
         }
       ]
