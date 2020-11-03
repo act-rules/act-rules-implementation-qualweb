@@ -34,7 +34,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-10-26 09:36:05"
+            "date": "2020-11-03 09:10:14"
           }
         }
       ]
@@ -71,8 +71,8 @@
                 }
               }
             ],
-            "description": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative.",
-            "date": "2020-10-26 09:36:06"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-03 09:10:14"
           }
         }
       ]
@@ -109,8 +109,46 @@
                 }
               }
             ],
-            "description": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative.",
-            "date": "2020-10-26 09:36:06"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-03 09:10:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1ea59c/0b5da083763602cfe3a2bfef78bc59dbdfcc9bae.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-03 09:10:15"
           }
         }
       ]
@@ -148,83 +186,7 @@
               }
             ],
             "description": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative.",
-            "date": "2020-10-26 09:36:06"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ea59c/0b5da083763602cfe3a2bfef78bc59dbdfcc9bae.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1ea59c",
-            "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
-            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative.",
-            "date": "2020-10-26 09:36:06"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ea59c/1215f0593ff98672ea3288046b5a468d22b647aa.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1ea59c",
-            "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
-            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > figure:nth-child(1) > div:nth-child(1) > video:nth-child(4)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-10-26 09:36:08"
+            "date": "2020-11-03 09:10:15"
           }
         }
       ]
@@ -262,7 +224,45 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-10-26 09:36:08"
+            "date": "2020-11-03 09:10:16"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1ea59c/1215f0593ff98672ea3288046b5a468d22b647aa.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > figure:nth-child(1) > div:nth-child(1) > video:nth-child(4)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-03 09:10:16"
           }
         }
       ]
