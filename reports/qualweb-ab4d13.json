@@ -3,45 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ab4d13/3ecd15df4e7910adc453b3874dc9f3047b549939.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ab4d13",
-            "@type": "TestCase",
-            "title": "video element content is media alternative for text",
-            "description": "This rule checks non-streaming video is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-11-03 09:10:11"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ab4d13/95e37ca9d46a38e488a5b47554b2115db09e8e34.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/4cca47adf2b5d5f85637e0406a3497afbe5ff072.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -72,83 +34,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-11-03 09:10:12"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ab4d13/a74f5d1485dc93a903f71bd7fed2b76e8ca92ff8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ab4d13",
-            "@type": "TestCase",
-            "title": "video element content is media alternative for text",
-            "description": "This rule checks non-streaming video is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-11-03 09:10:12"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ab4d13/4fa755c5cb4e7f0f8269971424d59dd03fb4ec93.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ab4d13",
-            "@type": "TestCase",
-            "title": "video element content is media alternative for text",
-            "description": "This rule checks non-streaming video is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-11-03 09:10:12"
+            "date": "2020-11-09 11:18:23"
           }
         }
       ]
@@ -186,7 +72,121 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-11-03 09:10:13"
+            "date": "2020-11-09 11:18:24"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ab4d13/95e37ca9d46a38e488a5b47554b2115db09e8e34.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-09 11:18:24"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ab4d13/a74f5d1485dc93a903f71bd7fed2b76e8ca92ff8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-09 11:18:25"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ab4d13/4fa755c5cb4e7f0f8269971424d59dd03fb4ec93.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-11-09 11:18:25"
           }
         }
       ]
@@ -224,14 +224,14 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-11-03 09:10:13"
+            "date": "2020-11-09 11:18:26"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ab4d13/4cca47adf2b5d5f85637e0406a3497afbe5ff072.html",
+      "source": "https://act-rules.github.io/testcases/ab4d13/3ecd15df4e7910adc453b3874dc9f3047b549939.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -256,13 +256,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "pointer": "html > body:nth-child(2) > video:nth-child(3)",
                   "outcome": "earl:cantTell"
                 }
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-11-03 09:10:13"
+            "date": "2020-11-09 11:18:26"
           }
         }
       ]
