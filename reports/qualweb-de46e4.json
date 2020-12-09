@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/07b24ea5197c5ac348381651c9b71b43c5752b5b.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/52b44481e1067806d435c1020422dc401c9a23b4.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -28,20 +28,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > article:nth-child(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2020-11-16 15:29:54"
+            "date": "2020-12-09 20:47:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/cd3a730e7cee34f8be352285d57c9f0a588c2b8d.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/ac287c65840c420b22eb9775f6b2db4f035ddc35.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -72,52 +72,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-11-16 15:29:54"
+            "date": "2020-12-09 20:47:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/829f78eec122ba83ecefd1426be1af5ae7b33e15.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/de46e4",
-            "@type": "TestCase",
-            "title": "Element within body has valid lang attribute",
-            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > article:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target has an invalid `lang` attribute.",
-            "date": "2020-11-16 15:29:54"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/cf9de7d82f732973e3fddb430d85fa8789c48131.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/2c6ce29c2934936b9dd032e87695bffae9bc514e.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -142,20 +104,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > article:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2020-11-16 15:29:54"
+            "date": "2020-12-09 20:47:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/69ae4863a438c961dc871a3b8e2e90fef9548aa1.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/fd281d0b30ffe5442e38b6a109ab75c2a88ad21f.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -186,14 +148,14 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2020-11-16 15:29:55"
+            "date": "2020-12-09 20:47:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/e0a8e368d7aba4e94771903d5e994766f6548348.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/e47a3d36d4f2a25286c2d0641968aa26f83dfbac.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -224,14 +186,14 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2020-11-16 15:29:55"
+            "date": "2020-12-09 20:47:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/432c0b405c115c1bbf8819a8a9a7b58eeb62a289.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/ca2f0f03e0dddd80cef6554814b919fac1666c02.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -252,17 +214,24 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-11-16 15:29:55"
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > article:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `lang` attribute.",
+            "date": "2020-12-09 20:47:40"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/de46e4/b92841001ea5d712b9b62589e4e48dff7e393f51.html",
+      "source": "https://act-rules.github.io/testcases/de46e4/883ce158e792551e72924b127e7e1673949ff4ef.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -293,7 +262,152 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2020-11-16 15:29:55"
+            "date": "2020-12-09 20:47:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/dbbbdb101cce4c8be156e489fe06648827fe02d3.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-12-09 20:47:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/6eeab3c1580d2ee40e3adb6912c1ec159d6fbb26.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > article:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `lang` attribute.",
+            "date": "2020-12-09 20:47:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/4c655a5da71710e6ca6245186af7f5963e89b332.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > article:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `lang` attribute.",
+            "date": "2020-12-09 20:47:40"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/d5fb36fa7363214287d80d93418c909746c92da4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `lang` attribute.",
+            "date": "2020-12-09 20:47:40"
           }
         }
       ]

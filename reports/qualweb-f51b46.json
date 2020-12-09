@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/37070c2165bf6380c3f79aea7865a8589ab24de6.html",
+      "source": "https://act-rules.github.io/testcases/f51b46/5422b7f5851c2cf212e71560bfaf9aa06ec5f8b5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,32 +16,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
+            "@id": "https://act-rules.github.io/rules/f51b46",
             "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:46:58"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/baf99ce14eac43fcd9240adea389200100287691.html",
+      "source": "https://act-rules.github.io/testcases/f51b46/b73b0ee52cb9c7e813f887f0cec6f7fd18c964b5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -54,32 +54,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
+            "@id": "https://act-rules.github.io/rules/f51b46",
             "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:46:59"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:41"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/63df2c2d14957cfa0957844313864dd15273c8a3.html",
+      "source": "https://act-rules.github.io/testcases/f51b46/52fbebdeb649fe794b9428d880a5381c228e9399.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -92,10 +92,162 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
+            "@id": "https://act-rules.github.io/rules/f51b46",
             "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:41"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/601393ff91b5c96d76a83e6897191eec8060ab2e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:42"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/e607aaf5db10510f0b6df07f6ebb28e12aa79ffd.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:43"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/3ea30bc4725e2c4d43ce716d2815e5427e3bbb45.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:43"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/cac684e87985463e1134df2e8ad94ba7f01377e3.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
           },
           "mode": "earl:automatic",
           "result": {
@@ -110,14 +262,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-12-09 20:46:59"
+            "date": "2020-12-09 20:50:43"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/85c01775d802057e6f43c2248b8a5eb916c50c74.html",
+      "source": "https://act-rules.github.io/testcases/f51b46/df819bb0502a77e3235a6f8e25133aea869cb2b9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -130,177 +282,25 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
+            "@id": "https://act-rules.github.io/rules/f51b46",
             "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:46:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/a8c2fcf03cc5d141a531aac6e4d4662d624df475.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
-            "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:46:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/766a470116dc76c4f56cb2fcf26ba75e9f0a4505.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
-            "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:47:00"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/6a0fc31d6bea6ceced58d1ef97713935e4fd2717.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
-            "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:47:00"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/80f0bf/cc5c2900c8d128d3ca25d8443f1f3e0a0e5f58e6.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/80f0bf",
-            "@type": "TestCase",
-            "title": "audio or video has no audio that plays automatically",
-            "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:47:00"
+            "description": "Cant colect data from the test target.",
+            "date": "2020-12-09 20:50:43"
           }
         }
       ]
