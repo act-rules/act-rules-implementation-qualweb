@@ -34,7 +34,38 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2020-12-09 20:46:28"
+            "date": "2020-12-14 15:49:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5f99a7/deab475b4823df6c12ff62ea36fc1f64ecf79b3f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5f99a7",
+            "@type": "TestCase",
+            "title": "aria-* attribute is defined in WAI-ARIA",
+            "description": "This rule checks that each aria- attribute specified is defined in ARIA 1.1."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2020-12-14 15:49:14"
           }
         }
       ]
@@ -72,121 +103,7 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2020-12-09 20:46:28"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5f99a7/4084cf8b4837f69d8ffca44fc13f6a4e3f51fc84.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5f99a7",
-            "@type": "TestCase",
-            "title": "aria-* attribute is defined in WAI-ARIA",
-            "description": "This rule checks that each aria- attribute specified is defined in ARIA 1.1."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2020-12-09 20:46:28"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5f99a7/8a920a0a51a6eecba025b59d037e46f6a1d775ea.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5f99a7",
-            "@type": "TestCase",
-            "title": "aria-* attribute is defined in WAI-ARIA",
-            "description": "This rule checks that each aria- attribute specified is defined in ARIA 1.1."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The following aria-* attributes are not defined in ARIA 1.1: , aria-labelled",
-            "date": "2020-12-09 20:46:28"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5f99a7/5552a82ba7fd830b212b4e858205521f1b52d5ee.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/5f99a7",
-            "@type": "TestCase",
-            "title": "aria-* attribute is defined in WAI-ARIA",
-            "description": "This rule checks that each aria- attribute specified is defined in ARIA 1.1."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > li:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The following aria-* attributes are not defined in ARIA 1.1: , aria-not-checked",
-            "date": "2020-12-09 20:46:28"
+            "date": "2020-12-14 15:49:14"
           }
         }
       ]
@@ -224,14 +141,14 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2020-12-09 20:46:28"
+            "date": "2020-12-14 15:49:14"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/5f99a7/deab475b4823df6c12ff62ea36fc1f64ecf79b3f.html",
+      "source": "https://act-rules.github.io/testcases/5f99a7/4084cf8b4837f69d8ffca44fc13f6a4e3f51fc84.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -252,10 +169,93 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-12-09 20:46:28"
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "All aria-* attributes in this element are defined in ARIA 1.1",
+            "date": "2020-12-14 15:49:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5f99a7/5552a82ba7fd830b212b4e858205521f1b52d5ee.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5f99a7",
+            "@type": "TestCase",
+            "title": "aria-* attribute is defined in WAI-ARIA",
+            "description": "This rule checks that each aria- attribute specified is defined in ARIA 1.1."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > li:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The following aria-* attributes are not defined in ARIA 1.1: , aria-not-checked",
+            "date": "2020-12-14 15:49:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5f99a7/8a920a0a51a6eecba025b59d037e46f6a1d775ea.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5f99a7",
+            "@type": "TestCase",
+            "title": "aria-* attribute is defined in WAI-ARIA",
+            "description": "This rule checks that each aria- attribute specified is defined in ARIA 1.1."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The following aria-* attributes are not defined in ARIA 1.1: , aria-labelled",
+            "date": "2020-12-14 15:49:14"
           }
         }
       ]
