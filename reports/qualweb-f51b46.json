@@ -3,158 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f51b46/df819bb0502a77e3235a6f8e25133aea869cb2b9.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/f51b46",
-            "@type": "TestCase",
-            "title": "video element auditory content has captions",
-            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:47"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f51b46/b73b0ee52cb9c7e813f887f0cec6f7fd18c964b5.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/f51b46",
-            "@type": "TestCase",
-            "title": "video element auditory content has captions",
-            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:47"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f51b46/601393ff91b5c96d76a83e6897191eec8060ab2e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/f51b46",
-            "@type": "TestCase",
-            "title": "video element auditory content has captions",
-            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:48"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f51b46/e607aaf5db10510f0b6df07f6ebb28e12aa79ffd.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/f51b46",
-            "@type": "TestCase",
-            "title": "video element auditory content has captions",
-            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/f51b46/5422b7f5851c2cf212e71560bfaf9aa06ec5f8b5.html",
       "assertor": {
         "@id": "QualWeb",
@@ -186,7 +34,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:50"
+            "date": "2021-01-06 22:39:36"
           }
         }
       ]
@@ -224,7 +72,121 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:50"
+            "date": "2021-01-06 22:39:36"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/df819bb0502a77e3235a6f8e25133aea869cb2b9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-01-06 22:39:37"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/601393ff91b5c96d76a83e6897191eec8060ab2e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-01-06 22:39:37"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/b73b0ee52cb9c7e813f887f0cec6f7fd18c964b5.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-01-06 22:39:37"
           }
         }
       ]
@@ -262,7 +224,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:17:50"
+            "date": "2021-01-06 22:39:37"
           }
         }
       ]
@@ -300,7 +262,45 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:17:50"
+            "date": "2021-01-06 22:39:37"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f51b46/e607aaf5db10510f0b6df07f6ebb28e12aa79ffd.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f51b46",
+            "@type": "TestCase",
+            "title": "video element auditory content has captions",
+            "description": "This rule checks that captions are available for audio information in non-streaming video elements."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-01-06 22:39:37"
           }
         }
       ]

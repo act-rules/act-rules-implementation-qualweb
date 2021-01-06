@@ -3,6 +3,82 @@
   "@graph": [
     {
       "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2779a5/2d775d11ea501f97cf182fa8091373ebaddc7b9a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
+            "title": "HTML Page has a title",
+            "description": "This rule checks that the HTML page has a title."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > title:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `title` element exists and it's not empty (\"\").",
+            "date": "2021-01-06 22:37:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2779a5/1533146d80e1436c93eb9aae92e509027b329113.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
+            "title": "HTML Page has a title",
+            "description": "This rule checks that the HTML page has a title."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > head:nth-child(1) > title:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `title` element exists and it's not empty (\"\").",
+            "date": "2021-01-06 22:37:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/2779a5/6fdbb34a1afc74db4c8f9423e3b04361de5c2eb1.html",
       "assertor": {
         "@id": "QualWeb",
@@ -34,7 +110,45 @@
               }
             ],
             "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2020-12-21 10:15:29"
+            "date": "2021-01-06 22:37:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/2779a5/c57827350f8a82aa11cebdce3ac5e7f8a536bc0f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2779a5",
+            "@type": "TestCase",
+            "title": "HTML Page has a title",
+            "description": "This rule checks that the HTML page has a title."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > head:nth-child(1) > title:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `title` element is not in the same context.",
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
@@ -78,7 +192,7 @@
               }
             ],
             "description": "The `title` element is empty (\"\").",
-            "date": "2020-12-21 10:15:30"
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
@@ -122,45 +236,7 @@
               }
             ],
             "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2020-12-21 10:15:30"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/2d775d11ea501f97cf182fa8091373ebaddc7b9a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
-            "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > title:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2020-12-21 10:15:30"
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
@@ -204,7 +280,7 @@
               }
             ],
             "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2020-12-21 10:15:30"
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
@@ -242,14 +318,14 @@
               }
             ],
             "description": "The `title` element is empty (\"\").",
-            "date": "2020-12-21 10:15:30"
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/c57827350f8a82aa11cebdce3ac5e7f8a536bc0f.html",
+      "source": "https://act-rules.github.io/testcases/2779a5/608ba7121512d21500aac49678407bb9f2f42c05.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -274,51 +350,12 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > head:nth-child(1) > title:nth-child(1)",
                   "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The `title` element is not in the same context.",
-            "date": "2020-12-21 10:15:30"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/1533146d80e1436c93eb9aae92e509027b329113.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
-            "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > head:nth-child(1) > title:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2020-12-21 10:15:30"
+            "description": "The `title` element doesn't exist.",
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
@@ -356,44 +393,7 @@
               }
             ],
             "description": "The `title` element is empty (\"\").",
-            "date": "2020-12-21 10:15:30"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/2779a5/608ba7121512d21500aac49678407bb9f2f42c05.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2779a5",
-            "@type": "TestCase",
-            "title": "HTML Page has a title",
-            "description": "This rule checks that the HTML page has a title."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `title` element doesn't exist.",
-            "date": "2020-12-21 10:15:30"
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]
@@ -424,7 +424,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:15:31"
+            "date": "2021-01-06 22:37:11"
           }
         }
       ]

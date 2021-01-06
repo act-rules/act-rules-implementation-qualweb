@@ -3,44 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1a02b0/3e9fe258c8c806974fdc4d1bd9b4d9ce378fd3db.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1a02b0",
-            "@type": "TestCase",
-            "title": "video element visual content has transcript",
-            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:18:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/1a02b0/0f9f312a987e748463ae1b420d3cfc6cec5c1a25.html",
       "assertor": {
         "@id": "QualWeb",
@@ -72,7 +34,45 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:18:26"
+            "date": "2021-01-06 22:40:06"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1a02b0/3e9fe258c8c806974fdc4d1bd9b4d9ce378fd3db.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-01-06 22:40:06"
           }
         }
       ]
@@ -110,45 +110,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:18:26"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1a02b0/b0d21acae591149b3eb2ddcc3fa2453fa6aa8c99.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1a02b0",
-            "@type": "TestCase",
-            "title": "video element visual content has transcript",
-            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:18:27"
+            "date": "2021-01-06 22:40:06"
           }
         }
       ]
@@ -186,7 +148,45 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:18:27"
+            "date": "2021-01-06 22:40:06"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1a02b0/b0d21acae591149b3eb2ddcc3fa2453fa6aa8c99.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-01-06 22:40:06"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2020-12-21 10:18:27"
+            "date": "2021-01-06 22:40:06"
           }
         }
       ]

@@ -3,151 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/e5ca3711c3a3ce76e765dbc52b2d0ce370df2042.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `image button` doesn't have an accessible name.",
-            "date": "2020-12-21 10:15:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/0c1bc54a75b855978ab9dc36995aa7b4aa989093.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `image button` doesn't have an accessible name.",
-            "date": "2020-12-21 10:15:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/e270162cd127ee4276c4b66f272879aab3d9573c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2020-12-21 10:15:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/4a28f28d32d2a13a41b1d23eea24ee406f3952d8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `image button` has an accessible name.",
-            "date": "2020-12-21 10:15:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/59796f/bd1c895bd29e87165b7e3bb21d7a3412975893c3.html",
       "assertor": {
         "@id": "QualWeb",
@@ -179,7 +34,7 @@
               }
             ],
             "description": "The `image button` has an accessible name.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:32"
           }
         }
       ]
@@ -217,52 +72,14 @@
               }
             ],
             "description": "The `image button` has an accessible name.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:33"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/f77e42583860e422fd19a03fc3a3d49749c11074.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59796f",
-            "@type": "TestCase",
-            "title": "Image button has accessible name",
-            "description": "This rule checks that each image button element has an accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `image button` doesn't have an accessible name.",
-            "date": "2020-12-21 10:15:51"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/8c8112b6818dea48235bc4ef7b23b47f58a77be1.html",
+      "source": "https://act-rules.github.io/testcases/59796f/f11d77fb406c27bc8889222f421cdd5e190de735.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -286,7 +103,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:33"
           }
         }
       ]
@@ -324,14 +141,14 @@
               }
             ],
             "description": "The `image button` has an accessible name.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:33"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/70340723cc57ffa99ada29332025eecac5f56848.html",
+      "source": "https://act-rules.github.io/testcases/59796f/e270162cd127ee4276c4b66f272879aab3d9573c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -355,14 +172,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:33"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59796f/f11d77fb406c27bc8889222f421cdd5e190de735.html",
+      "source": "https://act-rules.github.io/testcases/59796f/8c8112b6818dea48235bc4ef7b23b47f58a77be1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -386,7 +203,159 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/f77e42583860e422fd19a03fc3a3d49749c11074.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `image button` doesn't have an accessible name.",
+            "date": "2021-01-06 22:37:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/0c1bc54a75b855978ab9dc36995aa7b4aa989093.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `image button` doesn't have an accessible name.",
+            "date": "2021-01-06 22:37:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/e5ca3711c3a3ce76e765dbc52b2d0ce370df2042.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `image button` doesn't have an accessible name.",
+            "date": "2021-01-06 22:37:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/4a28f28d32d2a13a41b1d23eea24ee406f3952d8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `image button` has an accessible name.",
+            "date": "2021-01-06 22:37:33"
           }
         }
       ]
@@ -417,7 +386,38 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2020-12-21 10:15:51"
+            "date": "2021-01-06 22:37:34"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/59796f/70340723cc57ffa99ada29332025eecac5f56848.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/59796f",
+            "@type": "TestCase",
+            "title": "Image button has accessible name",
+            "description": "This rule checks that each image button element has an accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-06 22:37:34"
           }
         }
       ]
