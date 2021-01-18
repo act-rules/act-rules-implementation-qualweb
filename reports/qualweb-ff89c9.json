@@ -3,7 +3,51 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/f8285d3b759c9dd04f2615b01cf0139fd6cd2f28.html",
+      "source": "https://act-rules.github.io/testcases/ff89c9/736423f6e0784237d9b94101d63d860c5d5a707e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@type": "TestCase",
+            "title": "ARIA required context role",
+            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > div:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > div:nth-child(2)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target parent has the required context `role`.",
+            "date": "2021-01-18 11:55:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ff89c9/02a985578845e27c987f8d5663e93cd438230b82.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -25,9 +69,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:35:17"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
@@ -65,14 +116,64 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:35:17"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/7ec9a70548f600f1f74b0fc3a6bbf89d3ab2f4f5.html",
+      "source": "https://act-rules.github.io/testcases/ff89c9/dbdabc97037d644bbf483da28e874c47bc696196.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@type": "TestCase",
+            "title": "ARIA required context role",
+            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target parent doesn't have the required context `role`",
+            "date": "2021-01-18 11:55:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ff89c9/39c0a2b75b4795e2e3ebb46520c926c6e01c90bd.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -104,62 +205,18 @@
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
                   "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The test target parent has the required context `role`.",
-            "date": "2021-01-06 22:35:17"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/e779938b19b12e48036a180ebe60e392867d13ea.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target parent doesn't have the required context `role`",
-            "date": "2021-01-06 22:35:17"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
@@ -215,14 +272,14 @@
               }
             ],
             "description": "The test target parent has the required context `role`.",
-            "date": "2021-01-06 22:35:17"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/736423f6e0784237d9b94101d63d860c5d5a707e.html",
+      "source": "https://act-rules.github.io/testcases/ff89c9/7ec9a70548f600f1f74b0fc3a6bbf89d3ab2f4f5.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -247,26 +304,219 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > div:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
                   "outcome": "earl:passed"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > div:nth-child(2)",
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The test target parent has the required context `role`.",
-            "date": "2021-01-06 22:35:17"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/f500e970e8432c0ac28fa7c4480b43a5b87eac67.html",
+      "source": "https://act-rules.github.io/testcases/ff89c9/289c7bc0b1fb7ac0bfe22337f428db57d50bc599.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@type": "TestCase",
+            "title": "ARIA required context role",
+            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(2)div:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(2)div:nth-of-type(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target parent doesn't have the required context `role`",
+            "date": "2021-01-18 11:55:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ff89c9/5fd647e66f943908ce64333b49ba9309d44ec3d5.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@type": "TestCase",
+            "title": "ARIA required context role",
+            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(3)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target parent has the required context `role`.",
+            "date": "2021-01-18 11:55:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ff89c9/f8285d3b759c9dd04f2615b01cf0139fd6cd2f28.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@type": "TestCase",
+            "title": "ARIA required context role",
+            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:55:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ff89c9/b86943f7a563dbd10ea493ce437ae7ea9a572119.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ff89c9",
+            "@type": "TestCase",
+            "title": "ARIA required context role",
+            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)div:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)div:nth-of-type(2)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target parent has the required context `role`.",
+            "date": "2021-01-18 11:55:50"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/ff89c9/d54d8fbd9acc6ce0c4fb9ef5fa48c5acbda9827c.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -291,13 +541,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > li:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > section:nth-child(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:35:18"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
@@ -353,14 +603,14 @@
               }
             ],
             "description": "The test target parent doesn't have the required context `role`",
-            "date": "2021-01-06 22:35:18"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/d54d8fbd9acc6ce0c4fb9ef5fa48c5acbda9827c.html",
+      "source": "https://act-rules.github.io/testcases/ff89c9/f500e970e8432c0ac28fa7c4480b43a5b87eac67.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -385,70 +635,20 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > section:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > ul:nth-child(1) > li:nth-child(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:35:18"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/39c0a2b75b4795e2e3ebb46520c926c6e01c90bd.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(2)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2021-01-06 22:35:18"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/dbdabc97037d644bbf483da28e874c47bc696196.html",
+      "source": "https://act-rules.github.io/testcases/ff89c9/e779938b19b12e48036a180ebe60e392867d13ea.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -474,212 +674,12 @@
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
                   "outcome": "earl:failed"
                 }
               }
             ],
             "description": "The test target parent doesn't have the required context `role`",
-            "date": "2021-01-06 22:35:18"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/b86943f7a563dbd10ea493ce437ae7ea9a572119.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)div:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)div:nth-of-type(2)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2021-01-06 22:35:18"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/289c7bc0b1fb7ac0bfe22337f428db57d50bc599.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(2)div:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(2)div:nth-of-type(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target parent doesn't have the required context `role`",
-            "date": "2021-01-06 22:35:18"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/02a985578845e27c987f8d5663e93cd438230b82.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:35:18"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/ff89c9/5fd647e66f943908ce64333b49ba9309d44ec3d5.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/ff89c9",
-            "@type": "TestCase",
-            "title": "ARIA required context role",
-            "description": "This rule checks that an element with an explicit semantic role exists inside its required context."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(3)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target parent has the required context `role`.",
-            "date": "2021-01-06 22:35:18"
+            "date": "2021-01-18 11:55:50"
           }
         }
       ]

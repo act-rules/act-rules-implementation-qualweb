@@ -3,82 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/41595c4b33d1b0f57d8acddf80fcdb3f45e50259.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-01-06 22:36:48"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/349a744f30b0601acbf12f43a7b8443c0018d903.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has an accessible name.",
-            "date": "2021-01-06 22:36:48"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/e086e5/84e492b81cec73eb4b9996290cc34fb01a911d0c.html",
       "assertor": {
         "@id": "QualWeb",
@@ -110,14 +34,14 @@
               }
             ],
             "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-01-06 22:36:48"
+            "date": "2021-01-18 11:57:10"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/3b4e297ca20e30ab0d1bbf68edd6218a3263ca5d.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/41595c4b33d1b0f57d8acddf80fcdb3f45e50259.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -138,17 +62,48 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > label:nth-child(1) > input:nth-child(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "The test target has an accessible name.",
-            "date": "2021-01-06 22:36:48"
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2021-01-18 11:57:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/09b08d811784ac228154dd08863441b11222a597.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:57:11"
           }
         }
       ]
@@ -186,7 +141,7 @@
               }
             ],
             "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-01-06 22:36:48"
+            "date": "2021-01-18 11:57:11"
           }
         }
       ]
@@ -224,7 +179,7 @@
               }
             ],
             "description": "The test target has an accessible name.",
-            "date": "2021-01-06 22:36:48"
+            "date": "2021-01-18 11:57:11"
           }
         }
       ]
@@ -255,83 +210,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:36:49"
+            "date": "2021-01-18 11:57:11"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/5be867508d4da11703175f32d6f3541b42538256.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-01-06 22:36:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/09b08d811784ac228154dd08863441b11222a597.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:36:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/2c3a5a5c4e47396e58151dc6fe2f9f44f33d03a6.html",
+      "source": "https://act-rules.github.io/testcases/e086e5/3b4e297ca20e30ab0d1bbf68edd6218a3263ca5d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -356,158 +242,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > textarea:nth-child(2)",
+                  "pointer": "html > body:nth-child(2) > label:nth-child(1) > input:nth-child(1)",
                   "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The test target has an accessible name.",
-            "date": "2021-01-06 22:36:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/8380e12e7ec9301447fc5ff381c069e7affc6c1d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:36:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/026ffbf28c6b07d062f6e2b1839199c84f633575.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has an accessible name.",
-            "date": "2021-01-06 22:36:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/2531f5fa4a4c2f8f357de91cc8a54e244fd1e3d1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-01-06 22:36:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e086e5/ac208d5116efc2a0fb06d2a414cd8a600a5b3723.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e086e5",
-            "@type": "TestCase",
-            "title": "Form control has accessible name",
-            "description": "Form control has accessible name"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > select:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-01-06 22:36:49"
+            "date": "2021-01-18 11:57:11"
           }
         }
       ]
@@ -545,7 +286,266 @@
               }
             ],
             "description": "The test target has an accessible name.",
-            "date": "2021-01-06 22:36:49"
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/ac208d5116efc2a0fb06d2a414cd8a600a5b3723.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > select:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/5be867508d4da11703175f32d6f3541b42538256.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/2c3a5a5c4e47396e58151dc6fe2f9f44f33d03a6.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > textarea:nth-child(2)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has an accessible name.",
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/8380e12e7ec9301447fc5ff381c069e7affc6c1d.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/2531f5fa4a4c2f8f357de91cc8a54e244fd1e3d1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/349a744f30b0601acbf12f43a7b8443c0018d903.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(2)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has an accessible name.",
+            "date": "2021-01-18 11:57:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e086e5/026ffbf28c6b07d062f6e2b1839199c84f633575.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e086e5",
+            "@type": "TestCase",
+            "title": "Form control has accessible name",
+            "description": "Form control has accessible name"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target has an accessible name.",
+            "date": "2021-01-18 11:57:11"
           }
         }
       ]

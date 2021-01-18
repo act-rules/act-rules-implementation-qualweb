@@ -3,82 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4e8ab6/2549eb63af24ea8b5d659afd53374c96bc344278.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4e8ab6",
-            "@type": "TestCase",
-            "title": "Element with role attribute has required states and properties",
-            "description": "This rule checks that elements that have an explicit role also specify all required states and properties."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target required attributes are listed.",
-            "date": "2021-01-06 22:38:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4e8ab6/9131439ea2fa6ebb37e3c8ccadffabef4762eefe.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4e8ab6",
-            "@type": "TestCase",
-            "title": "Element with role attribute has required states and properties",
-            "description": "This rule checks that elements that have an explicit role also specify all required states and properties."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target required attributes are listed.",
-            "date": "2021-01-06 22:38:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/4e8ab6/2d7dadf8c1245fb59907fb770e7a2ac55c6de6d3.html",
       "assertor": {
         "@id": "QualWeb",
@@ -110,7 +34,7 @@
               }
             ],
             "description": "The test target doesn't list required aria-controls.",
-            "date": "2021-01-06 22:38:49"
+            "date": "2021-01-18 11:58:55"
           }
         }
       ]
@@ -148,14 +72,14 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-01-06 22:38:49"
+            "date": "2021-01-18 11:58:55"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4e8ab6/da13a6ea7c396248be37fd2c1b724bef551b5e02.html",
+      "source": "https://act-rules.github.io/testcases/4e8ab6/9131439ea2fa6ebb37e3c8ccadffabef4762eefe.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -176,55 +100,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:failed"
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "The test target doesn't list required aria-controls.",
-            "date": "2021-01-06 22:38:49"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/4e8ab6/398f52dc30a9d2ed3a0cf7169e0ff53013d3c0fd.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/4e8ab6",
-            "@type": "TestCase",
-            "title": "Element with role attribute has required states and properties",
-            "description": "This rule checks that elements that have an explicit role also specify all required states and properties."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:38:49"
+            "description": "The test target required attributes are listed.",
+            "date": "2021-01-18 11:58:55"
           }
         }
       ]
@@ -262,7 +148,83 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:38:49"
+            "date": "2021-01-18 11:58:55"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4e8ab6/da13a6ea7c396248be37fd2c1b724bef551b5e02.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4e8ab6",
+            "@type": "TestCase",
+            "title": "Element with role attribute has required states and properties",
+            "description": "This rule checks that elements that have an explicit role also specify all required states and properties."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target doesn't list required aria-controls.",
+            "date": "2021-01-18 11:58:55"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4e8ab6/398f52dc30a9d2ed3a0cf7169e0ff53013d3c0fd.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4e8ab6",
+            "@type": "TestCase",
+            "title": "Element with role attribute has required states and properties",
+            "description": "This rule checks that elements that have an explicit role also specify all required states and properties."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:58:55"
           }
         }
       ]
@@ -293,7 +255,45 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:38:49"
+            "date": "2021-01-18 11:58:55"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/4e8ab6/2549eb63af24ea8b5d659afd53374c96bc344278.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/4e8ab6",
+            "@type": "TestCase",
+            "title": "Element with role attribute has required states and properties",
+            "description": "This rule checks that elements that have an explicit role also specify all required states and properties."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The test target required attributes are listed.",
+            "date": "2021-01-18 11:58:56"
           }
         }
       ]

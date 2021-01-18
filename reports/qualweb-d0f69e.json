@@ -3,6 +3,50 @@
   "@graph": [
     {
       "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/64103f4efc2232fb5fe883978a9d482d58fe8ad1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The column header element has at least one assigned cell",
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/d0f69e/d0c1c70e84250de4d9e1e0099ab2ba33a48fa279.html",
       "assertor": {
         "@id": "QualWeb",
@@ -34,7 +78,220 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:38:59"
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/ff32ca86520d84cabb4b7f2419b9ae0d77f8650a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/935750fd6d058a02a13b7972f659c438b665479e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The column header element has at least one assigned cell",
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/db675b58cc2eb76b9aa743cc1778ba6ae92abd93.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The column header element does not have at least one assigned cell",
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/0ef275b3a74497b34d5e91eb48e26d21640292a5.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/1e0fcf407ab4901283acc841eb2da6ab8b3b0630.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > th:nth-child(2)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > th:nth-child(3)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(2) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(3) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The column header element has at least one assigned cell",
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
@@ -78,45 +335,14 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/0ef275b3a74497b34d5e91eb48e26d21640292a5.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/1e0fcf407ab4901283acc841eb2da6ab8b3b0630.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/c9c8800cc765aaaabeb43cf35a7554bc9be804f1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -141,44 +367,26 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > th:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(2)",
                   "outcome": "earl:failed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > th:nth-child(2)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > th:nth-child(3)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(2) > th:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(3) > th:nth-child(1)",
-                  "outcome": "earl:passed"
                 }
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/935750fd6d058a02a13b7972f659c438b665479e.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/336923a1e43907057e7770ff1403d384497f5584.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -199,17 +407,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The column header element has at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
@@ -253,89 +454,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/46645a39378f2367d97c5695325e0a9119767910.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/5de0ea0573fb8ac046d99eecf3a76cf87d7306b4.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:38:59"
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
@@ -391,82 +510,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/db675b58cc2eb76b9aa743cc1778ba6ae92abd93.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/7d7180595fa9587977e1d566cbb245ec9bbeaedb.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:38:59"
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
@@ -497,133 +541,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:38:59"
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/64103f4efc2232fb5fe883978a9d482d58fe8ad1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The column header element has at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/336923a1e43907057e7770ff1403d384497f5584.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/c9c8800cc765aaaabeb43cf35a7554bc9be804f1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/d0f69e",
-            "@type": "TestCase",
-            "title": "All table header cells have assigned data cells",
-            "description": "This rule checks that each table header has assigned data cells in a table element."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > table:nth-child(1) > thead:nth-child(1) > tr:nth-child(1) > th:nth-child(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-01-06 22:38:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/d0f69e/ff32ca86520d84cabb4b7f2419b9ae0d77f8650a.html",
+      "source": "https://act-rules.github.io/testcases/d0f69e/5de0ea0573fb8ac046d99eecf3a76cf87d7306b4.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -654,7 +579,82 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-06 22:39:00"
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/46645a39378f2367d97c5695325e0a9119767910.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The column header element does not have at least one assigned cell",
+            "date": "2021-01-18 11:59:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/d0f69e/7d7180595fa9587977e1d566cbb245ec9bbeaedb.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/d0f69e",
+            "@type": "TestCase",
+            "title": "All table header cells have assigned data cells",
+            "description": "This rule checks that each table header has assigned data cells in a table element."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-18 11:59:05"
           }
         }
       ]
