@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/674b10/4374cbb747d5a9b7ac8a838ac119df1f322bf617.html",
+      "source": "https://act-rules.github.io/testcases/674b10/c6e80108a6b09b606569dabc910e358f120b9bcb.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -25,9 +25,16 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2021-01-18 11:58:53"
+            "date": "2021-01-25 09:34:29"
           }
         }
       ]
@@ -65,83 +72,7 @@
               }
             ],
             "description": "The test target has a valid `role` attribute.",
-            "date": "2021-01-18 11:58:53"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/674b10/7820808719f11fb0ef0287b155a1304ae9dfcf76.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/674b10",
-            "@type": "TestCase",
-            "title": "role attribute has valid value",
-            "description": "This rule checks that each role attribute has a valid value."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > img:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target has an invalid `role` attribute.",
-            "date": "2021-01-18 11:58:53"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/674b10/f6955b1fb22888498299c32c15c370cd4ec64aab.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/674b10",
-            "@type": "TestCase",
-            "title": "role attribute has valid value",
-            "description": "This rule checks that each role attribute has a valid value."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-01-18 11:58:53"
+            "date": "2021-01-25 09:34:29"
           }
         }
       ]
@@ -179,52 +110,14 @@
               }
             ],
             "description": "The test target has a valid `role` attribute.",
-            "date": "2021-01-18 11:58:53"
+            "date": "2021-01-25 09:34:29"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/674b10/ab7313206eb57bea6f3e6daa5a44071df33448d1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/674b10",
-            "@type": "TestCase",
-            "title": "role attribute has valid value",
-            "description": "This rule checks that each role attribute has a valid value."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > img:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The test target has a valid `role` attribute.",
-            "date": "2021-01-18 11:58:53"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/674b10/c6e80108a6b09b606569dabc910e358f120b9bcb.html",
+      "source": "https://act-rules.github.io/testcases/674b10/f6955b1fb22888498299c32c15c370cd4ec64aab.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -249,13 +142,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > input:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-18 11:58:53"
+            "date": "2021-01-25 09:34:29"
           }
         }
       ]
@@ -293,14 +186,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-01-18 11:58:53"
+            "date": "2021-01-25 09:34:30"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/674b10/4e914fd7a11371b22e9b6b03a02d093addf3e654.html",
+      "source": "https://act-rules.github.io/testcases/674b10/ab7313206eb57bea6f3e6daa5a44071df33448d1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -321,17 +214,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body:nth-child(2) > img:nth-child(1)",
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2021-01-18 11:58:53"
+            "description": "The test target has a valid `role` attribute.",
+            "date": "2021-01-25 09:34:30"
           }
         }
       ]
@@ -369,7 +262,114 @@
               }
             ],
             "description": "The test target has an invalid `role` attribute.",
-            "date": "2021-01-18 11:58:53"
+            "date": "2021-01-25 09:34:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/674b10/4374cbb747d5a9b7ac8a838ac119df1f322bf617.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/674b10",
+            "@type": "TestCase",
+            "title": "role attribute has valid value",
+            "description": "This rule checks that each role attribute has a valid value."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-01-25 09:34:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/674b10/7820808719f11fb0ef0287b155a1304ae9dfcf76.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/674b10",
+            "@type": "TestCase",
+            "title": "role attribute has valid value",
+            "description": "This rule checks that each role attribute has a valid value."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > img:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `role` attribute.",
+            "date": "2021-01-25 09:34:30"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/674b10/4e914fd7a11371b22e9b6b03a02d093addf3e654.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/674b10",
+            "@type": "TestCase",
+            "title": "role attribute has valid value",
+            "description": "This rule checks that each role attribute has a valid value."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-01-25 09:34:30"
           }
         }
       ]
