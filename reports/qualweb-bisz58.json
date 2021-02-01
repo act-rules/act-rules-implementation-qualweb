@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/236b6dc5e9bbe6eed6dc325039ce3a91223d936f.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/4b31e7f8b19377e2c463e1b702f9a077b5cd723b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -16,63 +16,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-02-01 11:38:11"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/d8cabd702d361c095199b81eb015318b9aa0c906.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
-            "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:11"
+            "description": "No test targets found.",
+            "date": "2021-02-01 11:35:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/37993258eb563b1de7cead3947bc6dffc7b705ad.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/0ae68e88f61e1bc6cc56f7a4ae1bcf852d68cde2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -85,125 +54,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-02-01 11:38:11"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/b3b935471c12de40e204a5dcca18ad52142cd0f9.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
-            "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-02-01 11:38:11"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/0b144da5835b8f44b8733ab34b5da6b77ec4235b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
-            "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:11"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/ba6172a2b0e5709cfae4c2b71d29bb5d6ba63548.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
-            "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:38:11"
+            "date": "2021-02-01 11:35:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/574400ce6b2d062780b7044a728727203bc9574e.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/b1c3b8c8c80277e35f1fb20d620ae07f85882c09.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -216,38 +92,38 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
                 }
               },
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(2)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:11"
+            "description": "The test target redirects after 5 seconds.",
+            "date": "2021-02-01 11:35:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/e83b0416156f7d31d564f1c3a4a5e1eab683280a.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/329cba6f6b7fa215ae1e8006de9263570b91c11d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -260,63 +136,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:11"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/a54d3baafc0b2dd4883df666cf465f6df0301b11.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
-            "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [],
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:38:11"
+            "date": "2021-02-01 11:35:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/a8473bbdd1332f9265e6f14bf9311406b530120c.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/293add8170d86d1f418c0620470920105003da42.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -329,32 +174,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:12"
+            "description": "The test target refreshes after 30 seconds.",
+            "date": "2021-02-01 11:35:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/a31c043aa6948beb73ef2453cb103d177be03a48.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/1812017f58925ef5061af2f60c68afa671281c91.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -367,32 +212,32 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:12"
+            "description": "No test targets found.",
+            "date": "2021-02-01 11:35:39"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/59br37/0413dfd271c1fba476c3e73d82f8d79a75c7300f.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/93ffbc16542363e34b1c8013cc70a613884699d8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -405,25 +250,215 @@
         {
           "@type": "Assertion",
           "test": {
-            "@id": "https://act-rules.github.io/rules/59br37",
+            "@id": "https://act-rules.github.io/rules/bisz58",
             "@type": "TestCase",
-            "title": "Zoomed text node is not clipped with CSS overflow",
-            "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport."
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Check if each ancestor og the text node is not clipped by overflow",
-            "date": "2021-02-01 11:38:12"
+            "description": "The test target redirects after 30 seconds.",
+            "date": "2021-02-01 11:35:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/a1a1550e2be737918ba96c4cc7237060515ef8cb.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-01 11:35:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/1d1c596243bc75f495b61d89bc2a6396ea29442a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-01 11:35:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/371137ff8848c11ce6db9252bfe8e4bd3b2690d9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-01 11:35:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/398c872063708b2fa897dcd4f9c851685ea206b7.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-01 11:35:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/4f9bb0a8ab7bd76505483c47da831440b864fe50.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target redirects after 72001 seconds.",
+            "date": "2021-02-01 11:35:40"
           }
         }
       ]

@@ -3,120 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/71b6d84f72e6a65150e8bf82a6b3f8ad090dea39.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-01-25 09:32:59"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/2f3f2c774ba3e0ac44c37bdb43a34c85bf73e484.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-01-25 09:33:00"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b5c3f8/1b7bd1aaf28209779a14e227ed6b04602f3988b4.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b5c3f8",
-            "@type": "TestCase",
-            "title": "HTML has lang attribute",
-            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-01-25 09:33:00"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/b5c3f8/9e6fd0d4112ad490218f17263e36ec33f8adb8db.html",
       "assertor": {
         "@id": "QualWeb",
@@ -148,7 +34,7 @@
               }
             ],
             "description": "The `lang` attribute exists and has a value.",
-            "date": "2021-01-25 09:33:00"
+            "date": "2021-02-01 11:33:38"
           }
         }
       ]
@@ -186,7 +72,121 @@
               }
             ],
             "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-01-25 09:33:00"
+            "date": "2021-02-01 11:33:38"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/1b7bd1aaf28209779a14e227ed6b04602f3988b4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
+            "date": "2021-02-01 11:33:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/71b6d84f72e6a65150e8bf82a6b3f8ad090dea39.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
+            "date": "2021-02-01 11:33:39"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b5c3f8/2f3f2c774ba3e0ac44c37bdb43a34c85bf73e484.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b5c3f8",
+            "@type": "TestCase",
+            "title": "HTML has lang attribute",
+            "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
+            "date": "2021-02-01 11:33:39"
           }
         }
       ]
@@ -217,7 +217,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-01-25 09:33:00"
+            "date": "2021-02-01 11:33:39"
           }
         }
       ]
@@ -248,7 +248,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-01-25 09:33:00"
+            "date": "2021-02-01 11:33:40"
           }
         }
       ]
