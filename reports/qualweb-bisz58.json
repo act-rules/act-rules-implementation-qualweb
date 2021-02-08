@@ -3,44 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/4b31e7f8b19377e2c463e1b702f9a077b5cd723b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/bisz58/0ae68e88f61e1bc6cc56f7a4ae1bcf852d68cde2.html",
       "assertor": {
         "@id": "QualWeb",
@@ -72,51 +34,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/b1c3b8c8c80277e35f1fb20d620ae07f85882c09.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target redirects after 5 seconds.",
-            "date": "2021-02-01 11:35:39"
+            "date": "2021-02-08 12:44:12"
           }
         }
       ]
@@ -154,52 +72,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
+            "date": "2021-02-08 12:44:12"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/293add8170d86d1f418c0620470920105003da42.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target refreshes after 30 seconds.",
-            "date": "2021-02-01 11:35:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/1812017f58925ef5061af2f60c68afa671281c91.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/1ecaa280edc88898e1023c0470fd71eb105f6cf9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -230,14 +110,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
+            "date": "2021-02-08 12:44:13"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/93ffbc16542363e34b1c8013cc70a613884699d8.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/0c9b0abdee645fa6145f02913a76e809a244708d.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -268,83 +148,7 @@
               }
             ],
             "description": "The test target redirects after 30 seconds.",
-            "date": "2021-02-01 11:35:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/a1a1550e2be737918ba96c4cc7237060515ef8cb.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/1d1c596243bc75f495b61d89bc2a6396ea29442a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
+            "date": "2021-02-08 12:44:13"
           }
         }
       ]
@@ -382,14 +186,14 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
+            "date": "2021-02-08 12:44:13"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/398c872063708b2fa897dcd4f9c851685ea206b7.html",
+      "source": "https://act-rules.github.io/testcases/bisz58/1d1c596243bc75f495b61d89bc2a6396ea29442a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -420,7 +224,45 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-01 11:35:39"
+            "date": "2021-02-08 12:44:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/a1a1550e2be737918ba96c4cc7237060515ef8cb.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-08 12:44:13"
           }
         }
       ]
@@ -458,7 +300,165 @@
               }
             ],
             "description": "The test target redirects after 72001 seconds.",
-            "date": "2021-02-01 11:35:40"
+            "date": "2021-02-08 12:44:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/ffa9d5785ba84df4dfacbafc5fdb8b82a365f5b4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-08 12:44:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/459353149c69b2ee77944c5641cbff66396829e0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target redirects after 5 seconds.",
+            "date": "2021-02-08 12:44:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/293add8170d86d1f418c0620470920105003da42.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target refreshes after 30 seconds.",
+            "date": "2021-02-08 12:44:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bisz58/1812017f58925ef5061af2f60c68afa671281c91.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bisz58",
+            "@type": "TestCase",
+            "title": "`meta` element has no refresh delay (no exception)",
+            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > undefined:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-08 12:44:13"
           }
         }
       ]
