@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ec09b/9164db309a6589b695bdcf93c31506c9c6f3fb59.html",
+      "source": "https://act-rules.github.io/testcases/1ec09b/a6839ec6a83ef44c14587870afbabfafc13daac2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -34,83 +34,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-08 12:46:26"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ec09b/d58a1772ea37b702630ffec4224ee843308f12db.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1ec09b",
-            "@type": "TestCase",
-            "title": "video element visual content has strict accessible alternative",
-            "description": "This rule checks that video elements with audio have audio description."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ec09b/a2b46a07e183c60af65528dc7c2de446776ab694.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1ec09b",
-            "@type": "TestCase",
-            "title": "video element visual content has strict accessible alternative",
-            "description": "This rule checks that video elements with audio have audio description."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
+            "date": "2021-02-15 20:29:14"
           }
         }
       ]
@@ -148,45 +72,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ec09b/6576860a379624e6ee6784abd5a6ab748ef199fd.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1ec09b",
-            "@type": "TestCase",
-            "title": "video element visual content has strict accessible alternative",
-            "description": "This rule checks that video elements with audio have audio description."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
+            "date": "2021-02-15 20:29:14"
           }
         }
       ]
@@ -224,14 +110,52 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
+            "date": "2021-02-15 20:29:16"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1ec09b/a6839ec6a83ef44c14587870afbabfafc13daac2.html",
+      "source": "https://act-rules.github.io/testcases/1ec09b/a2b46a07e183c60af65528dc7c2de446776ab694.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ec09b",
+            "@type": "TestCase",
+            "title": "video element visual content has strict accessible alternative",
+            "description": "This rule checks that video elements with audio have audio description."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-15 20:29:16"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1ec09b/9164db309a6589b695bdcf93c31506c9c6f3fb59.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -262,7 +186,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
+            "date": "2021-02-15 20:29:17"
           }
         }
       ]
@@ -300,7 +224,83 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-08 12:46:27"
+            "date": "2021-02-15 20:29:17"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1ec09b/d58a1772ea37b702630ffec4224ee843308f12db.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ec09b",
+            "@type": "TestCase",
+            "title": "video element visual content has strict accessible alternative",
+            "description": "This rule checks that video elements with audio have audio description."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-15 20:29:18"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1ec09b/6576860a379624e6ee6784abd5a6ab748ef199fd.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ec09b",
+            "@type": "TestCase",
+            "title": "video element visual content has strict accessible alternative",
+            "description": "This rule checks that video elements with audio have audio description."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-15 20:29:18"
           }
         }
       ]
