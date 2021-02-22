@@ -40,14 +40,14 @@
               }
             ],
             "description": " Check if the element has some visible focus indication",
-            "date": "2021-02-15 20:28:04"
+            "date": "2021-02-22 09:24:22"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/oj04fd/1a1e6674b96c4cbdedc55801679fe0c06c248fac.html",
+      "source": "https://act-rules.github.io/testcases/oj04fd/1b7a2ed4290e55f4130c1dc715c4123dff398871.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -68,17 +68,23 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2)",
-                  "outcome": "earl:inapplicable"
+                  "pointer": "html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > button:nth-child(2)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2021-02-15 20:28:05"
+            "description": " Check if the element has some visible focus indication",
+            "date": "2021-02-22 09:24:23"
           }
         }
       ]
@@ -116,7 +122,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-15 20:28:05"
+            "date": "2021-02-22 09:24:23"
           }
         }
       ]
@@ -160,7 +166,165 @@
               }
             ],
             "description": " Check if the element has some visible focus indication",
-            "date": "2021-02-15 20:28:05"
+            "date": "2021-02-22 09:24:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/oj04fd/1a1e6674b96c4cbdedc55801679fe0c06c248fac.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/oj04fd",
+            "@type": "TestCase",
+            "title": "Element in sequential focus order has visible focus",
+            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-22 09:24:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/oj04fd/af1ec85ed52818990bc95f50677336f575d05ce1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/oj04fd",
+            "@type": "TestCase",
+            "title": "Element in sequential focus order has visible focus",
+            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-22 09:24:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/oj04fd/0a492595c81007ffe1ff2ca2a4a57fc24fe10635.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/oj04fd",
+            "@type": "TestCase",
+            "title": "Element in sequential focus order has visible focus",
+            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-02-22 09:24:23"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/oj04fd/8784917764b66a645bc38a751805a2aac2201e21.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/oj04fd",
+            "@type": "TestCase",
+            "title": "Element in sequential focus order has visible focus",
+            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > span:nth-child(1) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              },
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > button:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": " Check if the element has some visible focus indication",
+            "date": "2021-02-22 09:24:23"
           }
         }
       ]
@@ -210,171 +374,7 @@
               }
             ],
             "description": " Check if the element has some visible focus indication",
-            "date": "2021-02-15 20:28:05"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/oj04fd/1b7a2ed4290e55f4130c1dc715c4123dff398871.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/oj04fd",
-            "@type": "TestCase",
-            "title": "Element in sequential focus order has visible focus",
-            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > button:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-02-15 20:28:05"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/oj04fd/8784917764b66a645bc38a751805a2aac2201e21.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/oj04fd",
-            "@type": "TestCase",
-            "title": "Element in sequential focus order has visible focus",
-            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > span:nth-child(1) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > button:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-02-15 20:28:05"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/oj04fd/af1ec85ed52818990bc95f50677336f575d05ce1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/oj04fd",
-            "@type": "TestCase",
-            "title": "Element in sequential focus order has visible focus",
-            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-15 20:28:05"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/oj04fd/0a492595c81007ffe1ff2ca2a4a57fc24fe10635.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/oj04fd",
-            "@type": "TestCase",
-            "title": "Element in sequential focus order has visible focus",
-            "description": "This rule checks that each element in sequential focus order has some visible focus indication."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-02-15 20:28:06"
+            "date": "2021-02-22 09:24:23"
           }
         }
       ]
