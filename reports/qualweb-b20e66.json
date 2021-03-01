@@ -3,303 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/5113ecf0151563f327b73fda4c082c56c70c46c9.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:45"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/663238f37f8866234f911ccadb22dd18dbf00c24.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have equal content.",
-            "date": "2021-02-22 09:23:45"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/0a0d8b7d5283f423d3195f935e10367f8ebfb59c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:45"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/eb6d250999b0349a300b8a63afe9864924e4b3db.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > span:nth-child(2), html > body:nth-child(2) > span:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:45"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/75fdbf448cf08e3306d992c2c42029e145d1f07b.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:45"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/1b4cfd6e0e0bbfc8805895faae6120f02a5a4bab.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:45"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/e7d5a781c70386d5efaf1e4d9d547bd8e3300ac2.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-02-22 09:23:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/07d81f103bffe780e5b7bb20b6d24a09a08e5a87.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/b20e66/b07430cf93197d7758985a59f8051756cf635f24.html",
       "assertor": {
         "@id": "QualWeb",
@@ -331,14 +34,14 @@
               }
             ],
             "description": "The `links` with the same accessible name have equal content.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:07"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/7e49b921e94770de269b1b266802e99155759dac.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/c69b83e4f7fee81d4629a08909068b7843034fb9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -359,131 +62,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > span:nth-child(2), html > body:nth-child(2) > span:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/ffd847275f8d2d4537d7f7346be39a226e33fbea.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/4d9f02fb32df89acaaed8ea9573d618a33628f16.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/bfc02ad743d169fc9599f9ca299023a980f4a999.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b20e66",
-            "@type": "TestCase",
-            "title": "Links with identical accessible names have equivalent purpose",
-            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(2), html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(1)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
@@ -521,7 +103,7 @@
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
@@ -565,7 +147,235 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/07d81f103bffe780e5b7bb20b6d24a09a08e5a87.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/ffd847275f8d2d4537d7f7346be39a226e33fbea.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/eb6d250999b0349a300b8a63afe9864924e4b3db.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > span:nth-child(2), html > body:nth-child(2) > span:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/663238f37f8866234f911ccadb22dd18dbf00c24.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/bfc02ad743d169fc9599f9ca299023a980f4a999.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(2), html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/0a0d8b7d5283f423d3195f935e10367f8ebfb59c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
@@ -603,14 +413,14 @@
               }
             ],
             "description": "The `links` with the same accessible name have equal content.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/b1629c6f04c11a608cfe8be2a162182e13b0abc0.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/75fdbf448cf08e3306d992c2c42029e145d1f07b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -641,14 +451,14 @@
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/be94c4ceecbad080994ae0b571194b3056f4ad65.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/5113ecf0151563f327b73fda4c082c56c70c46c9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -669,17 +479,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:passed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(2), html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(1)",
-                  "outcome": "earl:passed"
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "The `links` with the same accessible name have equal content.",
-            "date": "2021-02-22 09:23:46"
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
@@ -717,14 +527,128 @@
               }
             ],
             "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b20e66/c69b83e4f7fee81d4629a08909068b7843034fb9.html",
+      "source": "https://act-rules.github.io/testcases/b20e66/4d9f02fb32df89acaaed8ea9573d618a33628f16.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/b1629c6f04c11a608cfe8be2a162182e13b0abc0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/be94c4ceecbad080994ae0b571194b3056f4ad65.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(2), html > body:nth-child(2) > svg:nth-child(1) > a:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have equal content.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/e7d5a781c70386d5efaf1e4d9d547bd8e3300ac2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -748,7 +672,83 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/7e49b921e94770de269b1b266802e99155759dac.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > span:nth-child(2), html > body:nth-child(2) > span:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b20e66/1b4cfd6e0e0bbfc8805895faae6120f02a5a4bab.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b20e66",
+            "@type": "TestCase",
+            "title": "Links with identical accessible names have equivalent purpose",
+            "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > a:nth-child(2), html > body:nth-child(2) > a:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The `links` with the same accessible name have different content. Verify is the content is equivalent.",
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
@@ -786,7 +786,7 @@
               }
             ],
             "description": "The `links` with the same accessible name have equal content.",
-            "date": "2021-02-22 09:23:46"
+            "date": "2021-03-01 09:53:08"
           }
         }
       ]
