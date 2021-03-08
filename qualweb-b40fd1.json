@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b40fd1/4138f613540c7e271afb72330cdaacc525c8a72b.html",
+      "source": "https://act-rules.github.io/testcases/b40fd1/ab7815bf66997d62f0ae2e2d291efc92697325c9.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -34,121 +34,7 @@
               }
             ],
             "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-03-02 11:31:07"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b40fd1/923ded1559deb2016c3419b218dba00539c605b8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b40fd1",
-            "@type": "TestCase",
-            "title": "Document has a landmark with non-repeated content",
-            "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-03-02 11:31:07"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b40fd1/264074a97f3844f1c90b88997a5cacf38f5ba6c2.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b40fd1",
-            "@type": "TestCase",
-            "title": "Document has a landmark with non-repeated content",
-            "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-03-02 11:31:08"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b40fd1/3d998f21a9619333a475d5a7449873a76e547292.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/b40fd1",
-            "@type": "TestCase",
-            "title": "Document has a landmark with non-repeated content",
-            "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-03-02 11:31:08"
+            "date": "2021-03-08 19:49:05"
           }
         }
       ]
@@ -186,14 +72,14 @@
               }
             ],
             "description": "The page doesn't have repeated content.",
-            "date": "2021-03-02 11:31:08"
+            "date": "2021-03-08 19:49:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/b40fd1/ab7815bf66997d62f0ae2e2d291efc92697325c9.html",
+      "source": "https://act-rules.github.io/testcases/b40fd1/923ded1559deb2016c3419b218dba00539c605b8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -224,7 +110,7 @@
               }
             ],
             "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-03-02 11:31:08"
+            "date": "2021-03-08 19:49:05"
           }
         }
       ]
@@ -262,7 +148,121 @@
               }
             ],
             "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-03-02 11:31:08"
+            "date": "2021-03-08 19:49:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b40fd1/3d998f21a9619333a475d5a7449873a76e547292.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b40fd1",
+            "@type": "TestCase",
+            "title": "Document has a landmark with non-repeated content",
+            "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
+            "date": "2021-03-08 19:49:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b40fd1/4138f613540c7e271afb72330cdaacc525c8a72b.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b40fd1",
+            "@type": "TestCase",
+            "title": "Document has a landmark with non-repeated content",
+            "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
+            "date": "2021-03-08 19:49:05"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/b40fd1/264074a97f3844f1c90b88997a5cacf38f5ba6c2.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/b40fd1",
+            "@type": "TestCase",
+            "title": "Document has a landmark with non-repeated content",
+            "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
+            "date": "2021-03-08 19:49:05"
           }
         }
       ]
@@ -293,7 +293,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-03-02 11:31:08"
+            "date": "2021-03-08 19:49:06"
           }
         }
       ]
