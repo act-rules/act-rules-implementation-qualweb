@@ -1,0 +1,302 @@
+{
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@graph": [
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/af9d8ce404bbbbbd681e99b8ffbb41d4ad5d5ab8.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/b3baae9367094c28b587d529fa7b59f765e10384.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/575a65a8bba5c2fbfda61409974a2f4882739a47.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/28fa7ad2644868f8df07b0bca089880955b15ddf.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/4397f2db80c30823dca34cccd7cd431feef53e47.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/fa0ef2570eac41c1445ec855df92fe79cbea6068.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/a85dd7f1da49986db837d594b99a31b6d0c23e27.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/3e12e1/3f429e9cd51b6d5d654bb1a48d34dc662f41fc9e.svg",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/3e12e1",
+            "@type": "TestCase",
+            "title": "Block of repeated content is collapsible",
+            "description": "This rule checks that repeated blocks of content are collapsible."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-03-15 18:35:08"
+          }
+        }
+      ]
+    }
+  ]
+}
