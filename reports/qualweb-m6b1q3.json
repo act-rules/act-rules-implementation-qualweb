@@ -3,106 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/m6b1q3/bdabf4de54a41a25f6dc9f2749430c20bc06565f.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/m6b1q3",
-            "@type": "TestCase",
-            "title": "Menuitem has non-empty accessible name",
-            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-03-22 09:58:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/m6b1q3/9577e85e42ad8fef4e6163ee23a4756eade89b8c.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/m6b1q3",
-            "@type": "TestCase",
-            "title": "Menuitem has non-empty accessible name",
-            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-03-22 09:58:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/m6b1q3/db756694b52d219959b3ed1cccd714ee0debc36a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/m6b1q3",
-            "@type": "TestCase",
-            "title": "Menuitem has non-empty accessible name",
-            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > button:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-03-22 09:58:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/m6b1q3/1019f9dd54885516123cd10b1bed082627fcb60c.html",
       "assertor": {
         "@id": "QualWeb",
@@ -134,45 +34,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-03-22 09:58:25"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/m6b1q3/548c732a168369abdd8f84381574c7793ea0c2ce.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/m6b1q3",
-            "@type": "TestCase",
-            "title": "Menuitem has non-empty accessible name",
-            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > button:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-03-22 09:58:25"
+            "date": "2021-03-29 19:12:41"
           }
         }
       ]
@@ -210,7 +72,76 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-03-22 09:58:25"
+            "date": "2021-03-29 19:12:41"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/m6b1q3/548c732a168369abdd8f84381574c7793ea0c2ce.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/m6b1q3",
+            "@type": "TestCase",
+            "title": "Menuitem has non-empty accessible name",
+            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > button:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2021-03-29 19:12:41"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/m6b1q3/bdabf4de54a41a25f6dc9f2749430c20bc06565f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/m6b1q3",
+            "@type": "TestCase",
+            "title": "Menuitem has non-empty accessible name",
+            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-03-29 19:12:41"
           }
         }
       ]
@@ -248,7 +179,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-03-22 09:58:25"
+            "date": "2021-03-29 19:12:41"
           }
         }
       ]
@@ -286,7 +217,76 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-03-22 09:58:25"
+            "date": "2021-03-29 19:12:41"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/m6b1q3/db756694b52d219959b3ed1cccd714ee0debc36a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/m6b1q3",
+            "@type": "TestCase",
+            "title": "Menuitem has non-empty accessible name",
+            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > button:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
+            "date": "2021-03-29 19:12:41"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/m6b1q3/9577e85e42ad8fef4e6163ee23a4756eade89b8c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/m6b1q3",
+            "@type": "TestCase",
+            "title": "Menuitem has non-empty accessible name",
+            "description": "This rule checks that each element with a menuitem role has a non-empty accessible name."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-03-29 19:12:41"
           }
         }
       ]

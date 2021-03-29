@@ -3,6 +3,44 @@
   "@graph": [
     {
       "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/1a02b0/4e354f735d074f1d351a2bcb93a77247512f5b56.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "No test targets found.",
+            "date": "2021-03-29 19:15:09"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/1a02b0/b0d21acae591149b3eb2ddcc3fa2453fa6aa8c99.html",
       "assertor": {
         "@id": "QualWeb",
@@ -34,7 +72,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-03-22 10:00:32"
+            "date": "2021-03-29 19:15:10"
           }
         }
       ]
@@ -72,7 +110,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-03-22 10:00:32"
+            "date": "2021-03-29 19:15:10"
           }
         }
       ]
@@ -110,7 +148,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-03-22 10:00:33"
+            "date": "2021-03-29 19:15:10"
           }
         }
       ]
@@ -148,45 +186,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-03-22 10:00:33"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/1a02b0/4e354f735d074f1d351a2bcb93a77247512f5b56.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/1a02b0",
-            "@type": "TestCase",
-            "title": "video element visual content has transcript",
-            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-03-22 10:00:33"
+            "date": "2021-03-29 19:15:10"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-03-22 10:00:33"
+            "date": "2021-03-29 19:15:10"
           }
         }
       ]

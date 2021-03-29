@@ -3,6 +3,44 @@
   "@graph": [
     {
       "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/bb02a546c1736f5ab2330293a59f05e0083d1051.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/0ssw9k",
+            "@type": "TestCase",
+            "title": "Scrollable element is keyboard accessible",
+            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > section:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "This vertically/horizontally scrollable section element is not included in sequential focus navigation, nor does it have any descendants that are.",
+            "date": "2021-03-29 19:13:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/0ssw9k/f4bae76f863ab8a57b21abd20ca6f90ce30b796a.html",
       "assertor": {
         "@id": "QualWeb",
@@ -34,7 +72,7 @@
               }
             ],
             "description": "This scrollable section element is included in sequential focus navigation.",
-            "date": "2021-03-22 09:59:00"
+            "date": "2021-03-29 19:13:20"
           }
         }
       ]
@@ -72,45 +110,7 @@
               }
             ],
             "description": "This scrollable section element is included in sequential focus navigation.",
-            "date": "2021-03-22 09:59:01"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/bb02a546c1736f5ab2330293a59f05e0083d1051.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/0ssw9k",
-            "@type": "TestCase",
-            "title": "Scrollable element is keyboard accessible",
-            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > section:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "This vertically/horizontally scrollable section element is not included in sequential focus navigation, nor does it have any descendants that are.",
-            "date": "2021-03-22 09:59:01"
+            "date": "2021-03-29 19:13:20"
           }
         }
       ]
@@ -148,69 +148,7 @@
               }
             ],
             "description": "This vertically/horizontally scrollable section element is not included in sequential focus navigation, nor does it have any descendants that are.",
-            "date": "2021-03-22 09:59:01"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/83114ef31b3511e3d086f4bba95c2344c2a8225a.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/0ssw9k",
-            "@type": "TestCase",
-            "title": "Scrollable element is keyboard accessible",
-            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-03-22 09:59:01"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/f212c413aa44af24e4f91145ef693c9af8afa43e.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/0ssw9k",
-            "@type": "TestCase",
-            "title": "Scrollable element is keyboard accessible",
-            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-03-22 09:59:01"
+            "date": "2021-03-29 19:13:20"
           }
         }
       ]
@@ -241,14 +179,14 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-03-22 09:59:01"
+            "date": "2021-03-29 19:13:20"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/0ssw9k/c74b4a1ff01a2937a19be98e95f14dd43814fea7.html",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/83114ef31b3511e3d086f4bba95c2344c2a8225a.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -272,7 +210,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-03-22 09:59:01"
+            "date": "2021-03-29 19:13:21"
           }
         }
       ]
@@ -303,7 +241,69 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-03-22 09:59:01"
+            "date": "2021-03-29 19:13:21"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/f212c413aa44af24e4f91145ef693c9af8afa43e.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/0ssw9k",
+            "@type": "TestCase",
+            "title": "Scrollable element is keyboard accessible",
+            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-03-29 19:13:21"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/0ssw9k/c74b4a1ff01a2937a19be98e95f14dd43814fea7.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/0ssw9k",
+            "@type": "TestCase",
+            "title": "Scrollable element is keyboard accessible",
+            "description": "This rule checks that scrollable elements can be scrolled by keyboard"
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-03-29 19:13:21"
           }
         }
       ]
@@ -334,7 +334,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-03-22 09:59:03"
+            "date": "2021-03-29 19:13:23"
           }
         }
       ]
