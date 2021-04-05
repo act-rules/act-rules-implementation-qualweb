@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afb423/6fecb639ae678012c490f5bfcb95d88ff07a02de.html",
+      "source": "https://act-rules.github.io/testcases/afb423/c028911c12b611c095a49cdb1a2bf2c263a049c1.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -24,55 +24,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "No test targets found.",
-            "date": "2021-03-29 19:09:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afb423/e450f0455932478a827dca455b1cb2f9eb0aa310.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afb423",
-            "@type": "TestCase",
-            "title": "audio element content is media alternative for text",
-            "description": "This rule checks audio is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "No test targets found.",
-            "date": "2021-03-29 19:09:50"
+            "description": "Check if the test target audio is a media alternative for text.",
+            "date": "2021-04-05 17:30:10"
           }
         }
       ]
@@ -110,45 +72,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-03-29 19:09:50"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afb423/8a39d527fc5b24a2123d9c3e44397dfc91456481.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afb423",
-            "@type": "TestCase",
-            "title": "audio element content is media alternative for text",
-            "description": "This rule checks audio is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-03-29 19:09:50"
+            "date": "2021-04-05 17:30:11"
           }
         }
       ]
@@ -186,7 +110,76 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-03-29 19:09:50"
+            "date": "2021-04-05 17:30:12"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afb423/e450f0455932478a827dca455b1cb2f9eb0aa310.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afb423",
+            "@type": "TestCase",
+            "title": "audio element content is media alternative for text",
+            "description": "This rule checks audio is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-04-05 17:30:12"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afb423/8a39d527fc5b24a2123d9c3e44397dfc91456481.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afb423",
+            "@type": "TestCase",
+            "title": "audio element content is media alternative for text",
+            "description": "This rule checks audio is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the test target audio is a media alternative for text.",
+            "date": "2021-04-05 17:30:12"
           }
         }
       ]
@@ -224,14 +217,14 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-03-29 19:09:50"
+            "date": "2021-04-05 17:30:12"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afb423/c028911c12b611c095a49cdb1a2bf2c263a049c1.html",
+      "source": "https://act-rules.github.io/testcases/afb423/6fecb639ae678012c490f5bfcb95d88ff07a02de.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -252,17 +245,10 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-03-29 19:09:50"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-04-05 17:30:13"
           }
         }
       ]
