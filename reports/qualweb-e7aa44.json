@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e7aa44/a60d2b26e04c3e364e27f1113e49292b9db8f733.html",
+      "source": "https://act-rules.github.io/testcases/e7aa44/2dfa209363c9d1edab2e7bcd5448a0f21db78300.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -27,7 +27,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:19"
           }
         },
         {
@@ -44,7 +44,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:19"
           }
         },
         {
@@ -62,13 +62,13 @@
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
                   "outcome": "earl:inapplicable"
                 }
               }
             ],
             "description": "The test target doesn't apply to this rule",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:19"
           }
         }
       ]
@@ -99,7 +99,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:19"
           }
         },
         {
@@ -116,7 +116,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:19"
           }
         },
         {
@@ -133,7 +133,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:19"
           }
         }
       ]
@@ -171,7 +171,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:20"
           }
         },
         {
@@ -195,7 +195,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-04-05 17:30:19"
+            "date": "2021-04-12 19:03:20"
           }
         },
         {
@@ -219,165 +219,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-04-05 17:30:19"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e7aa44/2dfa209363c9d1edab2e7bcd5448a0f21db78300.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2eb176",
-            "@type": "TestCase",
-            "title": "audio element content has transcript",
-            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-05 17:30:20"
-          }
-        },
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afb423",
-            "@type": "TestCase",
-            "title": "audio element content is media alternative for text",
-            "description": "This rule checks audio is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-05 17:30:20"
-          }
-        },
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e7aa44",
-            "@type": "TestCase",
-            "title": "Audio element content has text alternative",
-            "description": "This rule checks if audio only elements have a text alternative available."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target doesn't apply to this rule",
-            "date": "2021-04-05 17:30:20"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/e7aa44/b13cc282a4ca19035985408725b74189e08004e9.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/2eb176",
-            "@type": "TestCase",
-            "title": "audio element content has transcript",
-            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-04-05 17:30:20"
-          }
-        },
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afb423",
-            "@type": "TestCase",
-            "title": "audio element content is media alternative for text",
-            "description": "This rule checks audio is a media alternative for text on the page."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-04-05 17:30:20"
-          }
-        },
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/e7aa44",
-            "@type": "TestCase",
-            "title": "Audio element content has text alternative",
-            "description": "This rule checks if audio only elements have a text alternative available."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-04-05 17:30:20"
+            "date": "2021-04-12 19:03:20"
           }
         }
       ]
@@ -415,7 +257,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-04-05 17:30:21"
+            "date": "2021-04-12 19:03:19"
           }
         },
         {
@@ -439,7 +281,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-04-05 17:30:21"
+            "date": "2021-04-12 19:03:19"
           }
         },
         {
@@ -463,7 +305,165 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-04-05 17:30:21"
+            "date": "2021-04-12 19:03:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e7aa44/a60d2b26e04c3e364e27f1113e49292b9db8f733.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2eb176",
+            "@type": "TestCase",
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-04-12 19:03:20"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afb423",
+            "@type": "TestCase",
+            "title": "audio element content is media alternative for text",
+            "description": "This rule checks audio is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-04-12 19:03:20"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e7aa44",
+            "@type": "TestCase",
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "The test target doesn't apply to this rule",
+            "date": "2021-04-12 19:03:20"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/e7aa44/b13cc282a4ca19035985408725b74189e08004e9.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/2eb176",
+            "@type": "TestCase",
+            "title": "audio element content has transcript",
+            "description": "Non-streaming audio elements must have a text alternative for all included auditory information."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the test target audio has text-alternative.",
+            "date": "2021-04-12 19:03:20"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afb423",
+            "@type": "TestCase",
+            "title": "audio element content is media alternative for text",
+            "description": "This rule checks audio is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Check if the test target audio is a media alternative for text.",
+            "date": "2021-04-12 19:03:20"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/e7aa44",
+            "@type": "TestCase",
+            "title": "Audio element content has text alternative",
+            "description": "This rule checks if audio only elements have a text alternative available."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R58",
+            "date": "2021-04-12 19:03:20"
           }
         }
       ]
@@ -501,7 +501,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-04-05 17:30:21"
+            "date": "2021-04-12 19:03:20"
           }
         },
         {
@@ -525,7 +525,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-04-05 17:30:21"
+            "date": "2021-04-12 19:03:20"
           }
         },
         {
@@ -549,7 +549,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-04-05 17:30:21"
+            "date": "2021-04-12 19:03:20"
           }
         }
       ]
