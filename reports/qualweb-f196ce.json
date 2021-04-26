@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f196ce/453c90aae9cc15233a77c81948324010d681f7d2.html",
+      "source": "https://act-rules.github.io/testcases/f196ce/e100b751bd9a03c6e874239476027e792029c50b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -34,38 +34,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-04-12 19:06:36"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f196ce/540ef897c00b6bce2ac0a522615df7ba8be6aadc.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/f196ce",
-            "@type": "TestCase",
-            "title": "video element visual content has description track",
-            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-12 19:06:37"
+            "date": "2021-04-26 08:23:33"
           }
         }
       ]
@@ -103,14 +72,14 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-04-12 19:06:36"
+            "date": "2021-04-26 08:23:33"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/f196ce/e100b751bd9a03c6e874239476027e792029c50b.html",
+      "source": "https://act-rules.github.io/testcases/f196ce/453c90aae9cc15233a77c81948324010d681f7d2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -141,7 +110,38 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-04-12 19:06:37"
+            "date": "2021-04-26 08:23:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/f196ce/540ef897c00b6bce2ac0a522615df7ba8be6aadc.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-04-26 08:23:34"
           }
         }
       ]
@@ -179,7 +179,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-04-12 19:06:37"
+            "date": "2021-04-26 08:23:34"
           }
         }
       ]
