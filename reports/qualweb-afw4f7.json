@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/e1094dcd0697b11e6228556c7c4da9703786e3d2.html",
+      "source": "https://act-rules.github.io/testcases/afw4f7/197c12643bd300777222da7115d0339d131903f2.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -24,17 +24,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:passed",
             "source": [
               {
                 "result": {
-                  "pointer": "html > body:nth-child(2) > span:nth-child(1)",
-                  "outcome": "earl:failed"
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:passed"
                 }
               }
             ],
-            "description": "Element has gradient with contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:00"
+            "description": "Element has contrast ratio higher than minimum.",
+            "date": "2021-05-04 10:02:05"
           }
         }
       ]
@@ -72,14 +72,14 @@
               }
             ],
             "description": "Element has gradient with contrast ratio higher than minimum.",
-            "date": "2021-04-26 08:23:00"
+            "date": "2021-05-04 10:02:05"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/ae9c5ac945546b60ea8bb7bba64680da26dfe7e4.html",
+      "source": "https://act-rules.github.io/testcases/afw4f7/b84e9e1a57fce9aeba150ee3b3f9284c6a86620b.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -100,307 +100,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/76cfbf9680b3ecc83029d8eefc6e037bd5075fab.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
+            "outcome": "earl:cantTell",
             "source": [
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:failed"
+                  "outcome": "earl:cantTell"
                 }
               }
             ],
-            "description": "Element has gradient with contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/0b212e48dbb2517256ee6f8235ad550ac8d5ba64.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "Element doesn't have human language text.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/3501cb7303834d272bc333b973995e9a9ae0f0e8.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/6f8fa71c663ca8e52324a3dddbd4a2d60140dba1.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/197c12643bd300777222da7115d0339d131903f2.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/1934f556cad7387ea81f1d59ab137ce3034abb23.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:passed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)span:nth-of-type(1)",
-                  "outcome": "earl:passed"
-                }
-              }
-            ],
-            "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/d7d54e8d50c76c96d2fcaa14fe1fc4b9d0e09186.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/71886cad36622fb466cf3177a341ade74322f0fe.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > p:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:02"
+            "description": "Element has an image on background.",
+            "date": "2021-05-04 10:02:06"
           }
         }
       ]
@@ -438,14 +148,14 @@
               }
             ],
             "description": "Element has text-shadow that needs manual verification.",
-            "date": "2021-04-26 08:23:02"
+            "date": "2021-05-04 10:02:06"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/d23607da24667a20e95fe4384d7f335a8ec30987.html",
+      "source": "https://act-rules.github.io/testcases/afw4f7/3501cb7303834d272bc333b973995e9a9ae0f0e8.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -476,107 +186,7 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/778de4bebc6fc6e3086f5acec2749b697146bead.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/732a994857350f2e945ddd88e8767819a29e720f.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/28a2fa1fbe147515d4abd03996e6d481616282da.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
+            "date": "2021-05-04 10:02:07"
           }
         }
       ]
@@ -614,14 +224,14 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-04-26 08:23:02"
+            "date": "2021-05-04 10:02:07"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/c8eeb76fd7164dcaf7289ace90352bd5d2611c44.html",
+      "source": "https://act-rules.github.io/testcases/afw4f7/0b212e48dbb2517256ee6f8235ad550ac8d5ba64.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -642,10 +252,93 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "Element doesn't have human language text.",
+            "date": "2021-05-04 10:02:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/d23607da24667a20e95fe4384d7f335a8ec30987.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "Element has contrast ratio higher than minimum.",
+            "date": "2021-05-04 10:02:08"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/1934f556cad7387ea81f1d59ab137ce3034abb23.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)span:nth-of-type(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "Element has contrast ratio higher than minimum.",
+            "date": "2021-05-04 10:02:09"
           }
         }
       ]
@@ -683,14 +376,14 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:02"
+            "date": "2021-05-04 10:02:09"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/abd1c7e94b8e3cafce76bfccaa15fcd5d9c3bc70.html",
+      "source": "https://act-rules.github.io/testcases/afw4f7/76cfbf9680b3ecc83029d8eefc6e037bd5075fab.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -711,172 +404,17 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/9573b85ae25b158899fcba32685475efe8e97a96.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/d8f7599e8226f12a4414539f655bf6b36fa15f10.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/772b21825f272c3983e4c8e55757209e41200a08.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/b4cc947734c2d828a5e7c493ee58970c3b48f4d0.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
+            "outcome": "earl:failed",
             "source": [
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:inapplicable"
+                  "outcome": "earl:failed"
                 }
               }
             ],
-            "description": "Colors are equal.",
-            "date": "2021-04-26 08:23:02"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/54ecd88ef15080bb65a4ab322fda9f3316527fe3.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/afw4f7",
-            "@type": "TestCase",
-            "title": "Text has minimum contrast",
-            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:inapplicable",
-            "source": [],
-            "description": "No test targets found.",
-            "date": "2021-04-26 08:23:02"
+            "description": "Element has gradient with contrast ratio lower than minimum.",
+            "date": "2021-05-04 10:02:10"
           }
         }
       ]
@@ -914,7 +452,159 @@
               }
             ],
             "description": "Element has an image on background.",
-            "date": "2021-04-26 08:23:02"
+            "date": "2021-05-04 10:02:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/732a994857350f2e945ddd88e8767819a29e720f.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "Element has contrast ratio lower than minimum.",
+            "date": "2021-05-04 10:02:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/71886cad36622fb466cf3177a341ade74322f0fe.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > div:nth-child(1) > p:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "Element has contrast ratio lower than minimum.",
+            "date": "2021-05-04 10:02:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/6f8fa71c663ca8e52324a3dddbd4a2d60140dba1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "Element has contrast ratio lower than minimum.",
+            "date": "2021-05-04 10:02:11"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/e1094dcd0697b11e6228556c7c4da9703786e3d2.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > span:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "Element has gradient with contrast ratio lower than minimum.",
+            "date": "2021-05-04 10:02:12"
           }
         }
       ]
@@ -958,14 +648,14 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-04-26 08:23:02"
+            "date": "2021-05-04 10:02:12"
           }
         }
       ]
     },
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/afw4f7/b84e9e1a57fce9aeba150ee3b3f9284c6a86620b.html",
+      "source": "https://act-rules.github.io/testcases/afw4f7/d7d54e8d50c76c96d2fcaa14fe1fc4b9d0e09186.html",
       "assertor": {
         "@id": "QualWeb",
         "@type": "Software",
@@ -986,17 +676,327 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/d8f7599e8226f12a4414539f655bf6b36fa15f10.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:13"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/b4cc947734c2d828a5e7c493ee58970c3b48f4d0.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
             "source": [
               {
                 "result": {
                   "pointer": "html > body:nth-child(2) > p:nth-child(1)",
-                  "outcome": "earl:cantTell"
+                  "outcome": "earl:inapplicable"
                 }
               }
             ],
-            "description": "Element has an image on background.",
-            "date": "2021-04-26 08:23:02"
+            "description": "Colors are equal.",
+            "date": "2021-05-04 10:02:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/abd1c7e94b8e3cafce76bfccaa15fcd5d9c3bc70.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/c8eeb76fd7164dcaf7289ace90352bd5d2611c44.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:14"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/ae9c5ac945546b60ea8bb7bba64680da26dfe7e4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:15"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/778de4bebc6fc6e3086f5acec2749b697146bead.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:15"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/28a2fa1fbe147515d4abd03996e6d481616282da.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:16"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/9573b85ae25b158899fcba32685475efe8e97a96.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:16"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/772b21825f272c3983e4c8e55757209e41200a08.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:17"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/afw4f7/54ecd88ef15080bb65a4ab322fda9f3316527fe3.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/afw4f7",
+            "@type": "TestCase",
+            "title": "Text has minimum contrast",
+            "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-05-04 10:02:17"
           }
         }
       ]
