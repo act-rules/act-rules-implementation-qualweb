@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2021-05-17 09:29:49"
+            "date": "2021-05-24 08:17:23"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2021-05-17 09:29:49"
+            "date": "2021-05-24 08:17:23"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2021-05-17 09:29:50"
+            "date": "2021-05-24 08:17:23"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes don't have the same value.",
-            "date": "2021-05-17 09:29:50"
+            "date": "2021-05-24 08:17:24"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes don't have the same value.",
-            "date": "2021-05-17 09:29:51"
+            "date": "2021-05-24 08:17:24"
           }
         }
       ]
@@ -217,7 +217,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:51"
+            "date": "2021-05-24 08:17:25"
           }
         }
       ]
@@ -248,7 +248,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:51"
+            "date": "2021-05-24 08:17:25"
           }
         }
       ]
@@ -279,7 +279,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:52"
+            "date": "2021-05-24 08:17:26"
           }
         }
       ]
@@ -310,7 +310,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:52"
+            "date": "2021-05-24 08:17:26"
           }
         }
       ]
@@ -341,7 +341,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:53"
+            "date": "2021-05-24 08:17:26"
           }
         }
       ]
@@ -372,7 +372,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:53"
+            "date": "2021-05-24 08:17:27"
           }
         }
       ]
@@ -403,7 +403,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:54"
+            "date": "2021-05-24 08:17:27"
           }
         }
       ]
@@ -434,7 +434,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:29:54"
+            "date": "2021-05-24 08:17:28"
           }
         }
       ]

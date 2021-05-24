@@ -34,7 +34,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-05-17 09:33:19"
+            "date": "2021-05-24 08:20:55"
           }
         }
       ]
@@ -78,7 +78,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-05-17 09:33:19"
+            "date": "2021-05-24 08:20:55"
           }
         }
       ]
@@ -122,7 +122,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-05-17 09:33:20"
+            "date": "2021-05-24 08:20:56"
           }
         }
       ]
@@ -178,7 +178,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-05-17 09:33:20"
+            "date": "2021-05-24 08:20:56"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-05-17 09:33:21"
+            "date": "2021-05-24 08:20:56"
           }
         }
       ]
@@ -284,7 +284,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell",
-            "date": "2021-05-17 09:33:21"
+            "date": "2021-05-24 08:20:57"
           }
         }
       ]
@@ -328,7 +328,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-05-17 09:33:22"
+            "date": "2021-05-24 08:20:57"
           }
         }
       ]
@@ -372,7 +372,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-05-17 09:33:22"
+            "date": "2021-05-24 08:20:58"
           }
         }
       ]
@@ -416,7 +416,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell",
-            "date": "2021-05-17 09:33:23"
+            "date": "2021-05-24 08:20:58"
           }
         }
       ]
@@ -447,7 +447,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:23"
+            "date": "2021-05-24 08:20:59"
           }
         }
       ]
@@ -478,7 +478,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:23"
+            "date": "2021-05-24 08:20:59"
           }
         }
       ]
@@ -509,7 +509,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:24"
+            "date": "2021-05-24 08:20:59"
           }
         }
       ]
@@ -540,7 +540,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:24"
+            "date": "2021-05-24 08:21:00"
           }
         }
       ]
@@ -571,7 +571,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:25"
+            "date": "2021-05-24 08:21:00"
           }
         }
       ]
@@ -602,7 +602,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:25"
+            "date": "2021-05-24 08:21:01"
           }
         }
       ]
@@ -633,7 +633,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:33:26"
+            "date": "2021-05-24 08:21:01"
           }
         }
       ]

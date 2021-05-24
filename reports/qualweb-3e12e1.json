@@ -34,7 +34,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:54"
+            "date": "2021-05-24 08:15:26"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:54"
+            "date": "2021-05-24 08:15:26"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:55"
+            "date": "2021-05-24 08:15:27"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:56"
+            "date": "2021-05-24 08:15:27"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:56"
+            "date": "2021-05-24 08:15:28"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:56"
+            "date": "2021-05-24 08:15:28"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-05-17 09:27:57"
+            "date": "2021-05-24 08:15:28"
           }
         }
       ]
@@ -293,7 +293,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-17 09:27:57"
+            "date": "2021-05-24 08:15:29"
           }
         }
       ]
