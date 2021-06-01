@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `lang` attribute has a valid value.",
-            "date": "2021-05-24 08:17:20"
+            "date": "2021-06-01 10:06:14"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `lang` attribute has a valid value.",
-            "date": "2021-05-24 08:17:21"
+            "date": "2021-06-01 10:06:15"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `lang` attribute does not have a valid value.",
-            "date": "2021-05-24 08:17:21"
+            "date": "2021-06-01 10:06:15"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `lang` attribute does not have a valid value.",
-            "date": "2021-05-24 08:17:22"
+            "date": "2021-06-01 10:06:15"
           }
         }
       ]
@@ -179,7 +179,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-24 08:17:22"
+            "date": "2021-06-01 10:06:16"
           }
         }
       ]

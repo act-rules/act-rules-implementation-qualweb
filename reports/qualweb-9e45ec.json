@@ -34,7 +34,7 @@
               }
             ],
             "description": "The word-spacing property is not !important",
-            "date": "2021-05-24 08:22:43"
+            "date": "2021-06-01 10:11:32"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-05-24 08:22:43"
+            "date": "2021-06-01 10:11:32"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-05-24 08:22:44"
+            "date": "2021-06-01 10:11:33"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-05-24 08:22:44"
+            "date": "2021-06-01 10:11:33"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-05-24 08:22:45"
+            "date": "2021-06-01 10:11:33"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The cascaded word-spacing is not the declared value.",
-            "date": "2021-05-24 08:22:45"
+            "date": "2021-06-01 10:11:34"
           }
         }
       ]
@@ -268,7 +268,7 @@
               }
             ],
             "description": "The word-spacing property is not !important",
-            "date": "2021-05-24 08:22:45"
+            "date": "2021-06-01 10:11:34"
           }
         }
       ]
@@ -312,7 +312,7 @@
               }
             ],
             "description": "The word-spacing property is not !important",
-            "date": "2021-05-24 08:22:46"
+            "date": "2021-06-01 10:11:35"
           }
         }
       ]
@@ -350,7 +350,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-05-24 08:22:46"
+            "date": "2021-06-01 10:11:35"
           }
         }
       ]
@@ -388,7 +388,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-05-24 08:22:47"
+            "date": "2021-06-01 10:11:36"
           }
         }
       ]
@@ -426,7 +426,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-05-24 08:22:47"
+            "date": "2021-06-01 10:11:36"
           }
         }
       ]
@@ -464,7 +464,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-05-24 08:22:48"
+            "date": "2021-06-01 10:11:37"
           }
         }
       ]
@@ -495,7 +495,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-24 08:22:48"
+            "date": "2021-06-01 10:11:37"
           }
         }
       ]
@@ -526,7 +526,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-24 08:22:48"
+            "date": "2021-06-01 10:11:37"
           }
         }
       ]
@@ -557,7 +557,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-24 08:22:49"
+            "date": "2021-06-01 10:11:38"
           }
         }
       ]
@@ -588,7 +588,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-05-24 08:22:49"
+            "date": "2021-06-01 10:11:38"
           }
         }
       ]

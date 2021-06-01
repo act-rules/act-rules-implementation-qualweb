@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target redirects after more than 20 hours.",
-            "date": "2021-05-24 08:19:52"
+            "date": "2021-06-01 10:08:43"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target refreshes after 30 seconds.",
-            "date": "2021-05-24 08:19:52"
+            "date": "2021-06-01 10:08:44"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target redirects after 30 seconds.",
-            "date": "2021-05-24 08:19:53"
+            "date": "2021-06-01 10:08:44"
           }
         }
       ]
@@ -154,7 +154,7 @@
               }
             ],
             "description": "The test target redirects after 5 seconds.",
-            "date": "2021-05-24 08:19:53"
+            "date": "2021-06-01 10:08:44"
           }
         }
       ]
@@ -192,7 +192,7 @@
               }
             ],
             "description": "The test target redirects after 72000 seconds.",
-            "date": "2021-05-24 08:19:53"
+            "date": "2021-06-01 10:08:45"
           }
         }
       ]
@@ -230,7 +230,7 @@
               }
             ],
             "description": "The test target doesn't have the attribute `content`.",
-            "date": "2021-05-24 08:19:54"
+            "date": "2021-06-01 10:08:45"
           }
         }
       ]
@@ -268,7 +268,7 @@
               }
             ],
             "description": "The test target doesn't have the attribute `http-equiv`.",
-            "date": "2021-05-24 08:19:54"
+            "date": "2021-06-01 10:08:46"
           }
         }
       ]
@@ -306,7 +306,7 @@
               }
             ],
             "description": "The test target `content` attribute is invalid.",
-            "date": "2021-05-24 08:19:55"
+            "date": "2021-06-01 10:08:46"
           }
         }
       ]
@@ -344,7 +344,7 @@
               }
             ],
             "description": "The test target `content` attribute is invalid.",
-            "date": "2021-05-24 08:19:55"
+            "date": "2021-06-01 10:08:46"
           }
         }
       ]
@@ -382,7 +382,7 @@
               }
             ],
             "description": "The test target `content` attribute is invalid.",
-            "date": "2021-05-24 08:19:56"
+            "date": "2021-06-01 10:08:47"
           }
         }
       ]
@@ -420,7 +420,7 @@
               }
             ],
             "description": "The test target `content` attribute is empty (\"\").",
-            "date": "2021-05-24 08:19:56"
+            "date": "2021-06-01 10:08:47"
           }
         }
       ]
@@ -458,7 +458,7 @@
               }
             ],
             "description": "The test target `content` attribute is invalid.",
-            "date": "2021-05-24 08:19:56"
+            "date": "2021-06-01 10:08:48"
           }
         }
       ]
@@ -496,7 +496,7 @@
               }
             ],
             "description": "The test target `content` attribute is invalid.",
-            "date": "2021-05-24 08:19:57"
+            "date": "2021-06-01 10:08:48"
           }
         }
       ]
