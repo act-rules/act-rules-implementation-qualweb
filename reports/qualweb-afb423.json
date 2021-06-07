@@ -34,7 +34,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:38"
+            "date": "2021-06-07 09:45:27"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:38"
+            "date": "2021-06-07 09:45:28"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:39"
+            "date": "2021-06-07 09:45:28"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:39"
+            "date": "2021-06-07 09:45:29"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:40"
+            "date": "2021-06-07 09:45:29"
           }
         }
       ]
@@ -217,7 +217,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:40"
+            "date": "2021-06-07 09:45:30"
           }
         }
       ]
@@ -248,7 +248,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:41"
+            "date": "2021-06-07 09:45:30"
           }
         }
       ]

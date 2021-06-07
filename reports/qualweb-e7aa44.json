@@ -34,7 +34,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-06-01 10:03:46"
+            "date": "2021-06-07 09:45:35"
           }
         },
         {
@@ -58,7 +58,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:46"
+            "date": "2021-06-07 09:45:35"
           }
         },
         {
@@ -82,7 +82,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-06-01 10:03:46"
+            "date": "2021-06-07 09:45:35"
           }
         }
       ]
@@ -120,7 +120,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-06-01 10:03:47"
+            "date": "2021-06-07 09:45:36"
           }
         },
         {
@@ -144,7 +144,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:47"
+            "date": "2021-06-07 09:45:36"
           }
         },
         {
@@ -168,7 +168,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-06-01 10:03:47"
+            "date": "2021-06-07 09:45:36"
           }
         }
       ]
@@ -206,7 +206,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-06-01 10:03:47"
+            "date": "2021-06-07 09:45:36"
           }
         },
         {
@@ -230,7 +230,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:47"
+            "date": "2021-06-07 09:45:36"
           }
         },
         {
@@ -254,7 +254,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-06-01 10:03:47"
+            "date": "2021-06-07 09:45:36"
           }
         }
       ]
@@ -292,7 +292,7 @@
               }
             ],
             "description": "Check if the test target audio has text-alternative.",
-            "date": "2021-06-01 10:03:48"
+            "date": "2021-06-07 09:45:37"
           }
         },
         {
@@ -316,7 +316,7 @@
               }
             ],
             "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-06-01 10:03:48"
+            "date": "2021-06-07 09:45:37"
           }
         },
         {
@@ -340,7 +340,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R58",
-            "date": "2021-06-01 10:03:48"
+            "date": "2021-06-07 09:45:37"
           }
         }
       ]
@@ -371,7 +371,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:48"
+            "date": "2021-06-07 09:45:37"
           }
         },
         {
@@ -388,7 +388,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:48"
+            "date": "2021-06-07 09:45:37"
           }
         },
         {
@@ -412,7 +412,7 @@
               }
             ],
             "description": "The test target doesn't apply to this rule",
-            "date": "2021-06-01 10:03:48"
+            "date": "2021-06-07 09:45:37"
           }
         }
       ]
@@ -443,7 +443,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:49"
+            "date": "2021-06-07 09:45:38"
           }
         },
         {
@@ -460,7 +460,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:49"
+            "date": "2021-06-07 09:45:38"
           }
         },
         {
@@ -484,7 +484,7 @@
               }
             ],
             "description": "The test target doesn't apply to this rule",
-            "date": "2021-06-01 10:03:49"
+            "date": "2021-06-07 09:45:38"
           }
         }
       ]
@@ -515,7 +515,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:49"
+            "date": "2021-06-07 09:45:38"
           }
         },
         {
@@ -532,7 +532,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:49"
+            "date": "2021-06-07 09:45:38"
           }
         },
         {
@@ -549,7 +549,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-01 10:03:49"
+            "date": "2021-06-07 09:45:38"
           }
         }
       ]
