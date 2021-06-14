@@ -34,7 +34,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-06-07 09:52:19"
+            "date": "2021-06-14 08:51:38"
           }
         },
         {
@@ -58,7 +58,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-06-07 09:52:19"
+            "date": "2021-06-14 08:51:38"
           }
         },
         {
@@ -82,7 +82,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R56",
-            "date": "2021-06-07 09:52:19"
+            "date": "2021-06-14 08:51:38"
           }
         }
       ]
@@ -120,7 +120,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-06-07 09:52:20"
+            "date": "2021-06-14 08:51:39"
           }
         },
         {
@@ -144,7 +144,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-06-07 09:52:20"
+            "date": "2021-06-14 08:51:39"
           }
         },
         {
@@ -168,7 +168,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R56",
-            "date": "2021-06-07 09:52:20"
+            "date": "2021-06-14 08:51:39"
           }
         }
       ]
@@ -206,7 +206,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-06-07 09:52:21"
+            "date": "2021-06-14 08:51:40"
           }
         },
         {
@@ -230,7 +230,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-06-07 09:52:21"
+            "date": "2021-06-14 08:51:40"
           }
         },
         {
@@ -254,7 +254,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R56",
-            "date": "2021-06-07 09:52:21"
+            "date": "2021-06-14 08:51:40"
           }
         }
       ]
@@ -292,7 +292,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-06-07 09:52:21"
+            "date": "2021-06-14 08:51:40"
           }
         },
         {
@@ -316,7 +316,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-06-07 09:52:21"
+            "date": "2021-06-14 08:51:40"
           }
         },
         {
@@ -340,7 +340,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R56",
-            "date": "2021-06-07 09:52:21"
+            "date": "2021-06-14 08:51:40"
           }
         }
       ]
@@ -371,7 +371,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-07 09:52:22"
+            "date": "2021-06-14 08:51:41"
           }
         },
         {
@@ -388,7 +388,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-07 09:52:22"
+            "date": "2021-06-14 08:51:41"
           }
         },
         {
@@ -412,7 +412,7 @@
               }
             ],
             "description": "The test target doesn't apply to this rule",
-            "date": "2021-06-07 09:52:22"
+            "date": "2021-06-14 08:51:41"
           }
         }
       ]
@@ -450,7 +450,7 @@
               }
             ],
             "description": "Cant colect data from the test target.",
-            "date": "2021-06-07 09:52:24"
+            "date": "2021-06-14 08:51:43"
           }
         },
         {
@@ -474,7 +474,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-06-07 09:52:24"
+            "date": "2021-06-14 08:51:43"
           }
         },
         {
@@ -498,7 +498,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R56",
-            "date": "2021-06-07 09:52:24"
+            "date": "2021-06-14 08:51:43"
           }
         }
       ]
