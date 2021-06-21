@@ -1,0 +1,1317 @@
+{
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@graph": [
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/2294ea2ee2405123b7ac565256f4ffc2fbde0230.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:32"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:32"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:32"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:32"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:32"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/418475d20705cdb65760b6b2e8e499e5c0e43a00.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/51991f17502dcc8a459e32e849af3211c7efe68a.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:33"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:33"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/26d6803551b1f3b247c4f4750d1291b8d99f5d22.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:34"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:34"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:34"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:34"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:34"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/2b5216187a19a904cfe74e0fe39c9e307d25a213.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:35"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/bfc91b0445d5b2afe1709fc87ed67f0ab3ed72c4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:35"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:35"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/9510a72dd0fa1dad4bb46d36ea997d6482ed37ed.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:36"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/3938988521b4347e0dd1d9624b79c92c8339a691.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:36"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(2)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:36"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/48804abea1fcf8ff1659bdb7d438bd63a6839826.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant colect data from the test target.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "Cant collect data from the test target.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:cantTell",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:cantTell"
+                }
+              }
+            ],
+            "description": "The rule can't tell because of the rule QW-ACT-R55",
+            "date": "2021-06-21 09:19:37"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/c5a4ea/4dac8142ec00fec20afcd59056d04664b6acb40c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1ea59c",
+            "@type": "TestCase",
+            "title": "video element visual-only content has transcript",
+            "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/ab4d13",
+            "@type": "TestCase",
+            "title": "video element content is media alternative for text",
+            "description": "This rule checks non-streaming video is a media alternative for text on the page."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/f196ce",
+            "@type": "TestCase",
+            "title": "video element visual content has description track",
+            "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/1a02b0",
+            "@type": "TestCase",
+            "title": "video element visual content has transcript",
+            "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "description": "No test targets found.",
+            "date": "2021-06-21 09:19:37"
+          }
+        },
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/c5a4ea",
+            "@type": "TestCase",
+            "title": "video element visual content has accessible alternative",
+            "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:inapplicable",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > video:nth-child(1)",
+                  "outcome": "earl:inapplicable"
+                }
+              }
+            ],
+            "description": "The test target doesn't apply to this rule",
+            "date": "2021-06-21 09:19:37"
+          }
+        }
+      ]
+    }
+  ]
+}
