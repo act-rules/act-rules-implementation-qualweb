@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-06-14 08:44:10"
+            "date": "2021-06-28 08:51:39"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-06-14 08:44:10"
+            "date": "2021-06-28 08:51:39"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `aria-busy` property is supported or inherited by the `role` undefined.",
-            "date": "2021-06-14 08:44:11"
+            "date": "2021-06-28 08:51:40"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` button.",
-            "date": "2021-06-14 08:44:11"
+            "date": "2021-06-28 08:51:40"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `aria-checked` property is supported or inherited by the `role` checkbox.",
-            "date": "2021-06-14 08:44:12"
+            "date": "2021-06-28 08:51:40"
           }
         }
       ]
@@ -230,7 +230,7 @@
               }
             ],
             "description": "The `aria-controls` property is supported or inherited by the `role` combobox.",
-            "date": "2021-06-14 08:44:12"
+            "date": "2021-06-28 08:51:41"
           }
         }
       ]
@@ -274,7 +274,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2021-06-14 08:44:12"
+            "date": "2021-06-28 08:51:41"
           }
         }
       ]
@@ -318,7 +318,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2021-06-14 08:44:13"
+            "date": "2021-06-28 08:51:42"
           }
         }
       ]
@@ -356,7 +356,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` graphics-object.",
-            "date": "2021-06-14 08:44:13"
+            "date": "2021-06-28 08:51:42"
           }
         }
       ]
@@ -394,7 +394,45 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-06-14 08:44:14"
+            "date": "2021-06-28 08:51:43"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/1268e399d9de5fe1dd344947d716648605af7ef1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:passed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > label:nth-child(1) > input:nth-child(1)",
+                  "outcome": "earl:passed"
+                }
+              }
+            ],
+            "description": "The `aria-required` property is supported or inherited by the `role` undefined.",
+            "date": "2021-06-28 08:51:43"
           }
         }
       ]
@@ -432,7 +470,45 @@
               }
             ],
             "description": "The `aria-sort` property is neither inherited nor supported by the `role` button.",
-            "date": "2021-06-14 08:44:14"
+            "date": "2021-06-28 08:51:44"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/5c01ea/46a07f5e7ad1db02e255f3d6c7d7b0e1ecf3b1fd.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/5c01ea",
+            "@type": "TestCase",
+            "title": "ARIA state or property is permitted",
+            "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > audio:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `aria-orientation` property is neither inherited nor supported by the `role` undefined.",
+            "date": "2021-06-28 08:51:45"
           }
         }
       ]
@@ -463,7 +539,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-14 08:44:15"
+            "date": "2021-06-28 08:51:45"
           }
         }
       ]
@@ -494,7 +570,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-14 08:44:15"
+            "date": "2021-06-28 08:51:46"
           }
         }
       ]
