@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-06-28 08:51:39"
+            "date": "2021-07-05 09:22:24"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-06-28 08:51:39"
+            "date": "2021-07-05 09:22:24"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `aria-busy` property is supported or inherited by the `role` undefined.",
-            "date": "2021-06-28 08:51:40"
+            "date": "2021-07-05 09:22:25"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` button.",
-            "date": "2021-06-28 08:51:40"
+            "date": "2021-07-05 09:22:25"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `aria-checked` property is supported or inherited by the `role` checkbox.",
-            "date": "2021-06-28 08:51:40"
+            "date": "2021-07-05 09:22:26"
           }
         }
       ]
@@ -230,7 +230,7 @@
               }
             ],
             "description": "The `aria-controls` property is supported or inherited by the `role` combobox.",
-            "date": "2021-06-28 08:51:41"
+            "date": "2021-07-05 09:22:26"
           }
         }
       ]
@@ -274,7 +274,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2021-06-28 08:51:41"
+            "date": "2021-07-05 09:22:26"
           }
         }
       ]
@@ -318,7 +318,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2021-06-28 08:51:42"
+            "date": "2021-07-05 09:22:27"
           }
         }
       ]
@@ -356,7 +356,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` graphics-object.",
-            "date": "2021-06-28 08:51:42"
+            "date": "2021-07-05 09:22:27"
           }
         }
       ]
@@ -394,7 +394,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-06-28 08:51:43"
+            "date": "2021-07-05 09:22:28"
           }
         }
       ]
@@ -432,7 +432,7 @@
               }
             ],
             "description": "The `aria-required` property is supported or inherited by the `role` undefined.",
-            "date": "2021-06-28 08:51:43"
+            "date": "2021-07-05 09:22:28"
           }
         }
       ]
@@ -470,7 +470,7 @@
               }
             ],
             "description": "The `aria-sort` property is neither inherited nor supported by the `role` button.",
-            "date": "2021-06-28 08:51:44"
+            "date": "2021-07-05 09:22:29"
           }
         }
       ]
@@ -508,7 +508,7 @@
               }
             ],
             "description": "The `aria-orientation` property is neither inherited nor supported by the `role` undefined.",
-            "date": "2021-06-28 08:51:45"
+            "date": "2021-07-05 09:22:30"
           }
         }
       ]
@@ -539,7 +539,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-28 08:51:45"
+            "date": "2021-07-05 09:22:30"
           }
         }
       ]
@@ -570,7 +570,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-06-28 08:51:46"
+            "date": "2021-07-05 09:22:31"
           }
         }
       ]
