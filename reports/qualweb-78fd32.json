@@ -34,7 +34,7 @@
               }
             ],
             "description": "The line-height property is not !important",
-            "date": "2021-07-12 11:27:39"
+            "date": "2021-07-19 10:26:37"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The line-height is at least 1.5 times the font-size.",
-            "date": "2021-07-12 11:27:39"
+            "date": "2021-07-19 10:26:38"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The line-height is at least 1.5 times the font-size.",
-            "date": "2021-07-12 11:27:40"
+            "date": "2021-07-19 10:26:38"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The line-height is at least 1.5 times the font-size.",
-            "date": "2021-07-12 11:27:40"
+            "date": "2021-07-19 10:26:39"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The line-height is at least 1.5 times the font-size.",
-            "date": "2021-07-12 11:27:41"
+            "date": "2021-07-19 10:26:39"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The line-height is at least 1.5 times the font-size.",
-            "date": "2021-07-12 11:27:41"
+            "date": "2021-07-19 10:26:40"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "The line-height is at least 1.5 times the font-size.",
-            "date": "2021-07-12 11:27:42"
+            "date": "2021-07-19 10:26:40"
           }
         }
       ]
@@ -300,7 +300,7 @@
               }
             ],
             "description": "The cascaded line-height is not the declared value.",
-            "date": "2021-07-12 11:27:42"
+            "date": "2021-07-19 10:26:41"
           }
         }
       ]
@@ -344,7 +344,7 @@
               }
             ],
             "description": "The line-height property is not !important",
-            "date": "2021-07-12 11:27:43"
+            "date": "2021-07-19 10:26:41"
           }
         }
       ]
@@ -388,7 +388,7 @@
               }
             ],
             "description": "The line-height property is not !important",
-            "date": "2021-07-12 11:27:43"
+            "date": "2021-07-19 10:26:41"
           }
         }
       ]
@@ -426,7 +426,7 @@
               }
             ],
             "description": "CSS styles prevent the line-height to be above the minimum value.",
-            "date": "2021-07-12 11:27:44"
+            "date": "2021-07-19 10:26:42"
           }
         }
       ]
@@ -464,7 +464,7 @@
               }
             ],
             "description": "CSS styles prevent the line-height to be above the minimum value.",
-            "date": "2021-07-12 11:27:44"
+            "date": "2021-07-19 10:26:42"
           }
         }
       ]
@@ -502,7 +502,7 @@
               }
             ],
             "description": "CSS styles prevent the line-height to be above the minimum value.",
-            "date": "2021-07-12 11:27:44"
+            "date": "2021-07-19 10:26:43"
           }
         }
       ]
@@ -540,7 +540,7 @@
               }
             ],
             "description": "CSS styles prevent the line-height to be above the minimum value.",
-            "date": "2021-07-12 11:27:45"
+            "date": "2021-07-19 10:26:43"
           }
         }
       ]
@@ -578,7 +578,7 @@
               }
             ],
             "description": "CSS styles prevent the line-height to be above the minimum value.",
-            "date": "2021-07-12 11:27:45"
+            "date": "2021-07-19 10:26:44"
           }
         }
       ]
@@ -616,7 +616,7 @@
               }
             ],
             "description": "CSS styles prevent the line-height to be above the minimum value.",
-            "date": "2021-07-12 11:27:46"
+            "date": "2021-07-19 10:26:44"
           }
         }
       ]
@@ -647,7 +647,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-12 11:27:46"
+            "date": "2021-07-19 10:26:45"
           }
         }
       ]
@@ -678,7 +678,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-12 11:27:47"
+            "date": "2021-07-19 10:26:45"
           }
         }
       ]
@@ -709,7 +709,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-12 11:27:47"
+            "date": "2021-07-19 10:26:46"
           }
         }
       ]
@@ -740,7 +740,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-12 11:27:48"
+            "date": "2021-07-19 10:26:46"
           }
         }
       ]
