@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute doesn't define the `maximum-scale` and `user-scalable` values.",
-            "date": "2021-07-19 10:27:51"
+            "date": "2021-07-26 10:31:38"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute retains the user agent ability to zoom.",
-            "date": "2021-07-19 10:27:52"
+            "date": "2021-07-26 10:31:39"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute retains the user agent ability to zoom.",
-            "date": "2021-07-19 10:27:52"
+            "date": "2021-07-26 10:31:39"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute doesn't define the `maximum-scale` and `user-scalable` values.",
-            "date": "2021-07-19 10:27:53"
+            "date": "2021-07-26 10:31:40"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute doesn't define the `maximum-scale` and `user-scalable` values.",
-            "date": "2021-07-19 10:27:53"
+            "date": "2021-07-26 10:31:40"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2021-07-19 10:27:54"
+            "date": "2021-07-26 10:31:41"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2021-07-19 10:27:54"
+            "date": "2021-07-26 10:31:41"
           }
         }
       ]
@@ -300,7 +300,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2021-07-19 10:27:55"
+            "date": "2021-07-26 10:31:42"
           }
         }
       ]
@@ -338,7 +338,7 @@
               }
             ],
             "description": "The `meta` element with a `name=\"viewport\"` attribute abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2.",
-            "date": "2021-07-19 10:27:55"
+            "date": "2021-07-26 10:31:42"
           }
         }
       ]
@@ -369,7 +369,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-19 10:27:55"
+            "date": "2021-07-26 10:31:42"
           }
         }
       ]
@@ -400,7 +400,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-19 10:27:56"
+            "date": "2021-07-26 10:31:43"
           }
         }
       ]

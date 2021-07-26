@@ -34,7 +34,7 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2021-07-19 10:21:19"
+            "date": "2021-07-26 10:25:22"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2021-07-19 10:21:19"
+            "date": "2021-07-26 10:25:22"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2021-07-19 10:21:20"
+            "date": "2021-07-26 10:25:23"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "All aria-* attributes in this element are defined in ARIA 1.1",
-            "date": "2021-07-19 10:21:20"
+            "date": "2021-07-26 10:25:23"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The following aria-* attributes are not defined in ARIA 1.1: , aria-not-checked",
-            "date": "2021-07-19 10:21:21"
+            "date": "2021-07-26 10:25:24"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The following aria-* attributes are not defined in ARIA 1.1: , aria-labelled",
-            "date": "2021-07-19 10:21:21"
+            "date": "2021-07-26 10:25:24"
           }
         }
       ]
@@ -255,7 +255,7 @@
             "outcome": "earl:inapplicable",
             "source": [],
             "description": "No test targets found.",
-            "date": "2021-07-19 10:21:22"
+            "date": "2021-07-26 10:25:25"
           }
         }
       ]
