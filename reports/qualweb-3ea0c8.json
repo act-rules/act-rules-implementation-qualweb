@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2021-07-26 10:29:06"
+            "date": "2021-08-04 18:42:54"
           }
         }
       ]
@@ -84,7 +84,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2021-07-26 10:29:06"
+            "date": "2021-08-04 18:42:54"
           }
         }
       ]
@@ -128,7 +128,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2021-07-26 10:29:07"
+            "date": "2021-08-04 18:42:55"
           }
         }
       ]
@@ -166,7 +166,7 @@
               }
             ],
             "description": "The test target has a unique `id` attribute.",
-            "date": "2021-07-26 10:29:07"
+            "date": "2021-08-04 18:42:55"
           }
         }
       ]
@@ -203,8 +203,8 @@
                 }
               }
             ],
-            "description": "Several elements have the same `id` attribute (label).",
-            "date": "2021-07-26 10:29:08"
+            "description": "Several elements have the same `id` attribute.",
+            "date": "2021-08-04 18:42:56"
           }
         }
       ]
@@ -241,8 +241,8 @@
                 }
               }
             ],
-            "description": "Several elements have the same `id` attribute (label).",
-            "date": "2021-07-26 10:29:08"
+            "description": "Several elements have the same `id` attribute.",
+            "date": "2021-08-04 18:42:56"
           }
         }
       ]
@@ -279,8 +279,8 @@
                 }
               }
             ],
-            "description": "Several elements have the same `id` attribute (label).",
-            "date": "2021-07-26 10:29:09"
+            "description": "Several elements have the same `id` attribute.",
+            "date": "2021-08-04 18:42:57"
           }
         }
       ]
@@ -310,8 +310,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:09"
+            "date": "2021-08-04 18:42:57"
           }
         }
       ]
@@ -341,8 +340,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:09"
+            "date": "2021-08-04 18:42:58"
           }
         }
       ]
@@ -372,8 +370,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:10"
+            "date": "2021-08-04 18:42:58"
           }
         }
       ]

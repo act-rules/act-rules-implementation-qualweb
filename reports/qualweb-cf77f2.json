@@ -33,8 +33,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:03"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:49"
           }
         },
         {
@@ -57,8 +57,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:03"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:49"
           }
         },
         {
@@ -81,8 +81,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:03"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:49"
           }
         },
         {
@@ -105,8 +105,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:03"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:49"
           }
         },
         {
@@ -130,7 +130,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:03"
+            "date": "2021-08-04 18:40:49"
           }
         }
       ]
@@ -167,8 +167,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:08"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -191,8 +191,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:08"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -215,8 +215,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:08"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -239,8 +239,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:08"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -264,7 +264,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:08"
+            "date": "2021-08-04 18:40:55"
           }
         }
       ]
@@ -301,8 +301,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:04"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -325,8 +325,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:04"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -349,8 +349,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:04"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -373,8 +373,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:04"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -398,7 +398,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:04"
+            "date": "2021-08-04 18:40:50"
           }
         }
       ]
@@ -435,8 +435,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:04"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -459,8 +459,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:04"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -483,8 +483,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:04"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -507,8 +507,8 @@
                 }
               }
             ],
-            "description": "\n            The page has at least 1 instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:04"
+            "description": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:50"
           }
         },
         {
@@ -532,7 +532,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:04"
+            "date": "2021-08-04 18:40:50"
           }
         }
       ]
@@ -569,8 +569,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:05"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -593,8 +593,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:05"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -617,8 +617,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:05"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -641,8 +641,8 @@
                 }
               }
             ],
-            "description": "\n            The page has at least 3 instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:05"
+            "description": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -666,7 +666,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:05"
+            "date": "2021-08-04 18:40:51"
           }
         }
       ]
@@ -703,8 +703,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:05"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -727,8 +727,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:05"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -751,8 +751,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:05"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -775,8 +775,8 @@
                 }
               }
             ],
-            "description": "\n            The page has at least 2 instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:05"
+            "description": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:51"
           }
         },
         {
@@ -800,7 +800,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:05"
+            "date": "2021-08-04 18:40:51"
           }
         }
       ]
@@ -837,8 +837,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -861,8 +861,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -885,8 +885,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -909,8 +909,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -934,7 +934,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:06"
+            "date": "2021-08-04 18:40:52"
           }
         }
       ]
@@ -971,8 +971,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -995,8 +995,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -1019,8 +1019,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -1043,8 +1043,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:52"
           }
         },
         {
@@ -1068,7 +1068,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:06"
+            "date": "2021-08-04 18:40:52"
           }
         }
       ]
@@ -1105,8 +1105,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1129,8 +1129,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1153,8 +1153,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:06"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1177,8 +1177,8 @@
                 }
               }
             ],
-            "description": "\n            The page has at least 5 instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:06"
+            "description": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1202,7 +1202,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:06"
+            "date": "2021-08-04 18:40:53"
           }
         }
       ]
@@ -1239,8 +1239,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:07"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1263,8 +1263,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:07"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1287,8 +1287,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:07"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1311,8 +1311,8 @@
                 }
               }
             ],
-            "description": "\n            The page has at least 2 instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:07"
+            "description": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:53"
           }
         },
         {
@@ -1336,7 +1336,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:07"
+            "date": "2021-08-04 18:40:53"
           }
         }
       ]
@@ -1373,8 +1373,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:07"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1397,8 +1397,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:07"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1421,8 +1421,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:07"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1445,8 +1445,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:07"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1470,7 +1470,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:07"
+            "date": "2021-08-04 18:40:54"
           }
         }
       ]
@@ -1507,8 +1507,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:08"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1531,8 +1531,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:08"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1555,8 +1555,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:08"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1579,8 +1579,8 @@
                 }
               }
             ],
-            "description": "\n            The page has at least 1 instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:08"
+            "description": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:54"
           }
         },
         {
@@ -1604,7 +1604,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:08"
+            "date": "2021-08-04 18:40:54"
           }
         }
       ]
@@ -1641,8 +1641,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element has semantic role inheriting from landmark; and\n               - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:09"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1665,8 +1665,8 @@
                 }
               }
             ],
-            "description": "\n              Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true:\n               - the element is non-repeated content after repeated content; and\n               - the element has a semantic role of heading; and\n               - the element is visible; and\n               - the element is included in the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:09"
+            "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1689,8 +1689,8 @@
                 }
               }
             ],
-            "description": "\n              For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true:\n               - there exists an instrument to make all nodes in this block not visible; and\n               - there exists an instrument to remove all nodes in this block from the accessibility tree.\n            ",
-            "date": "2021-07-26 10:27:09"
+            "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1713,8 +1713,8 @@
                 }
               }
             ],
-            "description": "\n            Check if the page has any instrument(s) to move focus. \n            Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.\n          ",
-            "date": "2021-07-26 10:27:09"
+            "description": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1738,7 +1738,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R63",
-            "date": "2021-07-26 10:27:09"
+            "date": "2021-08-04 18:40:55"
           }
         }
       ]
@@ -1768,8 +1768,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:27:09"
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1785,8 +1784,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:27:09"
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1802,8 +1800,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:27:09"
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1819,8 +1816,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:27:09"
+            "date": "2021-08-04 18:40:55"
           }
         },
         {
@@ -1843,8 +1839,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't apply to this rule",
-            "date": "2021-07-26 10:27:09"
+            "description": "No test targets found.",
+            "date": "2021-08-04 18:40:55"
           }
         }
       ]

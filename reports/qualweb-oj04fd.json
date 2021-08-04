@@ -39,8 +39,8 @@
                 }
               }
             ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-07-26 10:32:23"
+            "description": "Check if the element has some visible focus indication",
+            "date": "2021-08-04 18:46:14"
           }
         }
       ]
@@ -83,8 +83,8 @@
                 }
               }
             ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-07-26 10:32:24"
+            "description": "Check if the element has some visible focus indication",
+            "date": "2021-08-04 18:46:15"
           }
         }
       ]
@@ -127,8 +127,8 @@
                 }
               }
             ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-07-26 10:32:24"
+            "description": "Check if the element has some visible focus indication",
+            "date": "2021-08-04 18:46:16"
           }
         }
       ]
@@ -177,8 +177,8 @@
                 }
               }
             ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-07-26 10:32:25"
+            "description": "Check if the element has some visible focus indication",
+            "date": "2021-08-04 18:46:16"
           }
         }
       ]
@@ -221,8 +221,8 @@
                 }
               }
             ],
-            "description": " Check if the element has some visible focus indication",
-            "date": "2021-07-26 10:32:25"
+            "description": "Check if the element has some visible focus indication",
+            "date": "2021-08-04 18:46:17"
           }
         }
       ]
@@ -252,8 +252,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:26"
+            "date": "2021-08-04 18:46:17"
           }
         }
       ]
@@ -283,8 +282,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:26"
+            "date": "2021-08-04 18:46:17"
           }
         }
       ]
@@ -314,8 +312,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:27"
+            "date": "2021-08-04 18:46:18"
           }
         }
       ]
@@ -345,8 +342,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:27"
+            "date": "2021-08-04 18:46:18"
           }
         }
       ]

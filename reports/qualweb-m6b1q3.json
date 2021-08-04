@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:20"
+            "date": "2021-08-04 18:45:10"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:21"
+            "date": "2021-08-04 18:45:11"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:21"
+            "date": "2021-08-04 18:45:12"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:21"
+            "date": "2021-08-04 18:45:12"
           }
         }
       ]
@@ -185,8 +185,8 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-07-26 10:31:22"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:45:13"
           }
         }
       ]
@@ -223,8 +223,8 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-07-26 10:31:22"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:45:13"
           }
         }
       ]
@@ -254,8 +254,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:31:23"
+            "date": "2021-08-04 18:45:14"
           }
         }
       ]
@@ -285,8 +284,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:31:23"
+            "date": "2021-08-04 18:45:14"
           }
         }
       ]

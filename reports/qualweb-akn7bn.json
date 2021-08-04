@@ -33,8 +33,7 @@
                 }
               }
             ],
-            "description": " The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
-            "date": "2021-07-26 10:29:28"
+            "date": "2021-08-04 18:43:15"
           }
         }
       ]
@@ -71,8 +70,7 @@
                 }
               }
             ],
-            "description": " The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
-            "date": "2021-07-26 10:29:28"
+            "date": "2021-08-04 18:43:16"
           }
         }
       ]
@@ -109,8 +107,8 @@
                 }
               }
             ],
-            "description": " The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
-            "date": "2021-07-26 10:29:29"
+            "description": "The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
+            "date": "2021-08-04 18:43:16"
           }
         }
       ]
@@ -147,8 +145,7 @@
                 }
               }
             ],
-            "description": "The nested browsing context includes elements that are visible and part of the sequential focus navigation.",
-            "date": "2021-07-26 10:29:29"
+            "date": "2021-08-04 18:43:17"
           }
         }
       ]
@@ -178,8 +175,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:30"
+            "date": "2021-08-04 18:43:17"
           }
         }
       ]

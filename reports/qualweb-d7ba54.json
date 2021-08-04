@@ -18,7 +18,7 @@
           "test": {
             "@id": "https://act-rules.github.io/rules/d7ba54",
             "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
+            "title": "video element visual-only content has audio track alternative",
             "description": "Non-streaming video elements without audio must have an audio alternative."
           },
           "mode": "earl:automatic",
@@ -34,7 +34,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-07-26 10:33:51"
+            "date": "2021-08-04 18:47:42"
           }
         }
       ]
@@ -56,7 +56,7 @@
           "test": {
             "@id": "https://act-rules.github.io/rules/d7ba54",
             "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
+            "title": "video element visual-only content has audio track alternative",
             "description": "Non-streaming video elements without audio must have an audio alternative."
           },
           "mode": "earl:automatic",
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-07-26 10:33:51"
+            "date": "2021-08-04 18:47:43"
           }
         }
       ]
@@ -94,7 +94,7 @@
           "test": {
             "@id": "https://act-rules.github.io/rules/d7ba54",
             "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
+            "title": "video element visual-only content has audio track alternative",
             "description": "Non-streaming video elements without audio must have an audio alternative."
           },
           "mode": "earl:automatic",
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-07-26 10:33:52"
+            "date": "2021-08-04 18:47:43"
           }
         }
       ]
@@ -132,7 +132,7 @@
           "test": {
             "@id": "https://act-rules.github.io/rules/d7ba54",
             "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
+            "title": "video element visual-only content has audio track alternative",
             "description": "Non-streaming video elements without audio must have an audio alternative."
           },
           "mode": "earl:automatic",
@@ -148,7 +148,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-07-26 10:33:52"
+            "date": "2021-08-04 18:47:44"
           }
         }
       ]
@@ -170,7 +170,7 @@
           "test": {
             "@id": "https://act-rules.github.io/rules/d7ba54",
             "@type": "TestCase",
-            "title": "video element visual-only content has transcript",
+            "title": "video element visual-only content has audio track alternative",
             "description": "Non-streaming video elements without audio must have an audio alternative."
           },
           "mode": "earl:automatic",
@@ -178,8 +178,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:33:53"
+            "date": "2021-08-04 18:47:44"
           }
         }
       ]

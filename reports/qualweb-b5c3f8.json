@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `lang` attribute exists and has a value.",
-            "date": "2021-07-26 10:28:41"
+            "date": "2021-08-04 18:42:29"
           }
         }
       ]
@@ -71,8 +71,7 @@
                 }
               }
             ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-07-26 10:28:41"
+            "date": "2021-08-04 18:42:29"
           }
         }
       ]
@@ -109,8 +108,7 @@
                 }
               }
             ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-07-26 10:28:42"
+            "date": "2021-08-04 18:42:29"
           }
         }
       ]
@@ -147,8 +145,7 @@
                 }
               }
             ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-07-26 10:28:42"
+            "date": "2021-08-04 18:42:30"
           }
         }
       ]
@@ -185,8 +182,7 @@
                 }
               }
             ],
-            "description": "The `lang` attribute doesn't exist or is empty (\"\").",
-            "date": "2021-07-26 10:28:43"
+            "date": "2021-08-04 18:42:30"
           }
         }
       ]
@@ -216,8 +212,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:28:43"
+            "date": "2021-08-04 18:42:31"
           }
         }
       ]
@@ -247,8 +242,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:28:44"
+            "date": "2021-08-04 18:42:31"
           }
         }
       ]

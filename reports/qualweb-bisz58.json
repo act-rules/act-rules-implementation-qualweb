@@ -3,164 +3,6 @@
   "@graph": [
     {
       "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/293add8170d86d1f418c0620470920105003da42.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target refreshes after 30 seconds.",
-            "date": "2021-07-26 10:31:33"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/0c9b0abdee645fa6145f02913a76e809a244708d.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target redirects after 30 seconds.",
-            "date": "2021-07-26 10:31:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/459353149c69b2ee77944c5641cbff66396829e0.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              },
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(2)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target redirects after 5 seconds.",
-            "date": "2021-07-26 10:31:34"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
-      "source": "https://act-rules.github.io/testcases/bisz58/4f9bb0a8ab7bd76505483c47da831440b864fe50.html",
-      "assertor": {
-        "@id": "QualWeb",
-        "@type": "Software",
-        "title": "QualWeb",
-        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
-        "hasVersion": "3.0.0",
-        "homepage": "http://www.qualweb.di.fc.ul.pt/"
-      },
-      "assertions": [
-        {
-          "@type": "Assertion",
-          "test": {
-            "@id": "https://act-rules.github.io/rules/bisz58",
-            "@type": "TestCase",
-            "title": "`meta` element has no refresh delay (no exception)",
-            "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing."
-          },
-          "mode": "earl:automatic",
-          "result": {
-            "@type": "TestResult",
-            "outcome": "earl:failed",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:failed"
-                }
-              }
-            ],
-            "description": "The test target redirects after 72001 seconds.",
-            "date": "2021-07-26 10:31:35"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "TestSubject",
       "source": "https://act-rules.github.io/testcases/bisz58/329cba6f6b7fa215ae1e8006de9263570b91c11d.html",
       "assertor": {
         "@id": "QualWeb",
@@ -183,16 +25,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target does not have the attribute `content`.",
-            "date": "2021-07-26 10:31:35"
+            "source": [],
+            "date": "2021-08-04 18:45:26"
           }
         }
       ]
@@ -221,16 +55,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target does not have the attribute `http-equiv`.",
-            "date": "2021-07-26 10:31:35"
+            "source": [],
+            "date": "2021-08-04 18:45:26"
           }
         }
       ]
@@ -259,16 +85,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target's `content` attribute is invalid.",
-            "date": "2021-07-26 10:31:36"
+            "source": [],
+            "date": "2021-08-04 18:45:27"
           }
         }
       ]
@@ -297,16 +115,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target's `content` attribute is invalid.",
-            "date": "2021-07-26 10:31:36"
+            "source": [],
+            "date": "2021-08-04 18:45:27"
           }
         }
       ]
@@ -335,16 +145,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target `content` attribute is invalid.",
-            "date": "2021-07-26 10:31:37"
+            "source": [],
+            "date": "2021-08-04 18:45:28"
           }
         }
       ]
@@ -373,16 +175,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target's `content` attribute is empty (\"\").",
-            "date": "2021-07-26 10:31:37"
+            "source": [],
+            "date": "2021-08-04 18:45:28"
           }
         }
       ]
@@ -411,16 +205,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target's `content` attribute is invalid.",
-            "date": "2021-07-26 10:31:38"
+            "source": [],
+            "date": "2021-08-04 18:45:29"
           }
         }
       ]
@@ -449,16 +235,8 @@
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
-                  "outcome": "earl:inapplicable"
-                }
-              }
-            ],
-            "description": "The test target's `content` attribute is invalid.",
-            "date": "2021-07-26 10:31:38"
+            "source": [],
+            "date": "2021-08-04 18:45:29"
           }
         }
       ]

@@ -33,8 +33,8 @@
                 }
               }
             ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2021-07-26 10:28:58"
+            "description": "The `title` element exists and it's not empty ('').",
+            "date": "2021-08-04 18:42:46"
           }
         }
       ]
@@ -71,8 +71,8 @@
                 }
               }
             ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2021-07-26 10:28:59"
+            "description": "The `title` element exists and it's not empty ('').",
+            "date": "2021-08-04 18:42:47"
           }
         }
       ]
@@ -107,16 +107,10 @@
                   "pointer": "html > head:nth-child(1) > title:nth-child(1)",
                   "outcome": "earl:passed"
                 }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > title:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
               }
             ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2021-07-26 10:28:59"
+            "description": "The `title` element exists and it's not empty ('').",
+            "date": "2021-08-04 18:42:47"
           }
         }
       ]
@@ -153,8 +147,8 @@
                 }
               }
             ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2021-07-26 10:29:00"
+            "description": "The `title` element exists and it's not empty ('').",
+            "date": "2021-08-04 18:42:48"
           }
         }
       ]
@@ -189,16 +183,10 @@
                   "pointer": "html > head:nth-child(1) > title:nth-child(1)",
                   "outcome": "earl:passed"
                 }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > title:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
               }
             ],
-            "description": "The `title` element exists and it's not empty (\"\").",
-            "date": "2021-07-26 10:29:00"
+            "description": "The `title` element exists and it's not empty ('').",
+            "date": "2021-08-04 18:42:48"
           }
         }
       ]
@@ -236,7 +224,7 @@
               }
             ],
             "description": "The `title` element doesn't exist.",
-            "date": "2021-07-26 10:29:00"
+            "date": "2021-08-04 18:42:48"
           }
         }
       ]
@@ -273,8 +261,8 @@
                 }
               }
             ],
-            "description": "The `title` element is empty (\"\").",
-            "date": "2021-07-26 10:29:01"
+            "description": "The `title` element is empty ('').",
+            "date": "2021-08-04 18:42:49"
           }
         }
       ]
@@ -312,7 +300,7 @@
               }
             ],
             "description": "The `title` element is not in the same context.",
-            "date": "2021-07-26 10:29:01"
+            "date": "2021-08-04 18:42:49"
           }
         }
       ]
@@ -347,16 +335,10 @@
                   "pointer": "html > head:nth-child(1) > title:nth-child(1)",
                   "outcome": "earl:failed"
                 }
-              },
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > title:nth-child(1)",
-                  "outcome": "earl:inapplicable"
-                }
               }
             ],
-            "description": "The `title` element is empty (\"\").",
-            "date": "2021-07-26 10:29:02"
+            "description": "The `title` element is empty ('').",
+            "date": "2021-08-04 18:42:50"
           }
         }
       ]
@@ -393,8 +375,8 @@
                 }
               }
             ],
-            "description": "The `title` element is empty (\"\").",
-            "date": "2021-07-26 10:29:02"
+            "description": "The `title` element is empty ('').",
+            "date": "2021-08-04 18:42:50"
           }
         }
       ]
@@ -424,8 +406,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:03"
+            "date": "2021-08-04 18:42:51"
           }
         }
       ]

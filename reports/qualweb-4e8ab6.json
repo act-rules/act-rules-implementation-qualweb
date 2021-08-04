@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-07-26 10:32:14"
+            "date": "2021-08-04 18:46:05"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-07-26 10:32:14"
+            "date": "2021-08-04 18:46:06"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-07-26 10:32:15"
+            "date": "2021-08-04 18:46:06"
           }
         }
       ]
@@ -147,8 +147,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't list required aria-controls.",
-            "date": "2021-07-26 10:32:15"
+            "description": "The test target has unlisted required states or properties.",
+            "date": "2021-08-04 18:46:06"
           }
         }
       ]
@@ -185,8 +185,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't list required aria-controls.",
-            "date": "2021-07-26 10:32:16"
+            "description": "The test target has unlisted required states or properties.",
+            "date": "2021-08-04 18:46:07"
           }
         }
       ]
@@ -216,8 +216,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:16"
+            "date": "2021-08-04 18:46:07"
           }
         }
       ]
@@ -247,8 +246,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:17"
+            "date": "2021-08-04 18:46:08"
           }
         }
       ]
@@ -278,8 +276,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:17"
+            "date": "2021-08-04 18:46:08"
           }
         }
       ]

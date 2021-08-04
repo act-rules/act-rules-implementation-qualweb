@@ -19,7 +19,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:54"
+            "date": "2021-08-04 18:45:45"
           }
         }
       ]
@@ -57,7 +57,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:54"
+            "date": "2021-08-04 18:45:46"
           }
         }
       ]
@@ -95,7 +95,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:55"
+            "date": "2021-08-04 18:45:46"
           }
         }
       ]
@@ -133,7 +133,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The test target has a non-empty accessible name.",
-            "date": "2021-07-26 10:31:55"
+            "date": "2021-08-04 18:45:47"
           }
         }
       ]
@@ -171,7 +171,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -185,8 +185,8 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-07-26 10:31:56"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:45:47"
           }
         }
       ]
@@ -209,7 +209,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -223,8 +223,8 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-07-26 10:31:56"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:45:48"
           }
         }
       ]
@@ -247,7 +247,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -261,8 +261,8 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-07-26 10:31:57"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:45:48"
           }
         }
       ]
@@ -285,7 +285,7 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
@@ -299,8 +299,8 @@
                 }
               }
             ],
-            "description": "The test target accessible name doesn't exist or it's empty (\"\").",
-            "date": "2021-07-26 10:31:58"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:45:49"
           }
         }
       ]
@@ -323,15 +323,14 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:31:58"
+            "date": "2021-08-04 18:45:49"
           }
         }
       ]
@@ -354,15 +353,14 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:31:59"
+            "date": "2021-08-04 18:45:50"
           }
         }
       ]
@@ -385,15 +383,14 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:31:59"
+            "date": "2021-08-04 18:45:50"
           }
         }
       ]
@@ -416,15 +413,14 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:00"
+            "date": "2021-08-04 18:45:51"
           }
         }
       ]
@@ -447,15 +443,14 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:00"
+            "date": "2021-08-04 18:45:51"
           }
         }
       ]
@@ -478,15 +473,14 @@
             "@id": "https://github.com/act-rules/act-rules.github.io/blob/develop/object-has-acessible-name-8fc3b6.md",
             "@type": "TestCase",
             "title": "Object element has non-empty accessible name",
-            "description": "This rule checks that each `object` element has a non-empty accessible name. "
+            "description": "This rule checks that each `object` element has a non-empty accessible name."
           },
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:32:01"
+            "date": "2021-08-04 18:45:52"
           }
         }
       ]

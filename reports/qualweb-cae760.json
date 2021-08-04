@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has an accessible name.",
-            "date": "2021-07-26 10:29:23"
+            "date": "2021-08-04 18:43:11"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has an accessible name.",
-            "date": "2021-07-26 10:29:24"
+            "date": "2021-08-04 18:43:11"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has an accessible name.",
-            "date": "2021-07-26 10:29:24"
+            "date": "2021-08-04 18:43:12"
           }
         }
       ]
@@ -147,8 +147,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't have an accessible name.",
-            "date": "2021-07-26 10:29:25"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:43:12"
           }
         }
       ]
@@ -185,8 +185,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't have an accessible name.",
-            "date": "2021-07-26 10:29:25"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:43:13"
           }
         }
       ]
@@ -223,8 +223,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't have an accessible name.",
-            "date": "2021-07-26 10:29:26"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:43:13"
           }
         }
       ]
@@ -261,8 +261,8 @@
                 }
               }
             ],
-            "description": "The test target doesn't have an accessible name.",
-            "date": "2021-07-26 10:29:26"
+            "description": "The test target accessible name doesn't exist or it's empty ('').",
+            "date": "2021-08-04 18:43:14"
           }
         }
       ]
@@ -292,8 +292,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:27"
+            "date": "2021-08-04 18:43:14"
           }
         }
       ]
@@ -323,8 +322,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:27"
+            "date": "2021-08-04 18:43:14"
           }
         }
       ]
@@ -354,8 +352,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:29:28"
+            "date": "2021-08-04 18:43:15"
           }
         }
       ]

@@ -24,17 +24,9 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-07-26 10:26:08"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "date": "2021-08-04 18:39:53"
           }
         }
       ]
@@ -62,17 +54,9 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-07-26 10:26:08"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "date": "2021-08-04 18:39:54"
           }
         }
       ]
@@ -100,17 +84,9 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-07-26 10:26:09"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "date": "2021-08-04 18:39:54"
           }
         }
       ]
@@ -138,17 +114,9 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(2)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-07-26 10:26:09"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "date": "2021-08-04 18:39:55"
           }
         }
       ]
@@ -176,17 +144,9 @@
           "mode": "earl:automatic",
           "result": {
             "@type": "TestResult",
-            "outcome": "earl:cantTell",
-            "source": [
-              {
-                "result": {
-                  "pointer": "html > body:nth-child(2) > audio:nth-child(3)",
-                  "outcome": "earl:cantTell"
-                }
-              }
-            ],
-            "description": "Check if the test target audio is a media alternative for text.",
-            "date": "2021-07-26 10:26:10"
+            "outcome": "earl:inapplicable",
+            "source": [],
+            "date": "2021-08-04 18:39:55"
           }
         }
       ]
@@ -216,8 +176,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:26:10"
+            "date": "2021-08-04 18:39:56"
           }
         }
       ]
@@ -247,8 +206,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "description": "No test targets found.",
-            "date": "2021-07-26 10:26:11"
+            "date": "2021-08-04 18:39:56"
           }
         }
       ]
