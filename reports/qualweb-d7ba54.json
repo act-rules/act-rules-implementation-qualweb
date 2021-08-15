@@ -34,7 +34,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-08-04 18:47:42"
+            "date": "2021-08-15 08:03:31"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-08-04 18:47:43"
+            "date": "2021-08-15 08:03:32"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-08-04 18:47:43"
+            "date": "2021-08-15 08:03:33"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "Cant collect data from the test target.",
-            "date": "2021-08-04 18:47:44"
+            "date": "2021-08-15 08:03:34"
           }
         }
       ]
@@ -178,7 +178,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:47:44"
+            "date": "2021-08-15 08:03:35"
           }
         }
       ]

@@ -34,7 +34,7 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-08-04 18:46:46"
+            "date": "2021-08-15 08:02:01"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Element has gradient with contrast ratio higher than minimum.",
-            "date": "2021-08-04 18:46:47"
+            "date": "2021-08-15 08:02:02"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Element has an image on background.",
-            "date": "2021-08-04 18:46:47"
+            "date": "2021-08-15 08:02:02"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-08-04 18:46:48"
+            "date": "2021-08-15 08:02:03"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-08-04 18:46:48"
+            "date": "2021-08-15 08:02:04"
           }
         }
       ]
@@ -223,7 +223,7 @@
                 }
               }
             ],
-            "date": "2021-08-04 18:46:48"
+            "date": "2021-08-15 08:02:04"
           }
         }
       ]
@@ -261,7 +261,7 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-08-04 18:46:49"
+            "date": "2021-08-15 08:02:05"
           }
         }
       ]
@@ -299,7 +299,7 @@
               }
             ],
             "description": "Element has contrast ratio higher than minimum.",
-            "date": "2021-08-04 18:46:49"
+            "date": "2021-08-15 08:02:06"
           }
         }
       ]
@@ -337,7 +337,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:50"
+            "date": "2021-08-15 08:02:06"
           }
         }
       ]
@@ -375,7 +375,7 @@
               }
             ],
             "description": "Element has gradient with contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:50"
+            "date": "2021-08-15 08:02:07"
           }
         }
       ]
@@ -413,7 +413,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:51"
+            "date": "2021-08-15 08:02:07"
           }
         }
       ]
@@ -451,7 +451,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:51"
+            "date": "2021-08-15 08:02:08"
           }
         }
       ]
@@ -489,7 +489,7 @@
               }
             ],
             "description": "Element has an image on background.",
-            "date": "2021-08-04 18:46:52"
+            "date": "2021-08-15 08:02:09"
           }
         }
       ]
@@ -527,7 +527,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:52"
+            "date": "2021-08-15 08:02:09"
           }
         }
       ]
@@ -565,7 +565,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:53"
+            "date": "2021-08-15 08:02:10"
           }
         }
       ]
@@ -603,7 +603,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:53"
+            "date": "2021-08-15 08:02:10"
           }
         }
       ]
@@ -641,7 +641,7 @@
               }
             ],
             "description": "Element has gradient with contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:53"
+            "date": "2021-08-15 08:02:11"
           }
         }
       ]
@@ -685,7 +685,7 @@
               }
             ],
             "description": "Element has contrast ratio lower than minimum.",
-            "date": "2021-08-04 18:46:54"
+            "date": "2021-08-15 08:02:12"
           }
         }
       ]
@@ -715,7 +715,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:54"
+            "date": "2021-08-15 08:02:12"
           }
         }
       ]
@@ -745,7 +745,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:55"
+            "date": "2021-08-15 08:02:13"
           }
         }
       ]
@@ -775,7 +775,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:55"
+            "date": "2021-08-15 08:02:13"
           }
         }
       ]
@@ -805,7 +805,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:56"
+            "date": "2021-08-15 08:02:14"
           }
         }
       ]
@@ -835,7 +835,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:56"
+            "date": "2021-08-15 08:02:15"
           }
         }
       ]
@@ -865,7 +865,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:57"
+            "date": "2021-08-15 08:02:15"
           }
         }
       ]
@@ -895,7 +895,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:57"
+            "date": "2021-08-15 08:02:16"
           }
         }
       ]
@@ -925,7 +925,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:57"
+            "date": "2021-08-15 08:02:16"
           }
         }
       ]
@@ -955,7 +955,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:58"
+            "date": "2021-08-15 08:02:17"
           }
         }
       ]
@@ -985,7 +985,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:58"
+            "date": "2021-08-15 08:02:18"
           }
         }
       ]
@@ -1015,7 +1015,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-04 18:46:59"
+            "date": "2021-08-15 08:02:18"
           }
         }
       ]
