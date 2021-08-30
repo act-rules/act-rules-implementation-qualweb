@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2021-08-23 09:12:26"
+            "date": "2021-08-30 08:40:53"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2021-08-23 09:12:27"
+            "date": "2021-08-30 08:40:53"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes have the same value.",
-            "date": "2021-08-23 09:12:27"
+            "date": "2021-08-30 08:40:54"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes don't have the same value.",
-            "date": "2021-08-23 09:12:28"
+            "date": "2021-08-30 08:40:54"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `lang` and `xml:lang` attributes don't have the same value.",
-            "date": "2021-08-23 09:12:28"
+            "date": "2021-08-30 08:40:55"
           }
         }
       ]
@@ -216,7 +216,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:29"
+            "date": "2021-08-30 08:40:55"
           }
         }
       ]
@@ -246,7 +246,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:29"
+            "date": "2021-08-30 08:40:55"
           }
         }
       ]
@@ -276,7 +276,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:30"
+            "date": "2021-08-30 08:40:56"
           }
         }
       ]
@@ -306,7 +306,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:30"
+            "date": "2021-08-30 08:40:56"
           }
         }
       ]
@@ -336,7 +336,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:31"
+            "date": "2021-08-30 08:40:57"
           }
         }
       ]
@@ -366,7 +366,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:31"
+            "date": "2021-08-30 08:40:57"
           }
         }
       ]
@@ -396,7 +396,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:32"
+            "date": "2021-08-30 08:40:58"
           }
         }
       ]
@@ -426,7 +426,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-23 09:12:32"
+            "date": "2021-08-30 08:40:58"
           }
         }
       ]
