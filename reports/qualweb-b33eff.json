@@ -34,7 +34,7 @@
               }
             ],
             "description": "A page where CSS transform property has rotateZ transform function conditionally applied on the orientation media feature which does not restrict the element to either portrait or landscape orientation.",
-            "date": "2021-08-30 08:39:06"
+            "date": "2021-09-06 11:07:13"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "A page where CSS transform property has rotateZ transform function conditionally applied on the orientation media feature which does not restrict the element to either portrait or landscape orientation.",
-            "date": "2021-08-30 08:39:07"
+            "date": "2021-09-06 11:07:13"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation.",
-            "date": "2021-08-30 08:39:07"
+            "date": "2021-09-06 11:07:14"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation.",
-            "date": "2021-08-30 08:39:08"
+            "date": "2021-09-06 11:07:14"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation.",
-            "date": "2021-08-30 08:39:08"
+            "date": "2021-09-06 11:07:15"
           }
         }
       ]
@@ -216,7 +216,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:39:09"
+            "date": "2021-09-06 11:07:15"
           }
         }
       ]
@@ -246,7 +246,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:39:09"
+            "date": "2021-09-06 11:07:16"
           }
         }
       ]
@@ -276,7 +276,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:39:10"
+            "date": "2021-09-06 11:07:16"
           }
         }
       ]
@@ -306,7 +306,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:39:10"
+            "date": "2021-09-06 11:07:16"
           }
         }
       ]
@@ -336,7 +336,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:39:11"
+            "date": "2021-09-06 11:07:17"
           }
         }
       ]

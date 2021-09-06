@@ -34,7 +34,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-08-30 08:46:17"
+            "date": "2021-09-06 11:14:22"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-08-30 08:46:18"
+            "date": "2021-09-06 11:14:23"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-08-30 08:46:18"
+            "date": "2021-09-06 11:14:23"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-08-30 08:46:19"
+            "date": "2021-09-06 11:14:23"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-08-30 08:46:19"
+            "date": "2021-09-06 11:14:24"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The cascaded word-spacing is not the declared value.",
-            "date": "2021-08-30 08:46:20"
+            "date": "2021-09-06 11:14:24"
           }
         }
       ]
@@ -268,7 +268,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-08-30 08:46:20"
+            "date": "2021-09-06 11:14:25"
           }
         }
       ]
@@ -312,7 +312,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-08-30 08:46:21"
+            "date": "2021-09-06 11:14:25"
           }
         }
       ]
@@ -350,7 +350,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-08-30 08:46:21"
+            "date": "2021-09-06 11:14:26"
           }
         }
       ]
@@ -388,7 +388,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-08-30 08:46:22"
+            "date": "2021-09-06 11:14:26"
           }
         }
       ]
@@ -426,7 +426,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-08-30 08:46:22"
+            "date": "2021-09-06 11:14:27"
           }
         }
       ]
@@ -464,7 +464,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-08-30 08:46:23"
+            "date": "2021-09-06 11:14:27"
           }
         }
       ]
@@ -494,7 +494,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:46:23"
+            "date": "2021-09-06 11:14:27"
           }
         }
       ]
@@ -524,7 +524,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:46:23"
+            "date": "2021-09-06 11:14:28"
           }
         }
       ]
@@ -554,7 +554,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:46:24"
+            "date": "2021-09-06 11:14:28"
           }
         }
       ]
@@ -584,7 +584,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-08-30 08:46:24"
+            "date": "2021-09-06 11:14:29"
           }
         }
       ]
