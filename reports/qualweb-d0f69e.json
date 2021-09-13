@@ -34,7 +34,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell.",
-            "date": "2021-09-06 11:12:38"
+            "date": "2021-09-13 11:35:06"
           }
         }
       ]
@@ -78,7 +78,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell.",
-            "date": "2021-09-06 11:12:38"
+            "date": "2021-09-13 11:35:06"
           }
         }
       ]
@@ -122,7 +122,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell.",
-            "date": "2021-09-06 11:12:39"
+            "date": "2021-09-13 11:35:07"
           }
         }
       ]
@@ -178,7 +178,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell.",
-            "date": "2021-09-06 11:12:39"
+            "date": "2021-09-13 11:35:07"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell.",
-            "date": "2021-09-06 11:12:39"
+            "date": "2021-09-13 11:35:08"
           }
         }
       ]
@@ -284,7 +284,7 @@
               }
             ],
             "description": "The column header element has at least one assigned cell.",
-            "date": "2021-09-06 11:12:40"
+            "date": "2021-09-13 11:35:08"
           }
         }
       ]
@@ -328,7 +328,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell.",
-            "date": "2021-09-06 11:12:40"
+            "date": "2021-09-13 11:35:09"
           }
         }
       ]
@@ -372,7 +372,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell.",
-            "date": "2021-09-06 11:12:41"
+            "date": "2021-09-13 11:35:09"
           }
         }
       ]
@@ -416,7 +416,7 @@
               }
             ],
             "description": "The column header element does not have at least one assigned cell.",
-            "date": "2021-09-06 11:12:41"
+            "date": "2021-09-13 11:35:10"
           }
         }
       ]
@@ -446,7 +446,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:42"
+            "date": "2021-09-13 11:35:10"
           }
         }
       ]
@@ -476,7 +476,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:42"
+            "date": "2021-09-13 11:35:10"
           }
         }
       ]
@@ -506,7 +506,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:43"
+            "date": "2021-09-13 11:35:11"
           }
         }
       ]
@@ -536,7 +536,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:43"
+            "date": "2021-09-13 11:35:11"
           }
         }
       ]
@@ -566,7 +566,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:44"
+            "date": "2021-09-13 11:35:12"
           }
         }
       ]
@@ -596,7 +596,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:44"
+            "date": "2021-09-13 11:35:12"
           }
         }
       ]
@@ -626,7 +626,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:45"
+            "date": "2021-09-13 11:35:13"
           }
         }
       ]

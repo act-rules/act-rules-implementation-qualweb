@@ -40,7 +40,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:45"
+            "date": "2021-09-13 11:35:13"
           }
         }
       ]
@@ -78,7 +78,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:46"
+            "date": "2021-09-13 11:35:14"
           }
         }
       ]
@@ -122,7 +122,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:46"
+            "date": "2021-09-13 11:35:14"
           }
         }
       ]
@@ -196,7 +196,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:46"
+            "date": "2021-09-13 11:35:15"
           }
         }
       ]
@@ -240,7 +240,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:47"
+            "date": "2021-09-13 11:35:15"
           }
         }
       ]
@@ -284,7 +284,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:47"
+            "date": "2021-09-13 11:35:15"
           }
         }
       ]
@@ -328,7 +328,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:48"
+            "date": "2021-09-13 11:35:16"
           }
         }
       ]
@@ -366,7 +366,7 @@
               }
             ],
             "description": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
-            "date": "2021-09-06 11:12:48"
+            "date": "2021-09-13 11:35:16"
           }
         }
       ]
@@ -410,7 +410,7 @@
               }
             ],
             "description": "The headers attribute `headOfColumn1` refers to an ID that does not exist within the same table.",
-            "date": "2021-09-06 11:12:49"
+            "date": "2021-09-13 11:35:17"
           }
         }
       ]
@@ -448,7 +448,7 @@
               }
             ],
             "description": "The headers attribute `headerBday` refers to an element inside the same table which does not have a role of rowheader or columnheader.",
-            "date": "2021-09-06 11:12:49"
+            "date": "2021-09-13 11:35:17"
           }
         }
       ]
@@ -492,7 +492,7 @@
               }
             ],
             "description": "The headers attribute `headerProject` refers to an element inside the same table which does not have a role of rowheader or columnheader.",
-            "date": "2021-09-06 11:12:50"
+            "date": "2021-09-13 11:35:18"
           }
         }
       ]
@@ -522,7 +522,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:50"
+            "date": "2021-09-13 11:35:18"
           }
         }
       ]
@@ -552,7 +552,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:51"
+            "date": "2021-09-13 11:35:19"
           }
         }
       ]
@@ -582,7 +582,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:51"
+            "date": "2021-09-13 11:35:19"
           }
         }
       ]
@@ -612,7 +612,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:51"
+            "date": "2021-09-13 11:35:20"
           }
         }
       ]
@@ -642,7 +642,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:12:52"
+            "date": "2021-09-13 11:35:20"
           }
         }
       ]

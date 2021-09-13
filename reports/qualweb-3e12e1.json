@@ -34,7 +34,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:54"
+            "date": "2021-09-13 11:29:23"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:55"
+            "date": "2021-09-13 11:29:24"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:55"
+            "date": "2021-09-13 11:29:24"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:56"
+            "date": "2021-09-13 11:29:25"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:56"
+            "date": "2021-09-13 11:29:25"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:57"
+            "date": "2021-09-13 11:29:26"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-09-06 11:06:57"
+            "date": "2021-09-13 11:29:26"
           }
         }
       ]
@@ -292,7 +292,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-06 11:06:58"
+            "date": "2021-09-13 11:29:27"
           }
         }
       ]
