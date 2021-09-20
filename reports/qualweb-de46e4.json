@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-09-13 11:30:14"
+            "date": "2021-09-20 08:38:57"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-09-13 11:30:15"
+            "date": "2021-09-20 08:38:57"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-09-13 11:30:15"
+            "date": "2021-09-20 08:38:58"
           }
         }
       ]
@@ -154,7 +154,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:16"
+            "date": "2021-09-20 08:38:58"
           }
         }
       ]
@@ -184,7 +184,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-13 11:30:16"
+            "date": "2021-09-20 08:38:59"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:17"
+            "date": "2021-09-20 08:38:59"
           }
         }
       ]
@@ -260,7 +260,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:17"
+            "date": "2021-09-20 08:39:00"
           }
         }
       ]
@@ -298,7 +298,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:18"
+            "date": "2021-09-20 08:39:00"
           }
         }
       ]
@@ -336,7 +336,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:18"
+            "date": "2021-09-20 08:39:00"
           }
         }
       ]
@@ -374,7 +374,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:18"
+            "date": "2021-09-20 08:39:01"
           }
         }
       ]
@@ -418,7 +418,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-13 11:30:19"
+            "date": "2021-09-20 08:39:01"
           }
         }
       ]
@@ -448,7 +448,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-13 11:30:19"
+            "date": "2021-09-20 08:39:02"
           }
         }
       ]
@@ -478,7 +478,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-13 11:30:20"
+            "date": "2021-09-20 08:39:02"
           }
         }
       ]
@@ -508,7 +508,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-13 11:30:20"
+            "date": "2021-09-20 08:39:03"
           }
         }
       ]
@@ -538,7 +538,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-13 11:30:21"
+            "date": "2021-09-20 08:39:03"
           }
         }
       ]
@@ -568,7 +568,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-13 11:30:21"
+            "date": "2021-09-20 08:39:04"
           }
         }
       ]
