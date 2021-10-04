@@ -34,7 +34,159 @@
               }
             ],
             "description": "The test target refreshes/redirects after more than 20 hours.",
-            "date": "2021-09-20 08:42:39"
+            "date": "2021-10-04 07:41:55"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc659a/95f01f2edc22df2794ea7f606f7fb855f1e2dc67.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
+            "title": "Meta-refresh no delay",
+            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target refreshes after 30 seconds.",
+            "date": "2021-10-04 07:41:55"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc659a/bcf969320f87281ac6e996b1725e5633f1255863.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
+            "title": "Meta-refresh no delay",
+            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target redirects after 30 seconds.",
+            "date": "2021-10-04 07:41:56"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc659a/f2a48cafddd30c8b9a918fe0fe664c44db253b0d.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
+            "title": "Meta-refresh no delay",
+            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(2)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target redirects after 5 seconds.",
+            "date": "2021-10-04 07:41:56"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bc659a/af2a6e7b7e607d0cfeff0f70a1f9ab6330ba50a4.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bc659a",
+            "@type": "TestCase",
+            "title": "Meta-refresh no delay",
+            "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html:nth-of-type(1) > head > meta:nth-of-type(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target redirects after 72000 seconds.",
+            "date": "2021-10-04 07:41:56"
           }
         }
       ]
@@ -64,7 +216,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:41"
+            "date": "2021-10-04 07:41:57"
           }
         }
       ]
@@ -94,7 +246,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:42"
+            "date": "2021-10-04 07:41:57"
           }
         }
       ]
@@ -124,7 +276,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:42"
+            "date": "2021-10-04 07:41:58"
           }
         }
       ]
@@ -154,7 +306,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:43"
+            "date": "2021-10-04 07:41:58"
           }
         }
       ]
@@ -184,7 +336,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:43"
+            "date": "2021-10-04 07:41:59"
           }
         }
       ]
@@ -214,7 +366,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:43"
+            "date": "2021-10-04 07:41:59"
           }
         }
       ]
@@ -244,7 +396,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:44"
+            "date": "2021-10-04 07:41:59"
           }
         }
       ]
@@ -274,7 +426,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:42:44"
+            "date": "2021-10-04 07:42:00"
           }
         }
       ]

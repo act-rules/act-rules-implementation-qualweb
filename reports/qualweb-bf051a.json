@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `lang` attribute has a valid value.",
-            "date": "2021-09-20 08:40:05"
+            "date": "2021-10-04 07:39:17"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `lang` attribute has a valid value.",
-            "date": "2021-09-20 08:40:05"
+            "date": "2021-10-04 07:39:17"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `lang` attribute does not have a valid value.",
-            "date": "2021-09-20 08:40:06"
+            "date": "2021-10-04 07:39:18"
           }
         }
       ]
@@ -148,7 +148,83 @@
               }
             ],
             "description": "The `lang` attribute does not have a valid value.",
-            "date": "2021-09-20 08:40:06"
+            "date": "2021-10-04 07:39:18"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bf051a/6b30e5fdcfd916ef0f745359c8130cc53c46006c.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
+            "title": "Validity of HTML Lang attribute",
+            "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `lang` attribute does not have a valid value.",
+            "date": "2021-10-04 07:39:19"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/bf051a/ead0da7af1ba13e4006e7fc024555a6f08d77592.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/bf051a",
+            "@type": "TestCase",
+            "title": "Validity of HTML Lang attribute",
+            "description": "This rule checks the lang or xml:lang attribute has a valid language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The `lang` attribute does not have a valid value.",
+            "date": "2021-10-04 07:39:19"
           }
         }
       ]
@@ -178,7 +254,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:40:07"
+            "date": "2021-10-04 07:39:20"
           }
         }
       ]

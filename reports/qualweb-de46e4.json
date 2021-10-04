@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-09-20 08:38:57"
+            "date": "2021-10-04 07:38:05"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-09-20 08:38:57"
+            "date": "2021-10-04 07:38:05"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-09-20 08:38:58"
+            "date": "2021-10-04 07:38:06"
           }
         }
       ]
@@ -154,7 +154,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:38:58"
+            "date": "2021-10-04 07:38:06"
           }
         }
       ]
@@ -184,7 +184,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:38:59"
+            "date": "2021-10-04 07:38:07"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:38:59"
+            "date": "2021-10-04 07:38:07"
           }
         }
       ]
@@ -260,7 +260,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:39:00"
+            "date": "2021-10-04 07:38:08"
           }
         }
       ]
@@ -298,7 +298,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:39:00"
+            "date": "2021-10-04 07:38:08"
           }
         }
       ]
@@ -336,7 +336,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:39:00"
+            "date": "2021-10-04 07:38:08"
           }
         }
       ]
@@ -374,7 +374,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:39:01"
+            "date": "2021-10-04 07:38:09"
           }
         }
       ]
@@ -418,7 +418,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-09-20 08:39:01"
+            "date": "2021-10-04 07:38:09"
           }
         }
       ]
@@ -448,7 +448,83 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:39:02"
+            "date": "2021-10-04 07:38:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/a2290d9cd1226c969b2063a8464e8d6ac4187f08.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `lang` attribute.",
+            "date": "2021-10-04 07:38:10"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://act-rules.github.io/testcases/de46e4/a925c1aefbeec908d327431a48f5044bf16068a1.html",
+      "assertor": {
+        "@id": "QualWeb",
+        "@type": "Software",
+        "title": "QualWeb",
+        "description": "QualWeb is an automatic accessibility evaluator for webpages.",
+        "hasVersion": "3.0.0",
+        "homepage": "http://www.qualweb.di.fc.ul.pt/"
+      },
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "@id": "https://act-rules.github.io/rules/de46e4",
+            "@type": "TestCase",
+            "title": "Element within body has valid lang attribute",
+            "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag."
+          },
+          "mode": "earl:automatic",
+          "result": {
+            "@type": "TestResult",
+            "outcome": "earl:failed",
+            "source": [
+              {
+                "result": {
+                  "pointer": "html > body:nth-child(2) > p:nth-child(1)",
+                  "outcome": "earl:failed"
+                }
+              }
+            ],
+            "description": "The test target has an invalid `lang` attribute.",
+            "date": "2021-10-04 07:38:11"
           }
         }
       ]
@@ -478,7 +554,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:39:02"
+            "date": "2021-10-04 07:38:11"
           }
         }
       ]
@@ -508,7 +584,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:39:03"
+            "date": "2021-10-04 07:38:12"
           }
         }
       ]
@@ -538,7 +614,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:39:03"
+            "date": "2021-10-04 07:38:12"
           }
         }
       ]
@@ -568,7 +644,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:39:04"
+            "date": "2021-10-04 07:38:13"
           }
         }
       ]

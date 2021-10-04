@@ -34,7 +34,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-09-20 08:45:22"
+            "date": "2021-10-04 07:44:42"
           }
         }
       ]
@@ -71,8 +71,8 @@
                 }
               }
             ],
-            "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-09-20 08:45:23"
+            "description": "The word-spacing is at least 0.16 times the font-size.",
+            "date": "2021-10-04 07:44:42"
           }
         }
       ]
@@ -109,8 +109,8 @@
                 }
               }
             ],
-            "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-09-20 08:45:23"
+            "description": "The word-spacing is at least 0.16 times the font-size.",
+            "date": "2021-10-04 07:44:42"
           }
         }
       ]
@@ -147,8 +147,8 @@
                 }
               }
             ],
-            "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-09-20 08:45:24"
+            "description": "The word-spacing is at least 0.16 times the font-size.",
+            "date": "2021-10-04 07:44:43"
           }
         }
       ]
@@ -185,8 +185,8 @@
                 }
               }
             ],
-            "description": "The word-spacing is at least 1.5 times the font-size.",
-            "date": "2021-09-20 08:45:24"
+            "description": "The word-spacing is at least 0.16 times the font-size.",
+            "date": "2021-10-04 07:44:43"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The cascaded word-spacing is not the declared value.",
-            "date": "2021-09-20 08:45:25"
+            "date": "2021-10-04 07:44:44"
           }
         }
       ]
@@ -268,7 +268,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-09-20 08:45:25"
+            "date": "2021-10-04 07:44:44"
           }
         }
       ]
@@ -312,7 +312,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-09-20 08:45:25"
+            "date": "2021-10-04 07:44:45"
           }
         }
       ]
@@ -350,7 +350,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-09-20 08:45:26"
+            "date": "2021-10-04 07:44:45"
           }
         }
       ]
@@ -388,7 +388,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-09-20 08:45:26"
+            "date": "2021-10-04 07:44:46"
           }
         }
       ]
@@ -426,7 +426,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-09-20 08:45:27"
+            "date": "2021-10-04 07:44:46"
           }
         }
       ]
@@ -464,7 +464,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-09-20 08:45:27"
+            "date": "2021-10-04 07:44:47"
           }
         }
       ]
@@ -494,7 +494,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:45:28"
+            "date": "2021-10-04 07:44:47"
           }
         }
       ]
@@ -524,7 +524,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:45:28"
+            "date": "2021-10-04 07:44:47"
           }
         }
       ]
@@ -554,7 +554,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:45:29"
+            "date": "2021-10-04 07:44:48"
           }
         }
       ]
@@ -584,7 +584,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-09-20 08:45:29"
+            "date": "2021-10-04 07:44:48"
           }
         }
       ]
