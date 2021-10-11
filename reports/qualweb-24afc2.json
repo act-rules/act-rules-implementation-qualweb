@@ -34,7 +34,7 @@
               }
             ],
             "description": "The letter-spacing property is not !important.",
-            "date": "2021-10-04 07:40:50"
+            "date": "2021-10-11 08:25:32"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The letter-spacing is at least 0.12 times the font-size.",
-            "date": "2021-10-04 07:40:50"
+            "date": "2021-10-11 08:25:33"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The letter-spacing is at least 0.12 times the font-size.",
-            "date": "2021-10-04 07:40:51"
+            "date": "2021-10-11 08:25:33"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The letter-spacing is at least 0.12 times the font-size.",
-            "date": "2021-10-04 07:40:51"
+            "date": "2021-10-11 08:25:33"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The letter-spacing is at least 0.12 times the font-size.",
-            "date": "2021-10-04 07:40:51"
+            "date": "2021-10-11 08:25:34"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The cascaded letter-spacing is not the declared value.",
-            "date": "2021-10-04 07:40:52"
+            "date": "2021-10-11 08:25:34"
           }
         }
       ]
@@ -268,7 +268,7 @@
               }
             ],
             "description": "The letter-spacing property is not !important.",
-            "date": "2021-10-04 07:40:52"
+            "date": "2021-10-11 08:25:35"
           }
         }
       ]
@@ -312,7 +312,7 @@
               }
             ],
             "description": "The letter-spacing property is not !important.",
-            "date": "2021-10-04 07:40:53"
+            "date": "2021-10-11 08:25:35"
           }
         }
       ]
@@ -350,7 +350,7 @@
               }
             ],
             "description": "CSS styles prevent the letter-spacing to be above the minimum value.",
-            "date": "2021-10-04 07:40:53"
+            "date": "2021-10-11 08:25:36"
           }
         }
       ]
@@ -388,7 +388,7 @@
               }
             ],
             "description": "CSS styles prevent the letter-spacing to be above the minimum value.",
-            "date": "2021-10-04 07:40:54"
+            "date": "2021-10-11 08:25:36"
           }
         }
       ]
@@ -426,7 +426,7 @@
               }
             ],
             "description": "CSS styles prevent the letter-spacing to be above the minimum value.",
-            "date": "2021-10-04 07:40:54"
+            "date": "2021-10-11 08:25:37"
           }
         }
       ]
@@ -464,7 +464,7 @@
               }
             ],
             "description": "CSS styles prevent the letter-spacing to be above the minimum value.",
-            "date": "2021-10-04 07:40:55"
+            "date": "2021-10-11 08:25:37"
           }
         }
       ]
@@ -494,7 +494,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:40:55"
+            "date": "2021-10-11 08:25:37"
           }
         }
       ]
@@ -524,7 +524,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:40:55"
+            "date": "2021-10-11 08:25:38"
           }
         }
       ]
@@ -554,7 +554,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:40:56"
+            "date": "2021-10-11 08:25:38"
           }
         }
       ]
@@ -584,7 +584,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:40:56"
+            "date": "2021-10-11 08:25:39"
           }
         }
       ]

@@ -34,7 +34,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-10-04 07:36:05"
+            "date": "2021-10-11 08:20:46"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-10-04 07:36:06"
+            "date": "2021-10-11 08:20:46"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The `aria-busy` property is supported or inherited by the `role` .",
-            "date": "2021-10-04 07:36:06"
+            "date": "2021-10-11 08:20:47"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` button.",
-            "date": "2021-10-04 07:36:07"
+            "date": "2021-10-11 08:20:47"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The `aria-checked` property is supported or inherited by the `role` checkbox.",
-            "date": "2021-10-04 07:36:07"
+            "date": "2021-10-11 08:20:48"
           }
         }
       ]
@@ -230,7 +230,7 @@
               }
             ],
             "description": "The `aria-controls` property is supported or inherited by the `role` combobox.",
-            "date": "2021-10-04 07:36:08"
+            "date": "2021-10-11 08:20:48"
           }
         }
       ]
@@ -274,7 +274,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2021-10-04 07:36:08"
+            "date": "2021-10-11 08:20:49"
           }
         }
       ]
@@ -318,7 +318,7 @@
               }
             ],
             "description": "The `aria-expanded` property is supported or inherited by the `role` combobox.",
-            "date": "2021-10-04 07:36:09"
+            "date": "2021-10-11 08:20:49"
           }
         }
       ]
@@ -356,7 +356,7 @@
               }
             ],
             "description": "The `aria-label` property is supported or inherited by the `role` graphics-object.",
-            "date": "2021-10-04 07:36:09"
+            "date": "2021-10-11 08:20:49"
           }
         }
       ]
@@ -394,7 +394,7 @@
               }
             ],
             "description": "The `aria-pressed` property is supported or inherited by the `role` button.",
-            "date": "2021-10-04 07:36:10"
+            "date": "2021-10-11 08:20:50"
           }
         }
       ]
@@ -432,7 +432,7 @@
               }
             ],
             "description": "The `aria-required` property is supported or inherited by the `role` .",
-            "date": "2021-10-04 07:36:10"
+            "date": "2021-10-11 08:20:50"
           }
         }
       ]
@@ -470,7 +470,7 @@
               }
             ],
             "description": "The `aria-sort` property is neither inherited nor supported by the `role` button.",
-            "date": "2021-10-04 07:36:10"
+            "date": "2021-10-11 08:20:51"
           }
         }
       ]
@@ -508,7 +508,7 @@
               }
             ],
             "description": "The `aria-orientation` property is neither inherited nor supported by the `role` .",
-            "date": "2021-10-04 07:36:11"
+            "date": "2021-10-11 08:20:51"
           }
         }
       ]
@@ -538,7 +538,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:36:12"
+            "date": "2021-10-11 08:20:52"
           }
         }
       ]
@@ -568,7 +568,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:36:12"
+            "date": "2021-10-11 08:20:52"
           }
         }
       ]

@@ -34,7 +34,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:54"
+            "date": "2021-10-11 08:22:35"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:54"
+            "date": "2021-10-11 08:22:35"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:55"
+            "date": "2021-10-11 08:22:36"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The page doesn't have repeated content.",
-            "date": "2021-10-04 07:37:55"
+            "date": "2021-10-11 08:22:36"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:55"
+            "date": "2021-10-11 08:22:37"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:56"
+            "date": "2021-10-11 08:22:37"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:56"
+            "date": "2021-10-11 08:22:38"
           }
         }
       ]
@@ -292,7 +292,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:37:57"
+            "date": "2021-10-11 08:22:38"
           }
         }
       ]

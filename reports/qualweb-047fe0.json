@@ -34,7 +34,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:41"
+            "date": "2021-10-11 08:22:22"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:41"
+            "date": "2021-10-11 08:22:23"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:42"
+            "date": "2021-10-11 08:22:23"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:42"
+            "date": "2021-10-11 08:22:24"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:43"
+            "date": "2021-10-11 08:22:24"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:44"
+            "date": "2021-10-11 08:22:25"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:44"
+            "date": "2021-10-11 08:22:26"
           }
         }
       ]
@@ -300,7 +300,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:45"
+            "date": "2021-10-11 08:22:26"
           }
         }
       ]
@@ -338,7 +338,7 @@
               }
             ],
             "description": "The page doesn't have repeated content.",
-            "date": "2021-10-04 07:37:45"
+            "date": "2021-10-11 08:22:26"
           }
         }
       ]
@@ -376,7 +376,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:45"
+            "date": "2021-10-11 08:22:27"
           }
         }
       ]
@@ -414,7 +414,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:46"
+            "date": "2021-10-11 08:22:27"
           }
         }
       ]
@@ -452,7 +452,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:47"
+            "date": "2021-10-11 08:22:28"
           }
         }
       ]
@@ -490,7 +490,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree.",
-            "date": "2021-10-04 07:37:47"
+            "date": "2021-10-11 08:22:28"
           }
         }
       ]
@@ -520,7 +520,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:37:47"
+            "date": "2021-10-11 08:22:29"
           }
         }
       ]

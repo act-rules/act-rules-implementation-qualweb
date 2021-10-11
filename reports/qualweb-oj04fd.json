@@ -40,7 +40,7 @@
               }
             ],
             "description": "Check if the element has some visible focus indication",
-            "date": "2021-10-04 07:42:53"
+            "date": "2021-10-11 08:27:39"
           }
         }
       ]
@@ -84,7 +84,7 @@
               }
             ],
             "description": "Check if the element has some visible focus indication",
-            "date": "2021-10-04 07:42:53"
+            "date": "2021-10-11 08:27:40"
           }
         }
       ]
@@ -128,7 +128,7 @@
               }
             ],
             "description": "Check if the element has some visible focus indication",
-            "date": "2021-10-04 07:42:54"
+            "date": "2021-10-11 08:27:40"
           }
         }
       ]
@@ -178,7 +178,7 @@
               }
             ],
             "description": "Check if the element has some visible focus indication",
-            "date": "2021-10-04 07:42:54"
+            "date": "2021-10-11 08:27:41"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "Check if the element has some visible focus indication",
-            "date": "2021-10-04 07:42:55"
+            "date": "2021-10-11 08:27:41"
           }
         }
       ]
@@ -252,7 +252,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:42:55"
+            "date": "2021-10-11 08:27:42"
           }
         }
       ]
@@ -282,7 +282,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:42:56"
+            "date": "2021-10-11 08:27:42"
           }
         }
       ]
@@ -312,7 +312,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:42:56"
+            "date": "2021-10-11 08:27:43"
           }
         }
       ]
@@ -342,7 +342,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-04 07:42:56"
+            "date": "2021-10-11 08:27:43"
           }
         }
       ]
