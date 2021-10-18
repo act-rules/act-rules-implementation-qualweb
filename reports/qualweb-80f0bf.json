@@ -34,7 +34,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:13"
+            "date": "2021-10-18 10:40:52"
           }
         },
         {
@@ -58,7 +58,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:13"
+            "date": "2021-10-18 10:40:52"
           }
         },
         {
@@ -82,7 +82,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R49",
-            "date": "2021-10-11 08:21:13"
+            "date": "2021-10-18 10:40:52"
           }
         }
       ]
@@ -120,7 +120,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:14"
+            "date": "2021-10-18 10:40:53"
           }
         },
         {
@@ -144,7 +144,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:14"
+            "date": "2021-10-18 10:40:53"
           }
         },
         {
@@ -168,7 +168,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R49",
-            "date": "2021-10-11 08:21:14"
+            "date": "2021-10-18 10:40:53"
           }
         }
       ]
@@ -206,7 +206,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:14"
+            "date": "2021-10-18 10:40:54"
           }
         },
         {
@@ -230,7 +230,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:14"
+            "date": "2021-10-18 10:40:54"
           }
         },
         {
@@ -254,7 +254,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R49",
-            "date": "2021-10-11 08:21:14"
+            "date": "2021-10-18 10:40:54"
           }
         }
       ]
@@ -292,7 +292,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:15"
+            "date": "2021-10-18 10:40:55"
           }
         },
         {
@@ -316,7 +316,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:15"
+            "date": "2021-10-18 10:40:55"
           }
         },
         {
@@ -340,7 +340,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R49",
-            "date": "2021-10-11 08:21:15"
+            "date": "2021-10-18 10:40:55"
           }
         }
       ]
@@ -378,7 +378,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:15"
+            "date": "2021-10-18 10:40:55"
           }
         },
         {
@@ -402,7 +402,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:15"
+            "date": "2021-10-18 10:40:55"
           }
         },
         {
@@ -426,7 +426,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R49",
-            "date": "2021-10-11 08:21:15"
+            "date": "2021-10-18 10:40:55"
           }
         }
       ]
@@ -456,7 +456,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:21:16"
+            "date": "2021-10-18 10:40:56"
           }
         },
         {
@@ -472,7 +472,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:21:16"
+            "date": "2021-10-18 10:40:56"
           }
         },
         {
@@ -496,7 +496,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-10-11 08:21:16"
+            "date": "2021-10-18 10:40:56"
           }
         }
       ]
@@ -534,7 +534,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:17"
+            "date": "2021-10-18 10:40:57"
           }
         },
         {
@@ -558,7 +558,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-11 08:21:17"
+            "date": "2021-10-18 10:40:57"
           }
         },
         {
@@ -582,7 +582,7 @@
               }
             ],
             "description": "The rule can't tell because of the rule QW-ACT-R49",
-            "date": "2021-10-11 08:21:17"
+            "date": "2021-10-18 10:40:57"
           }
         }
       ]
@@ -612,7 +612,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:21:17"
+            "date": "2021-10-18 10:40:57"
           }
         },
         {
@@ -628,7 +628,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:21:17"
+            "date": "2021-10-18 10:40:57"
           }
         },
         {
@@ -652,7 +652,7 @@
               }
             ],
             "description": "No test targets found.",
-            "date": "2021-10-11 08:21:17"
+            "date": "2021-10-18 10:40:57"
           }
         }
       ]

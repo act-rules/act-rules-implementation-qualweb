@@ -34,7 +34,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:52"
+            "date": "2021-10-18 10:41:39"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:52"
+            "date": "2021-10-18 10:41:39"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:53"
+            "date": "2021-10-18 10:41:40"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:54"
+            "date": "2021-10-18 10:41:40"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:54"
+            "date": "2021-10-18 10:41:41"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:54"
+            "date": "2021-10-18 10:41:41"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree.",
-            "date": "2021-10-11 08:21:55"
+            "date": "2021-10-18 10:41:42"
           }
         }
       ]
@@ -292,7 +292,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:21:55"
+            "date": "2021-10-18 10:41:42"
           }
         }
       ]

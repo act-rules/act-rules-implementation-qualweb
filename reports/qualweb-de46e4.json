@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-10-11 08:22:46"
+            "date": "2021-10-18 10:42:35"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-10-11 08:22:46"
+            "date": "2021-10-18 10:42:36"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-10-11 08:22:47"
+            "date": "2021-10-18 10:42:36"
           }
         }
       ]
@@ -154,7 +154,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:47"
+            "date": "2021-10-18 10:42:37"
           }
         }
       ]
@@ -184,7 +184,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:22:48"
+            "date": "2021-10-18 10:42:37"
           }
         }
       ]
@@ -222,7 +222,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:48"
+            "date": "2021-10-18 10:42:38"
           }
         }
       ]
@@ -260,7 +260,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:49"
+            "date": "2021-10-18 10:42:38"
           }
         }
       ]
@@ -298,7 +298,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:49"
+            "date": "2021-10-18 10:42:39"
           }
         }
       ]
@@ -336,7 +336,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:49"
+            "date": "2021-10-18 10:42:39"
           }
         }
       ]
@@ -374,7 +374,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:50"
+            "date": "2021-10-18 10:42:39"
           }
         }
       ]
@@ -418,7 +418,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:50"
+            "date": "2021-10-18 10:42:40"
           }
         }
       ]
@@ -448,7 +448,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:22:51"
+            "date": "2021-10-18 10:42:40"
           }
         }
       ]
@@ -486,7 +486,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:51"
+            "date": "2021-10-18 10:42:41"
           }
         }
       ]
@@ -524,7 +524,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-11 08:22:52"
+            "date": "2021-10-18 10:42:41"
           }
         }
       ]
@@ -554,7 +554,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:22:52"
+            "date": "2021-10-18 10:42:42"
           }
         }
       ]
@@ -584,7 +584,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:22:53"
+            "date": "2021-10-18 10:42:43"
           }
         }
       ]
@@ -614,7 +614,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:22:53"
+            "date": "2021-10-18 10:42:44"
           }
         }
       ]
@@ -644,7 +644,7 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-11 08:22:53"
+            "date": "2021-10-18 10:42:45"
           }
         }
       ]
