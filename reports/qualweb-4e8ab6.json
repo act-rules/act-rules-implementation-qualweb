@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-10-18 10:47:23"
+            "date": "2021-10-25 07:48:27"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-10-18 10:47:24"
+            "date": "2021-10-25 07:48:28"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target required attributes are listed.",
-            "date": "2021-10-18 10:47:24"
+            "date": "2021-10-25 07:48:28"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The test target has unlisted required states or properties.",
-            "date": "2021-10-18 10:47:25"
+            "date": "2021-10-25 07:48:29"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The test target has unlisted required states or properties.",
-            "date": "2021-10-18 10:47:25"
+            "date": "2021-10-25 07:48:29"
           }
         }
       ]
@@ -216,7 +216,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:47:25"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:48:30"
           }
         }
       ]
@@ -246,7 +247,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:47:26"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:48:30"
           }
         }
       ]
@@ -276,7 +278,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:47:26"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:48:30"
           }
         }
       ]

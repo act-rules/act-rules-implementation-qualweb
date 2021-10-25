@@ -34,7 +34,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-10-18 10:49:28"
+            "date": "2021-10-25 07:50:25"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The word-spacing is at least 0.16 times the font-size.",
-            "date": "2021-10-18 10:49:29"
+            "date": "2021-10-25 07:50:25"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The word-spacing is at least 0.16 times the font-size.",
-            "date": "2021-10-18 10:49:29"
+            "date": "2021-10-25 07:50:26"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The word-spacing is at least 0.16 times the font-size.",
-            "date": "2021-10-18 10:49:29"
+            "date": "2021-10-25 07:50:26"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "The word-spacing is at least 0.16 times the font-size.",
-            "date": "2021-10-18 10:49:30"
+            "date": "2021-10-25 07:50:27"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "The cascaded word-spacing is not the declared value.",
-            "date": "2021-10-18 10:49:30"
+            "date": "2021-10-25 07:50:27"
           }
         }
       ]
@@ -268,7 +268,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-10-18 10:49:31"
+            "date": "2021-10-25 07:50:28"
           }
         }
       ]
@@ -312,7 +312,7 @@
               }
             ],
             "description": "The word-spacing property is not !important.",
-            "date": "2021-10-18 10:49:31"
+            "date": "2021-10-25 07:50:28"
           }
         }
       ]
@@ -350,7 +350,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-10-18 10:49:32"
+            "date": "2021-10-25 07:50:29"
           }
         }
       ]
@@ -388,7 +388,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-10-18 10:49:32"
+            "date": "2021-10-25 07:50:29"
           }
         }
       ]
@@ -426,7 +426,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-10-18 10:49:33"
+            "date": "2021-10-25 07:50:30"
           }
         }
       ]
@@ -464,7 +464,7 @@
               }
             ],
             "description": "CSS styles prevent the word-spacing to be above the minimum value.",
-            "date": "2021-10-18 10:49:33"
+            "date": "2021-10-25 07:50:30"
           }
         }
       ]
@@ -494,7 +494,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:49:34"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:50:31"
           }
         }
       ]
@@ -524,7 +525,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:49:34"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:50:31"
           }
         }
       ]
@@ -554,7 +556,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:49:34"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:50:32"
           }
         }
       ]
@@ -584,7 +587,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:49:35"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:50:32"
           }
         }
       ]

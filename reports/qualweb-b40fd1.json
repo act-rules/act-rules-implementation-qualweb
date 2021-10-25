@@ -34,7 +34,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-18 10:42:24"
+            "date": "2021-10-25 07:43:33"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-18 10:42:24"
+            "date": "2021-10-25 07:43:34"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-18 10:42:25"
+            "date": "2021-10-25 07:43:34"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "The page doesn't have repeated content.",
-            "date": "2021-10-18 10:42:25"
+            "date": "2021-10-25 07:43:34"
           }
         }
       ]
@@ -186,7 +186,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-18 10:42:26"
+            "date": "2021-10-25 07:43:35"
           }
         }
       ]
@@ -224,7 +224,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-18 10:42:26"
+            "date": "2021-10-25 07:43:35"
           }
         }
       ]
@@ -262,7 +262,7 @@
               }
             ],
             "description": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree.",
-            "date": "2021-10-18 10:42:26"
+            "date": "2021-10-25 07:43:36"
           }
         }
       ]
@@ -292,7 +292,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:27"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:36"
           }
         }
       ]

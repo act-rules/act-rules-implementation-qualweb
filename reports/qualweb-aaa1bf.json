@@ -34,7 +34,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-18 10:41:11"
+            "date": "2021-10-25 07:42:27"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-18 10:41:12"
+            "date": "2021-10-25 07:42:27"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-18 10:41:12"
+            "date": "2021-10-25 07:42:28"
           }
         }
       ]
@@ -148,7 +148,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-18 10:41:13"
+            "date": "2021-10-25 07:42:28"
           }
         }
       ]
@@ -178,7 +178,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:41:13"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:42:29"
           }
         }
       ]
@@ -216,7 +217,7 @@
               }
             ],
             "description": "Can't collect data from the test target element.",
-            "date": "2021-10-18 10:41:14"
+            "date": "2021-10-25 07:42:30"
           }
         }
       ]
@@ -246,7 +247,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:41:15"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:42:30"
           }
         }
       ]

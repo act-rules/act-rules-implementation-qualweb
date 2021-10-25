@@ -34,7 +34,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-10-18 10:42:35"
+            "date": "2021-10-25 07:43:44"
           }
         }
       ]
@@ -72,7 +72,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-10-18 10:42:36"
+            "date": "2021-10-25 07:43:45"
           }
         }
       ]
@@ -110,7 +110,7 @@
               }
             ],
             "description": "The test target has a valid `lang` attribute.",
-            "date": "2021-10-18 10:42:36"
+            "date": "2021-10-25 07:43:45"
           }
         }
       ]
@@ -154,7 +154,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:37"
+            "date": "2021-10-25 07:43:46"
           }
         }
       ]
@@ -184,7 +184,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:37"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:46"
           }
         }
       ]
@@ -222,7 +223,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:38"
+            "date": "2021-10-25 07:43:46"
           }
         }
       ]
@@ -260,7 +261,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:38"
+            "date": "2021-10-25 07:43:47"
           }
         }
       ]
@@ -298,7 +299,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:39"
+            "date": "2021-10-25 07:43:47"
           }
         }
       ]
@@ -336,7 +337,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:39"
+            "date": "2021-10-25 07:43:48"
           }
         }
       ]
@@ -374,7 +375,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:39"
+            "date": "2021-10-25 07:43:48"
           }
         }
       ]
@@ -418,7 +419,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:40"
+            "date": "2021-10-25 07:43:49"
           }
         }
       ]
@@ -448,7 +449,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:40"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:49"
           }
         }
       ]
@@ -486,7 +488,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:41"
+            "date": "2021-10-25 07:43:50"
           }
         }
       ]
@@ -524,7 +526,7 @@
               }
             ],
             "description": "The test target has an invalid `lang` attribute.",
-            "date": "2021-10-18 10:42:41"
+            "date": "2021-10-25 07:43:50"
           }
         }
       ]
@@ -554,7 +556,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:42"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:51"
           }
         }
       ]
@@ -584,7 +587,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:43"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:51"
           }
         }
       ]
@@ -614,7 +618,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:44"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:51"
           }
         }
       ]
@@ -644,7 +649,8 @@
             "@type": "TestResult",
             "outcome": "earl:inapplicable",
             "source": [],
-            "date": "2021-10-18 10:42:45"
+            "description": "No test targets found.",
+            "date": "2021-10-25 07:43:52"
           }
         }
       ]
